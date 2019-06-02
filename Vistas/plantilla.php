@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Star-Tech :: Tienda de eléctrónicos y más</title>
+        <title>Star-Tech :: Tienda de tecnología</title>
         <meta name="description" content="Tienda en linea de venta de dispositivos eléctrónicos en general ">
         <meta name="keywords" content="Computadoras de escritorio, Laptops, Piezas PC, Star, tech">
         <meta name="viewport" content="width=device-width, initial-scale=1">
