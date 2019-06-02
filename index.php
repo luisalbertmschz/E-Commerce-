@@ -1,4 +1,4 @@
 <?php
 include_once "Controladores/plantilla.controlador.php";
-$plantilla = new ControladorPlantila();
+$plantilla = new ControladorPlantilla();
 $plantilla -> $plantilla();
