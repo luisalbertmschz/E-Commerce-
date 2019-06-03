@@ -14,9 +14,19 @@
 
         //
         // ─── HOJA DE ESTILO E ICONOS DE FONTAWESOME ──────────────────────
+        <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+        <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
         //
-        <link rel="stylesheet" href="">
-        <link rel="stylesheet" href="">
+    
+
+        //
+        // ─── SCRIPTS DE BOOTSTRAP Y JQUERY ───────────────────────────────
+
+        <script ></script>
+        <script ></script>
+        //
+
+            
 
             
     </head>
