@@ -11,6 +11,14 @@
         <meta name="keywords" content="Computadoras de escritorio, Laptops, Piezas PC, Star, tech">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
+
+        //
+        // ─── HOJA DE ESTILO E ICONOS DE FONTAWESOME ──────────────────────
+        //
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="">
+
+            
     </head>
     <body>
         <!--[if lt IE 7]>
