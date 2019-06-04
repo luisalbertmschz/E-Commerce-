@@ -14,17 +14,20 @@
 
         //
         // ─── HOJA DE ESTILO E ICONOS DE FONTAWESOME ──────────────────────
+        //
+        
         <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
-        //
+        
     
 
         //
         // ─── SCRIPTS DE BOOTSTRAP Y JQUERY ───────────────────────────────
-
-        <script ></script>
-        <script ></script>
         //
+
+        <script src="js/plugins/jquery.min.js"></script>
+        <script src="js/plugins/bootstrap.min.js"></script>
+    
 
             
 
@@ -34,6 +37,20 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+
+        //
+        // ─── BARRA SUPERIOR DEL COMEINZO DE PAGINA ───────────────────────
+        //
+
+        <?php
+
+        include "Modulos/cabezote.php"
+
+
+        ?>
+
+            
         
         <script src="" async defer></script>
     </body>
