@@ -93,3 +93,49 @@ header #categorias h4{
 header #categorias hr{
 	border:1px solid rgba(255,255,255,.3);
 }
+
+
+/* MEDIA QUERYS PARA DIFERENTES TAMAÑOS DE PANTALLA */
+
+/* ESCRITORIO GRANDE (LG revisamos en 1366px en adelante) */
+
+@media (min-width:1200px){
+
+
+}
+/* 
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px) */
+
+@media (max-width:1199px) and (min-width:992px){
+
+
+}
+
+/* ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px) */
+
+@media (max-width:991px) and (min-width:768px){
+
+    /*TODO:TERMINAR DE AJUSTAR ESTA MEDIA QUERY*/
+header #logotipo img{
+
+    padding: 50px 50px;
+    padding-left: 0px;
+}
+
+
+}
+
+/* MOVIL (XS revisamos en 320px) */
+
+@media (max-width:767px){
+
+
+header #logotipo img{
+
+    padding: 25px 100px;
+    padding-left: 0px;
+}
+}
+
+
+
