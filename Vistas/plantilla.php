@@ -21,6 +21,8 @@
         // ─── HOJA DE ESTILO E ICONOS DE FONTAWESOME ──────────────────────
        //
        -->
+        <link rel="stylesheet" href="Vistas/css/cabezote.css">
+        <link rel="stylesheet" href="Vistas/css/plantilla.css">
 
         <link rel="stylesheet" href="Vistas/css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="Vistas/css/plugins/font-awesome.min.css">

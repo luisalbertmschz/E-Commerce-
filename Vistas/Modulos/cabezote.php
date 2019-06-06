@@ -171,7 +171,9 @@
                             
                             <a href="#">
 
-                                <button class="btn btn-default backColor" type="submit">
+                            <!-- ELIMINE CLASE btn-default -->
+
+                                <button class="btn  backColor" type="submit">
                                     
                                     <i class="fa fa-search"></i>
 
@@ -195,8 +197,10 @@
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="carrito">
 				
 				<a href="#">
+                    
+                     <!-- ELIMINE CLASE btn-default -->
 
-					<button class="btn btn-default pull-left backColor"> 
+					<button class="btn  pull-left backColor"> 
 						
 						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 					
