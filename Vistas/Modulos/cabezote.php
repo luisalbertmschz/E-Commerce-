@@ -60,13 +60,13 @@
               //
              -->
 
-                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 Registro">
+                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 registro">
                 
                     <ul>
                                 
                         <li><a href="#modalIngreso" data-toggle="modal">Identificate, inicia sesión</a></li>
                         <li>|</li>
-                        <li><a href="#modalRegistro" data-toggle="modal">Nuevo cliente ? Cree una cuenta</a></li>
+                        <li><a href="#modalRegistro" data-toggle="modal">Registrate</a></li>
                     
                     </ul>
                 

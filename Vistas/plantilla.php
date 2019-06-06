@@ -24,12 +24,14 @@
 
         <link rel="stylesheet" href="Vistas/css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="Vistas/css/plugins/font-awesome.min.css">
-        <link rel="stylesheet" href="Vistas\css\plantilla.css">
+     \
+        <link rel="stylesheet" href="Vistas/css/plantilla.css">
+       
 
 
          <!--   
          //
-        // ─── FUENTE TRAIDA DESDE GOOGLE FONT UBUNUT Y UBUNTU CONDENSED ───
+        // ─── FUENTE TRAIDA DESDE GOOGLE FONT UBUNTU Y UBUNTU CONDENSED ───
         //
         -->
             
