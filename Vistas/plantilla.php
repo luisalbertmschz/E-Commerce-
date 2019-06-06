@@ -24,8 +24,8 @@
 
         <link rel="stylesheet" href="Vistas/css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="Vistas/css/plugins/font-awesome.min.css">
-     
-        <link rel="stylesheet" href="Vistas/css/plantilla.css">
+        
+      
        
 
 
