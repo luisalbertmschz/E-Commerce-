@@ -7,7 +7,7 @@ GLOBAL
 	padding:0px;
 	list-style: none;
 	text-decoration: none;
-	font-family: 'Ubunt', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 ul, ol{
@@ -31,13 +31,10 @@ a:visited, a:link, a:focus, a:hover, a:active{
 
 	background:#47bac1; 
 	color:white; 
-   /* background: rgb(67,198,172);
-   background: linear-gradient(117deg, rgba(67,198,172,1) 0%, rgba(25,22,84,1) 64%);
-}
-} 
-}
+/*     background: rgb(67,198,172);
+   background: linear-gradient(117deg, rgba(67,198,172,1) 0%, rgba(25,22,84,1) 64%); */
 
-
+}
 
 
 /*=============================================
