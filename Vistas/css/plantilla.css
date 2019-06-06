@@ -28,9 +28,17 @@ a:visited, a:link, a:focus, a:hover, a:active{
 }
 
 .backColor, .backColor a{
-	background:#47bac1;
-	color:white;
+
+	background:#47bac1; 
+	color:white; 
+   /* background: rgb(67,198,172);
+   background: linear-gradient(117deg, rgba(67,198,172,1) 0%, rgba(25,22,84,1) 64%);
 }
+} 
+}
+
+
+
 
 /*=============================================
 REDES SOCIALES
