@@ -19,6 +19,15 @@
                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
                 
                     <ul>
+                        <!-- Se le solicita al controlador las caracteristicas de redes sociales, estilos y url de las mismas
+                        todo esto es traido via el controlador desde la base de datos ecommerce tabla plantilla  -->
+
+                        <?php
+
+
+
+
+                        ?>
 
                         <li>
                             <a href="http://facebook.com/" target="_blank">
