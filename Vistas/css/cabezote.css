@@ -79,7 +79,7 @@ header #carrito p{
 }
 
 header #categorias{
-	display:BLOCK;
+	display:none;
 	margin-top:-10px;
 	position: relative;
 	padding-bottom:20px;
