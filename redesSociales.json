@@ -4,16 +4,19 @@
         "estilo": "facebooBlanco",
         "url": "http://facebook.com/"
     },
+    
     {
         "red": "fa-youtube",
         "estilo": "youtubeBlanco",
         "url": "http://youtube.com/"
     },
+
     {
         "red": "fa-twitter",
         "estilo": "twitterBlanco",
         "url": "http://twitter.com/"
     },
+
     {
         "red": "fa-instagram",
         "estilo": "instagramBlanco",

@@ -19,16 +19,40 @@
                 <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 social">
                 
                     <ul>
-                        <!-- Se le solicita al controlador las caracteristicas de redes sociales, estilos y url de las mismas
-                        todo esto es traido via el controlador desde la base de datos ecommerce tabla plantilla  -->
-
+                        <!-- Se le solicita al controlador las caracteristicas de redes sociales, iconos de font-awesome de las redes, estilos(color) y url de las mismas,
+                        todo esto es traido via el controlador desde la base de datos "ecommerce" tabla "plantilla"  -->
                         <?php
+                        $social = ControladorPlantilla::ctrEstiloPlantilla();
+                        /* var_dump(json_decode($social["redesSociales"],true)); */
 
+                        $jsonRedesSociales = json_decode($social["redesSociales"],true);
+                       /*  var_dump($jsonRedesSociales); */
+
+                        foreach ($jsonRedesSociales as $key => $value ){
+                           /*  var_dump($value["url"]); */
+
+                           echo'
+                                 <li>
+                                   <a href="'.$value["url"].'" target="_blank">
+                                    <i class="fa '.$value["red"].' redSocial '.$value["estilo"].'" aria-hidden="true"></i>
+                                   </a>
+                                 </li>
+                               ';
+
+
+
+                        }
+
+
+                      
+                      
 
 
 
                         ?>
 
+
+                        <!-- 
                         <li>
                             <a href="http://facebook.com/" target="_blank">
                                 <i class="fa fa-facebook redSocial facebookBlanco" aria-hidden="true"></i>
@@ -45,7 +69,7 @@
                             <a href="http://twitter.com/" target="_blank">
                                 <i class="fa fa-twitter redSocial twitterBlanco" aria-hidden="true"></i>
                             </a>
-                        </li>
+                        </li> -->
 
                      <!--    <li>
                             <a href="http://google.com/" target="_blank">
@@ -53,11 +77,11 @@
                             </a>
                         </li> -->
 
-                        <li>
+                       <!--  <li>
                             <a href="http://instagram.com/" target="_blank">
                                 <i class="fa fa-instagram redSocial instagramBlanco" aria-hidden="true"></i>
                             </a>
-                        </li>
+                        </li> -->
 
                     </ul>
                 
