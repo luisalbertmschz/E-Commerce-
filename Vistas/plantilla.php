@@ -74,6 +74,8 @@
 
             
         <script src="Vistas/js/cabezote.js"></script>
+        <script src="Vistas/js/plantilla.js"></script>
+
         <script src="" async defer></script>
     </body>
 </html>

@@ -43,12 +43,6 @@
 
                         }
 
-
-                      
-                      
-
-
-
                         ?>
 
 
@@ -126,6 +120,7 @@
 				<a href="#">
 						
 					<img src="http://localhost/E-commerce-Backend/Vistas/plantilla/large_techtoot_0.png" class="img-responsive">
+                    <img src="http://localhost/E-commerce-Backend/Vistas/plantilla/large_techtoot_0.png" class="img-responsive">
 
 				</a>
                 
