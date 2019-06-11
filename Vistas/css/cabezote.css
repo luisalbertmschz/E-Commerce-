@@ -82,7 +82,9 @@ header #categorias{
 	display:none;
 	margin-top:-10px;
 	position: relative;
-	padding-bottom:20px;
+	padding-bottom:3px;
+	margin-left:5px;
+	margin-right:40px;
 }
 
 header #categorias h4{

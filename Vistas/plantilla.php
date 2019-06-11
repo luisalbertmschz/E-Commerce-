@@ -6,9 +6,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-        <title>Star-Tech :: Tienda de tecnología</title>
         
+
+        <title>Techtoot :: Tienda de tecnología</title>
+        <?php
+
+
+        $icono = ControladorPlantilla::ctrEstiloPlantilla();
+        echo'<link rel="icon" href="http://localhost/E-commerce-Backend/'.$icono["icono"].'">';
+
+
+        ?>
         
 
         <meta name="description" content="Tienda en linea de venta de dispositivos eléctrónicos en general ">
