@@ -11,6 +11,7 @@ include_once "Controladores/productos.controlador.php";
 /* Modelos*/
 include_once "Modelos/plantilla.modelo.php";
 include_once "Modelos/productos.modelos.php";
+include_once "Modelos/ruta.php";
 
 
 
