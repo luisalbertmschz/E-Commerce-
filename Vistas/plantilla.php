@@ -105,7 +105,21 @@
             $rutas = explode("/", $_GET["ruta"]);
             
             /* Aquí mostramos con este var_dump lo que contiene [$rutas] y filtramos los indices a eleccion para recibir a gusto solo los indice 0  */
-            var_dump($rutas[0]);
+           /*  var_dump($rutas[0]); */
+
+
+           if($rutas[0] == "portatiles-para-gaming"){
+
+
+            include "Modulos/productos.php";
+
+
+
+           }else{
+
+            include "Modulos/error404.php";
+
+           }
 
         }
 

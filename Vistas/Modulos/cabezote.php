@@ -117,7 +117,7 @@
         	
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
 				
-				<a href="#">
+				<a href="http://localhost/E-commerce-/">
                     <!-- Traer el logo sin usar la base de datos  -->
 						
 					<!-- <img src="http://localhost/E-commerce-Backend/Vistas/plantilla/large_techtoot_0.png" class="img-responsive"> -->
