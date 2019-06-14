@@ -79,6 +79,40 @@ SLIDESHOW
 
                 </li>
 
+                <!-- SLIDE NUMERO 3 -->
+                
+                <li>
+
+                     <img src="http://localhost/E-commerce-Backend/Vistas/img/slide/default/back_default.jpg">
+
+                     <div class="slideOpciones slideOpcion2">
+
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7P.png">
+
+                        <div class="textosSlide">
+
+                            <h1>Xiaomi Redmi Note 7 Pro</h1>
+                            <h2>Captura todo con una cámara de 48Mpx</h2>
+                            <h3></h3>
+
+                                <a href="">
+
+                                <button class="btn btn-default backColor text-uppercase">
+                                Ver producto <span class="fa fa-chevron-right"></span>
+                                </button>
+                                
+                                
+                                </a>
+                        
+                        
+                        
+                        </div>
+                     
+                     
+                     </div>
+
+                </li>
+
 
 
 
