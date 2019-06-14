@@ -47,6 +47,7 @@
 
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/plugins/font-awesome.min.css">
+        <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/slide.css">
         
         
       
@@ -174,7 +175,11 @@
                     include "Modulos/error404.php";
 
                 }
-                
+
+    }else{
+
+        include "Modulos/slide.php";
+
     }
 
             

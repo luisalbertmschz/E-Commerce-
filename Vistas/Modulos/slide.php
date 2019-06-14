@@ -3,102 +3,93 @@ SLIDESHOW
 ======================================-->
 
 <div class="container-fluid" id="slide">
-	
-	<div class="row">
-		
-		<!--=====================================
-		DIAPOSITIVAS
-		======================================-->
 
-		<ul>
 
-			<?php
+        <div class="row">
 
-				$servidor = Ruta::ctrRutaServidor();
 
-				$slide = ControladorSlide::ctrMostrarSlide();
+           <!-- SLIDES O DIAPOSITIVAS -->
 
-				foreach ($slide as $key => $value) {	
 
-					$estiloImgProducto = json_decode($value["estiloImgProducto"], true);
-					$estiloTextoSlide = json_decode($value["estiloTextoSlide"], true);
-					$titulo1 = json_decode($value["titulo1"], true);
-					$titulo2 = json_decode($value["titulo2"], true);
-					$titulo3 = json_decode($value["titulo3"], true);
+            <ul>
+            
+               <!-- SLIDE NUMERO 1 -->
+                
+                <li>
 
-					echo '<li>
-				
-							<img src="'.$servidor.$value["imgFondo"].'">
+                     <img src="http://localhost/E-commerce-Backend/Vistas/img/slide/default/back_default.jpg">
 
-							<div class="slideOpciones '.$value["tipoSlide"].'">';
+                     <div class="slideOpciones slideOpcion1">
 
-							if($value["imgProducto"] != ""){
-								
-								echo '<img class="imgProducto" src="'.$servidor.$value["imgProducto"].'" style="top:'.$estiloImgProducto["top"].'; right:'.$estiloImgProducto["right"].'; width:'.$estiloImgProducto["width"].'; left:'.$estiloImgProducto["left"].'">';
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/GGDD.png">
 
-							}
+                        <div class="textosSlide">
 
-							echo '<div class="textosSlide" style="top:'.$estiloTextoSlide["top"].'; left:'.$estiloTextoSlide["left"].'; width:'.$estiloTextoSlide["width"].'; right:'.$estiloTextoSlide["right"].'">
-									
-									<h1 style="color:'.$titulo1["color"].'">'.$titulo1["texto"].'</h1>
+                            <h1>Day Dream VR by Google</h1>
+                            <h2>Experimenta la realidad virtual a otro nivel</h2>
+                            <h3>(incluye mando  a distancia)</h3>
 
-									<h2 style="color:'.$titulo2["color"].'">'.$titulo2["texto"].'</h2>
+                                <a href="">
 
-									<h3 style="color:'.$titulo3["color"].'">'.$titulo3["texto"].'</h3>
+                                <button class="btn btn-default backColor text-uppercase">
+                                Ver producto <span class="fa fa-chevron-right"></span>
+                                </button>
+                                
+                                
+                                </a>
+                        
+                        
+                        
+                        </div>
+                     
+                     
+                     </div>
 
-									<a href="'.$value["url"].'">
-										
-										'.$value["boton"].'
+                </li>
 
-									</a>
 
-								</div>	
 
-							</div>
+               <!--  SLIDE NUMERO 2 -->
+                <li>
 
-						</li>';
+                     <img src="http://localhost/E-commerce-Backend/Vistas/img/slide/default/back_default.jpg">
 
-				}
+                     <div class="slideOpciones slideOpcion2">
 
-			?>		
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide2/Glaptop.png">
 
-		</ul>
+                        <div class="textosSlide">
 
-		<!--=====================================
-		PAGINACIÓN
-		======================================-->
+                            <h1>¡Mejora tu experiencia Gaming!</h1>
+                            <h2>Conoce ya nuesto catálogo de portátiles gaming</h2>
+                            <h3></h3>
 
-		<ol id="paginacion">
+                                <a href="">
 
-			<?php
+                                <button class="btn btn-default backColor text-uppercase">
+                                Conocer más   <span class="fa fa-chevron-right"></span>
+                                </button>
+                                
+                                </a>
+                        
+                        </div>
+                     
+                     
+                     </div>
 
-				for($i = 1; $i <= count($slide); $i++){
+                </li>
 
-					echo '<li item="'.$i.'"><span class="fa fa-circle"></span></li>';
 
-				}		
 
-			?>
 
-		</ol>	
+            
+            
+            </ul>
 
-		<!--=====================================
-		FLECHAS
-		======================================-->	
+  
+        
+        </div>   
 
-		<div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
-		<div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
-
-	</div>
 
 </div>
-
-<center>
-	
-	<button id="btnSlide" class="backColor">
 		
-			<i class="fa fa-angle-up"></i>
-
-	</button>
-
-</center>
