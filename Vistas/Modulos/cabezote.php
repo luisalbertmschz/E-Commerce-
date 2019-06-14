@@ -256,7 +256,10 @@
 
             <?php
 
-            $categorias = ControladorProductos::ctrMostrarCategorias();
+            $item=null;
+            $valor=null;
+
+            $categorias = ControladorProductos::ctrMostrarCategorias($item, $valor);
 
             foreach($categorias as $key => $value){
 

@@ -4,10 +4,10 @@ class ControladorProductos{
 
     /* METODO para MOSRTAR CATEGORIAS desde la BASE DE DATOS */
 
-    public function ctrMostrarCategorias(){
+    static public function ctrMostrarCategorias($item, $valor){
 
         $tabla="categorias";
-        $respuesta=ModeloProductos::mdlMostrarCategorias($tabla);
+        $respuesta=ModeloProductos::mdlMostrarCategorias($tabla, $item, $valor);
         return $respuesta;
 
     }

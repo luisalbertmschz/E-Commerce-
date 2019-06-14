@@ -95,33 +95,62 @@
 
 
           $rutas = array();
+          $ruta = null;
+          
 
 
         /* ANALIZAMOS y verificamos  qu[e se est[a enviado en la variable GET <ruta> que definimos en Modelos/ruta.php para manejar mejor las url amigables de la pagina */
-        if(isset($_GET["ruta"])){
+          if(isset($_GET["ruta"]))
+           {
 
-            /* Separamos los indices del array gracias a explode y delimitamos cada indidce con un separador, a eleccion fue un bash slash [/] */
+                /* Separamos los indices del array gracias a explode y delimitamos cada indidce con un separador, a eleccion fue un bash slash [/] */
 
-            $rutas = explode("/", $_GET["ruta"]);
+
+                $rutas = explode("/", $_GET["ruta"]);
+
+
+
+                
+                $item ="ruta";
+
+                $valor = $_GET["ruta"];
+
+                $rutaCategorias = ControladorProductos::ctrMostrarCategorias($item,$valor);
+
+                /*  var_dump($rutaCategorias["ruta"]); */ 
+
+                if($rutas[0] == $rutaCategorias["ruta"])
+                {
+
+                $ruta = $rutas[0]; 
+
+                };   
+
+            }  
+
+
+
             
             /* Aquí mostramos con este var_dump lo que contiene [$rutas] y filtramos los indices a eleccion para recibir a gusto solo los indice 0  */
            /*  var_dump($rutas[0]); */
 
 
-           if($rutas[0] == "portatiles-para-gaming"){
+            if($rutas  != null)
+                {
 
 
-            include "Modulos/productos.php";
+                    include "Modulos/productos.php";
 
 
 
-           }else{
+                }else
+                {
 
-            include "Modulos/error404.php";
+                    include "Modulos/error404.php";
 
-           }
+                }
 
-        }
+            
 
 
         ?>
