@@ -90,18 +90,22 @@
 
         include "Modulos/cabezote.php";
 
+
+
+
+        /*--------- CONTENIDO DINAMICO-----------------  */
+
+
          /*   CREAMOS y hacemos USO de un array para separara los parámetros que recibimos en indices para así tener un mejor control
         en ese sentido si la ruta o las rutas */
-
-
           $rutas = array();
           $ruta = null;
           
 
 
-        /* ANALIZAMOS y verificamos  qu[e se est[a enviado en la variable GET <ruta> que definimos en Modelos/ruta.php para manejar mejor las url amigables de la pagina */
+          /* ANALIZAMOS y verificamos  qu[e se est[a enviado en la variable GET <ruta> que definimos en Modelos/ruta.php para manejar mejor las url amigables de la pagina */
           if(isset($_GET["ruta"]))
-           {
+            {
 
                 /* Separamos los indices del array gracias a explode y delimitamos cada indidce con un separador, a eleccion fue un bash slash [/] */
 
@@ -113,7 +117,10 @@
                 
                 $item ="ruta";
 
-                $valor = $_GET["ruta"];
+                $valor = $rutas[0];
+
+
+         /*---------------URL´S AMIGABLES DE LAS CATEGORIAS */
 
                 $rutaCategorias = ControladorProductos::ctrMostrarCategorias($item,$valor);
 
@@ -126,16 +133,34 @@
 
                 };   
 
+             
+
+
+
+        /* LISTA BLANCA DE URLS PARA SUBCATEGORIAS AMIGABLES */
+
+        $rutasubCategorias = ControladorProductos::ctrMostrarSubCategorias($item,$valor);
+
+
+        foreach ($rutasubCategorias  as $key  => $value){
+
+            if($rutas[0] == $value["ruta"])
+            {
+
+            $ruta = $rutas[0]; 
+
             }  
 
 
-
-            
-            /* Aquí mostramos con este var_dump lo que contiene [$rutas] y filtramos los indices a eleccion para recibir a gusto solo los indice 0  */
-           /*  var_dump($rutas[0]); */
+        }
 
 
-            if($rutas  != null)
+
+
+           
+           /* LISTA BLANCA DE URL´S AMIGABLES  DE CATEGORIAS*/
+
+             if($ruta  != null)
                 {
 
 
@@ -149,6 +174,8 @@
                     include "Modulos/error404.php";
 
                 }
+                
+    }
 
             
 

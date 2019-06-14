@@ -44,11 +44,11 @@ class ModeloProductos{
    /*  MOSTRAR SUB CATEGORIAS  */
 
 
-   static public function mdlMostrarSubCategorias($tabla, $id){
+   static public function mdlMostrarSubCategorias($tabla, $item, $valor){
 
-    $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE id_categoria = :id_categoria");
+    $stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE $item = :$item");
 
-    $stmt -> bindParam(":id_categoria",$id, PDO::PARAM_INT);
+    $stmt -> bindParam(":".$item, $valor, PDO::PARAM_INT);
 
     $stmt -> execute();
 

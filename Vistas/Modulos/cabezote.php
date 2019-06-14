@@ -275,8 +275,12 @@
 
                        <ul>';
 
+                       $item = "id_categoria";
 
-                       $subcategorias = ControladorProductos::ctrMostrarSubCategorias($value["id"]);
+                       $valor = $value["id"];
+
+
+                       $subcategorias = ControladorProductos::ctrMostrarSubCategorias($item, $valor);
 
                        /* var_dump($subcategorias); */
 
