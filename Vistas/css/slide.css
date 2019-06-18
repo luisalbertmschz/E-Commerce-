@@ -24,11 +24,11 @@ SLIDE
        si pones 50% que es positivo se desplazará a la derecha 
     left:0%; */
   /*   TODO: Cambiar de slides */
-    left:0%;  /* cambiar a 0 para slide 1 m cambiar a -100 para slide 2*/
+    left:-300%;  /* cambiar a 0 para slide 1 m cambiar a -100 para slide 2.....0,-100,-200*/
 	margin:auto;
 	height:auto;
     /* width:100%; */
-    width:300%;   /*Aumentar un 100 o 200 % en funcion de la cantidad de slides, valor oiriginal 100, cambio a 200%*/
+    width:400%;   /*Aumentar un 100 o 200 % en funcion de la cantidad de slides, valor oiriginal 100, cambio a 200%*/
 	clear:both;
 	display: table;
 }
@@ -41,7 +41,7 @@ SLIDE
     /* Hacemos aqui que cada li en vez de ocupar 100% que ocupen 50 para acomodar 2 slides
     width:100%; */
     
-    width:33.33%; /* Valor original 100%, cambio a 50%*/
+    width:25%; /* Valor original 100%, cambio a 50%*/
 }
 
 #slide ul li img{
@@ -105,7 +105,7 @@ SLIDE
     opacity:1;
     top: 5%;
     left: -0%;
-    width: 40%;
+    width: 45%;
 
 
 
