@@ -21,13 +21,13 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion1">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/GGDD.png">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/GGDD.png"style=" ">
 
                         <div class="textosSlide">
 
-                            <h1>Day Dream VR by Google</h1>
-                            <h2>Experimenta la realidad virtual a otro nivel</h2>
-                            <h3>(incluye mando  a distancia)</h3>
+                            <h1 style="">Day Dream VR by Google</h1>
+                            <h2 style="">Experimenta la realidad virtual a otro nivel</h2>
+                            <h3 style="">(incluye mando  a distancia)</h3>
 
                                 <a href="">
 
@@ -55,14 +55,14 @@ SLIDESHOW
                      <img src="http://localhost/E-commerce-Backend/Vistas/img/slide/default/back_default.jpg">
 
                      <div class="slideOpciones slideOpcion2">
+                                                            
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide2/Glaptop.png"style=" top:17%; left:2%">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide2/Glaptop.png">
-
-                        <div class="textosSlide">
-
-                            <h1>¡Mejora tu experiencia Gaming!</h1>
-                            <h2>Conoce ya nuesto catálogo de portátiles gaming</h2>
-                            <h3>Por solo 250.99 USD $</h3>
+                        <div class="textosSlide" style="top:30% ;">
+ 
+                            <h1 style="">¡Mejora tu experiencia Gaming!</h1>
+                            <h2 style="">Conoce ya nuesto catálogo de portátiles gaming</h2>
+                            <h3 style="">Por solo 250.99 USD $</h3>
 
                                 <a href="">
 
@@ -87,13 +87,14 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png" >
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png"style=" " >
+                       <!--TODO:POSTCION  RIGHT  de imagenes -->
 
                         <div class="textosSlide">
 
-                            <h1>Xiaomi Redmi Note 7 Pro</h1>
-                            <h2>Captura todo con una cámara de 48Mpx</h2>
-                            <h3></h3>
+                            <h1 style="">Xiaomi Redmi Note 7 Pro</h1>
+                            <h2 style="">Captura todo con una cámara de 48Mpx</h2>
+                            <h3 style=""></h3>
 
                                 <a href="">
 
@@ -122,13 +123,13 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png"style="width:1100px;">
 
                         <div class="textosSlide">
 
-                            <h1>Conoce la Surface Book 2 Pro</h1>
-                            <h2>Liviana, versatil y potente</h2>
-                            <h3></h3>
+                            <h1 style="">Conoce la Surface Book 2 Pro</h1>
+                            <h2 style="">Liviana, versatil y potente</h2>
+                            <h3 style=""></h3>
 
                                 <a href="">
 
@@ -148,12 +149,25 @@ SLIDESHOW
 
                 </li>
 
-
-
-
-            
             
             </ul>
+
+            <!-- PEQUEÑOS CIRCULOS QUE CONSTITUYEN LA PAGINACIÓN DEL SLIDE -->
+		    <ol id="paginacion">
+
+                <li item="1"><span class="fa fa-circle"></span></li>
+                <li item="2"><span class="fa fa-circle"></span></li>
+                <li item="3"><span class="fa fa-circle"></span></li>
+                <li item="4"><span class="fa fa-circle"></span></li>
+
+		    </ol>	
+
+           <!--  FLECHAS DE INTERACIÓN CON EL SLIDE  -->
+           <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+		   <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
+
+
+
 
   
         
@@ -161,4 +175,14 @@ SLIDESHOW
 
 
 </div>
+
+<center>
+	
+	<button id="btnSlide" class="backColor">
+		
+			<i class="fa fa-angle-up"></i>
+
+	</button>
+
+</center>
 		

@@ -121,7 +121,7 @@
                 $valor = $rutas[0];
 
 
-         /*---------------URL´S AMIGABLES DE LAS CATEGORIAS */
+                /*---------------URL´S AMIGABLES DE LAS CATEGORIAS */
 
                 $rutaCategorias = ControladorProductos::ctrMostrarCategorias($item,$valor);
 
