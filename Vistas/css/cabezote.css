@@ -50,17 +50,20 @@ header #btnCategorias p span{
 
 header #buscador{
 	margin:29px 0;
+	border:1px solid #232176; /*  TODO: BORDER DE TODA LA CAJA DE BUSCADOR */
+	
 	border-radius: 20px;
 }
 
 header #buscador input{
 	padding:19px;
 	border-radius:20PX; /* TODO CAMBIAR RENDONDEZ DEL BUSCADOR */
+    border-style: none;
 }
 
 header #buscador button{
 	padding:9px;
-	border:1px solid silver;
+	border:1px solid #232176; /*ÚLTIMO COLOR QUE USABAMOS, SILVER*/
 	border-radius:0;
 	border-radius:20PX;
 	        /* TODO CAMBIAR RENDONDEZ DEL ICONO BUSCADOR */
@@ -73,7 +76,7 @@ header #carrito{
 
 header #carrito button{
 	padding:9px 15px;
-	border:1px solid silver;
+	border:1px solid #232176;
 	border-radius:0;
 	border-radius:20PX;
 }
@@ -81,7 +84,7 @@ header #carrito button{
 header #carrito p{
 	padding:2px;
 	padding-left:60px;
-	border:1px solid #aaa;
+	border:1px solid #232176;
 	font-size:12px;
 	border-radius:20PX; /* TODO ESTO AFECTA EL BORDER RADIUS DEL CONTENEDOR DE LOGO E INFO CARRITO*/
 } 
