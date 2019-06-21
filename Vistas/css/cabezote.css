@@ -35,11 +35,13 @@ header #logotipo img{
 
 header #btnCategorias{
 	margin: 29px 0;
+	border-radius:20PX;/*TODO TRABAJAR REDONDEAR BOTONES  border-radius: 15px; */
 }
 
 header #btnCategorias p{
 	line-height:40px;
 	margin-bottom:0px;
+
 }
 
 header #btnCategorias p span{
@@ -48,27 +50,32 @@ header #btnCategorias p span{
 
 header #buscador{
 	margin:29px 0;
+	border-radius: 20px;
 }
 
 header #buscador input{
 	padding:19px;
-	border-radius:0;
+	border-radius:20PX; /* TODO CAMBIAR RENDONDEZ DEL BUSCADOR */
 }
 
 header #buscador button{
 	padding:9px;
 	border:1px solid silver;
 	border-radius:0;
+	border-radius:20PX;
+	        /* TODO CAMBIAR RENDONDEZ DEL ICONO BUSCADOR */
 }
 
 header #carrito{
 	margin:29px 0;
+	border-radius:20PX;
 }
 
 header #carrito button{
 	padding:9px 15px;
 	border:1px solid silver;
 	border-radius:0;
+	border-radius:20PX;
 }
 
 header #carrito p{
@@ -76,7 +83,8 @@ header #carrito p{
 	padding-left:60px;
 	border:1px solid #aaa;
 	font-size:12px;
-}
+	border-radius:20PX; /* TODO ESTO AFECTA EL BORDER RADIUS DEL CONTENEDOR DE LOGO E INFO CARRITO*/
+} 
 
 header #categorias{
 	display:none;

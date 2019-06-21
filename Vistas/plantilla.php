@@ -187,7 +187,9 @@
 
         ?>
 
-            
+        <!-- ENLACES A  LA INTERACCIÓN DE SECCIONES ESPECIFICAS CON LA AYUDA DE JavaScript -->
+
+        <script src="<?php echo $url;?>Vistas/js/slide.js"></script>   
         <script src="<?php echo $url;?>Vistas/js/cabezote.js"></script>
         <script src="<?php echo $url;?>Vistas/js/plantilla.js"></script>
 

@@ -91,7 +91,7 @@
                 
                     <ul>
                                 
-                        <li><a href="#modalIngreso" data-toggle="modal">Identificate, inicia sesión</a></li>
+                        <li><i class="fa fa-user" style="width:10%;"></i>           <a href="#modalIngreso" data-toggle="modal">Identificate, inicia sesión</a></li>
                         <li>|</li>
                         <li><a href="#modalRegistro" data-toggle="modal">Registrate</a></li>
                     

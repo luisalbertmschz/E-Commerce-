@@ -21,18 +21,20 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion1">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/GGDD.png"style=" ">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPJET8035PRO.png"style=" top:2px; width:800px;">
 
                         <div class="textosSlide">
 
-                            <h1 style="">Day Dream VR by Google</h1>
-                            <h2 style="">Experimenta la realidad virtual a otro nivel</h2>
-                            <h3 style="">(incluye mando  a distancia)</h3>
+                            <h1 style="">HP OfficeJet Pro 8035</h1>
+                            <h2 style="">Diseñada para ahorrarte tiempo</h2>
+                            <h2 style="right:50px; color:#BB002F; font-weight:bold;">Desde $149.99 Dólares</h2>
+                            <img class=""src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPLOG.png"style="top:300px; width:130px; left:-19px;"> <br>
+                            
 
                                 <a href="">
 
                                 <button class="btn btn-default backColor text-uppercase">
-                                Ver producto <span class="fa fa-chevron-right"></span>
+                                Comprar ahora <span class="fa fa-chevron-right"></span>
                                 </button>
                                 
                                 
@@ -62,7 +64,10 @@ SLIDESHOW
  
                             <h1 style="">¡Mejora tu experiencia Gaming!</h1>
                             <h2 style="">Conoce ya nuesto catálogo de portátiles gaming</h2>
-                            <h3 style="">Por solo 250.99 USD $</h3>
+
+                            <h3 style="right:50px; color:#BB002F; font-weight:bold;">Equipos desdes $589.65 Dólares en adelante</h3> 
+                            
+                            
 
                                 <a href="">
 
@@ -87,14 +92,16 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png"style=" " >
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png"style=" top:0px; width: 1100px; " >
                        <!--TODO:POSTCION  RIGHT  de imagenes -->
 
                         <div class="textosSlide">
 
-                            <h1 style="">Xiaomi Redmi Note 7 Pro</h1>
-                            <h2 style="">Captura todo con una cámara de 48Mpx</h2>
-                            <h3 style=""></h3>
+                            <h1 style="right:50px;">Xiaomi Redmi Note 7 Pro</h1>
+                            <h2 style="right:50px;">Cámara dual de 48 + 5 MP con IA</h2>
+                            <h2 style="right:50px;">Una nueva experiencia a nivel de un flagship</h2>
+                            <br>
+                            <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 201.74 Dólares</h3>
 
                                 <a href="">
 
@@ -129,20 +136,22 @@ SLIDESHOW
 
                             <h1 style="">Conoce la Surface Book 2 Pro</h1>
                             <h2 style="">Liviana, versatil y potente</h2>
-                            <h3 style=""></h3>
-
+                            <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 2,479 Dólares</h3>
+                            <h3 style=""></h3> <br>
                                 <a href="">
 
                                 <button class="btn btn-default backColor text-uppercase">
-                                Ver producto <span class="fa fa-chevron-right"></span>
+                                Comprar ahora <span class="fa fa-chevron-right"></span>
                                 </button>
                                 
                                 
+                                
                                 </a>
-                        
-                        
-                        
+
+                               
                         </div>
+
+                        
                      
                      
                      </div>
