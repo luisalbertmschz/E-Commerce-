@@ -179,6 +179,7 @@
     }else{
 
         include "Modulos/slide.php";
+        include "modulos/destacados.php";
 
     }
 

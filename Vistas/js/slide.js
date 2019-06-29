@@ -5,7 +5,7 @@
 
 var item = 0;
 var itemPaginacion = $("#paginacion li");
-
+var interrumpirCiclo = false;
 /*============= PAGINACIÓN========================*/
 
 
@@ -85,6 +85,8 @@ function movimientoSlide(item){
 
     $(itemPaginacion[item]).css({"opacity":1})
 
+    interrumpirCiclo = true
+
 }
 
 
@@ -92,9 +94,16 @@ function movimientoSlide(item){
 
 setInterval(function(){
 
-avanzar();
+    if(interrumpirCiclo == true){
 
+        interrumpirCiclo = false;
 
+     
+    }else{
+
+        avanzar();
+
+    }
 
 
 },3000)

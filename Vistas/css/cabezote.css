@@ -34,8 +34,9 @@ header #logotipo img{
 
 
 header #btnCategorias{
-	margin: 29px 0;
-	border-radius:20PX;/*TODO TRABAJAR REDONDEAR BOTONES  border-radius: 15px; */
+	margin: 29px 0;     /* TODO ELEVAMOS O BAJAMOS EL BOTON CATEGORIAS */
+	border-radius:20PX; /*TODO TRABAJAR REDONDEAR BOTONES  border-radius: 15px; */
+	
 }
 
 header #btnCategorias p{
@@ -49,7 +50,7 @@ header #btnCategorias p span{
 }
 
 header #buscador{
-	margin:29px 0;
+	margin:28px 0;               /* TODO ELEVAMOS O BAJAMODEL INPUT BUSCADOR */
 	border:1px solid #232176; /*  TODO: BORDER DE TODA LA CAJA DE BUSCADOR */
 	
 	border-radius: 20px;
@@ -57,16 +58,15 @@ header #buscador{
 
 header #buscador input{
 	padding:19px;
-	border-radius:20PX; /* TODO CAMBIAR RENDONDEZ DEL BUSCADOR */
-    border-style: none;
+	border-radius:20PX;  /* TODO CAMBIAR RENDONDEZ DEL BUSCADOR */
+    border-style: none;  /* TODO QUITAMOS EL BORDER DEL BUSCADOR PARA QUE NO PAREZCA AISLADO DEL BOTÓN BUSCAR CON ICONO */
 }
 
 header #buscador button{
 	padding:9px;
 	border:1px solid #232176; /*ÚLTIMO COLOR QUE USABAMOS, SILVER*/
 	border-radius:0;
-	border-radius:20PX;
-	        /* TODO CAMBIAR RENDONDEZ DEL ICONO BUSCADOR */
+	border-radius:20PX;   /* TODO CAMBIAR RENDONDEZ DEL ICONO BUSCADOR */
 }
 
 header #carrito{

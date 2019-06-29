@@ -1,0 +1,64 @@
+/*
+ * ─── BANNER ─────────────────────────────────────────────────────────────────────
+ */
+
+    
+.banner{
+	position: relative;
+	overflow:hidden;
+}
+
+.banner .textoBanner{
+	position:absolute;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.banner .textoDer{
+	top:50px; 
+	right:50px; 
+	text-align:right;
+}
+
+
+.banner .textoIzq{
+	top:50px; 
+	left:50px; 
+	text-align:left;
+}
+
+.banner .textoCentro{
+	top:50px; 
+	left:50%;
+	width:800px; 
+	margin-left: -400px;
+	text-align:center;
+}
+
+
+.textoBanner h1{
+	font-size:35px;
+	line-height:25px;
+}
+
+.textoBanner h2{
+	font-size:30px;
+	line-height:25px;
+}
+
+.textoBanner h3{
+	font-size:24px;
+	line-height:25px;
+}
+
+
+/*
+ * ─── BARRA PRODUCTOS ────────────────────────────────────────────────────────────
+ */
+
+
+ .barraProductos .organizarProductos span{
+	margin-left:5px;
+}
+    
+
+
