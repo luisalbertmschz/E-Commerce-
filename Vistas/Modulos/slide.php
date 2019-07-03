@@ -143,17 +143,12 @@ SLIDESHOW
                                 <button class="btn btn-default backColor text-uppercase">
                                 Comprar ahora <span class="fa fa-chevron-right"></span>
                                 </button>
-                                
-                                
+  
                                 
                                 </a>
-
-                               
+ 
                         </div>
 
-                        
-                     
-                     
                      </div>
 
                 </li>

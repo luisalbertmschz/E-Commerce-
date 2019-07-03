@@ -6,6 +6,13 @@
 var item = 0;
 var itemPaginacion = $("#paginacion li");
 var interrumpirCiclo = false;
+var imgProducto = $(".imgProducto");
+
+/*============= ANIMACIÓN INICIAL DE LAS IMAGENES DE PRODUCTOS DEL SLIDE ========================*/
+
+$(imgProducto[item]).Animate({"top":-10 + "%", "opacity": 0}, 100)
+$(imgProducto[item]).Animate({"top": 30 + "px", "opacity": 1}, 600)
+
 /*============= PAGINACIÓN========================*/
 
 
