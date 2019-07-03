@@ -10,8 +10,8 @@ var imgProducto = $(".imgProducto");
 
 /*============= ANIMACIÓN INICIAL DE LAS IMAGENES DE PRODUCTOS DEL SLIDE ========================*/
 
-$(imgProducto[item]).Animate({"top":-10 + "%", "opacity": 0}, 100)
-$(imgProducto[item]).Animate({"top": 30 + "px", "opacity": 1}, 600)
+$(imgProducto[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
+$(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
 
 /*============= PAGINACIÓN========================*/
 
