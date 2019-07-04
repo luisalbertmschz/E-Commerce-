@@ -164,6 +164,8 @@ SLIDE
 	
 	opacity:1;
 	top:-10%;
+    /* TODO Redondeando los bordes del botón de cada productos que se muestra en el slide */
+	border-radius:20PX;
 }
 
 
@@ -176,6 +178,7 @@ SLIDE
 
 #slide .slideOpciones button span{
 	margin-left:10px;
+	
 }
 
 
