@@ -27,8 +27,8 @@ var titulo3 = $("#slide h3");
 /* Variable para controlar el botón de cada slide de manera centralizada o global */
 var BotonProductoSlide = $("#slide button");
 
-
-
+/* Variable que nos permitirá detener el intervalo de tiempo que tarda el slide en cambiar siempre y cuando el cursor del mouse se halle en el slide */
+var PausarTiempoCambioSlide = false;
 
 
 
@@ -191,7 +191,12 @@ setInterval(function(){
      
     }else{
 
-        avanzar();
+        if(!PausarTiempoCambioSlide)
+        {
+            avanzar();
+
+        }
+
 
     }
 
@@ -200,21 +205,25 @@ setInterval(function(){
 
 
 /*=====REAPARECER / OCULTAR  - FLECHAS DEL SLIDE AL HACER MOUSEOVER O MOUSEOUT EN EL SLIDE================*/
-/* REAPARECER FLECHAS DE NEGACIÓN DEL SLIDE */
+
+/* REAPARECER FLECHAS DE NAVEGACIÓN DEL SLIDE */
 
 
 $("#slide").mouseover(function(){
 
     $("#slide #retroceder").css({"opacity":1})
     $("#slide #avanzar").css({"opacity":1})
+    PausarTiempoCambioSlide = true;
 })
 
-/* OCULTAR FLECHAS DE NEGACIÓN DEL SLIDE */
+/* OCULTAR FLECHAS DE NAVEGACIÓN DEL SLIDE */
 
 $("#slide").mouseout(function(){
 
     $("#slide #retroceder").css({"opacity":0})
     $("#slide #avanzar").css({"opacity":0})
+
+    PausarTiempoCambioSlide = false;
 
     
 })
