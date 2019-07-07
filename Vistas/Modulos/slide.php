@@ -33,7 +33,9 @@ SLIDESHOW
 
                                 <a href="">
 
-                                <button class="btn btn-default backColor text-uppercase">
+                               <!--  Fue elimnada la clase btn default que aplica el color global del site, para poder entonces establecer colores predefinidos si así se requiere -->
+
+                                <button class="btn btn-default backColor  text-uppercase">
                                 Comprar ahora <span class="fa fa-chevron-right"></span>
                                 </button>
                                 

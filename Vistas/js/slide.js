@@ -25,31 +25,36 @@ var titulo2 = $("#slide h2");
 var titulo3 = $("#slide h3");
 
 /* Variable para controlar el botón de cada slide de manera centralizada o global */
-var BotonProductoSlide = $();
+var BotonProductoSlide = $("#slide button");
 
 
 
 
 
 
-/*============= ANIMACIÓN INICIAL DE LAS IMAGENES DE PRODUCTOS DEL SLIDE ========================*/
+/*============= ANIMACIÓN INICIAL DE LOS ELEMENTOS DEL SLIDE ========================*/
 
 /* ANIMACIÓN IMAGENES DE PRODUCTOS DEL SLIDE */
 
-$(imgProducto[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-$(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+$(imgProducto[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeOutBounce")
+$(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeOutBounce")
 
 
 /* ANIMACIÓN TEXTOS DE PRODUCTOS DEL SLIDE */
     /* h1 */
-    $(titulo1[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo1[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo1[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo1[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
     /* h2 */
-    $(titulo2[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo2[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo2[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo2[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
     /* h3 */
-    $(titulo3[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo3[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
+/* ANIMACIÓN  DE LOS BOTONES "VER PRODUCTO" O "COMPRAR AHORA" DEL SLIDE */
+$(BotonProductoSlide[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+$(BotonProductoSlide[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
             
 
 
@@ -145,22 +150,28 @@ function movimientoSlide(item){
 
     /*=====Animación de todos los elementos del slide================*/
     
-     $(imgProducto[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-     $(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+     $(imgProducto[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+     $(imgProducto[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
    
     
 
 
     /*=====ANIMACIÓN TEXTOS DE PRODUCTOS DEL SLIDE============= */
     /* h1 */
-    $(titulo1[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo1[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo1[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo1[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
     /* h2 */
-    $(titulo2[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo2[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo2[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo2[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
     /* h3 */
-    $(titulo3[item]).animate({"top":-10 + "%", "opacity": 0}, 100)
-    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600)
+    $(titulo3[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
+    /* ANIMACIÓN  DE LOS BOTONES "VER PRODUCTO" O "COMPRAR AHORA" DEL SLIDE */
+    $(BotonProductoSlide[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
+    $(BotonProductoSlide[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
+       
     
   
 
@@ -186,3 +197,24 @@ setInterval(function(){
 
 
 },3000)
+
+
+/*=====REAPARECER / OCULTAR  - FLECHAS DEL SLIDE AL HACER MOUSEOVER O MOUSEOUT EN EL SLIDE================*/
+/* REAPARECER FLECHAS DE NEGACIÓN DEL SLIDE */
+
+
+$("#slide").mouseover(function(){
+
+    $("#slide #retroceder").css({"opacity":1})
+    $("#slide #avanzar").css({"opacity":1})
+})
+
+/* OCULTAR FLECHAS DE NEGACIÓN DEL SLIDE */
+
+$("#slide").mouseout(function(){
+
+    $("#slide #retroceder").css({"opacity":0})
+    $("#slide #avanzar").css({"opacity":0})
+
+    
+})

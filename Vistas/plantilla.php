@@ -73,6 +73,7 @@
        -->
         <script src="<?php echo $url;?>Vistas/js/plugins/jquery.min.js"></script>
         <script src="<?php echo $url;?>Vistas/js/plugins/bootstrap.min.js"></script>
+        <script src="<?php echo $url;?>Vistas/js/plugins/jquery.easing.js"></script>
     
 
             
