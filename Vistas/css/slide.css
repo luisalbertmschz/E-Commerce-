@@ -52,9 +52,9 @@ SLIDE
 #slide .slideOpcion1 img{
 	position:absolute;
     opacity:1;
-    top: 15%;
-    right: 10%;
-    width: 35%;
+    /* top: 15%; */
+    /* right: 10%; */
+    /* width: 35%; */
 
 
 
@@ -65,17 +65,17 @@ SLIDE
 
 #slide .slideOpcion1 .textosSlide{
     position:absolute;
-	width:40%;
+/* 	width:40%;
 	top:20%;
-	left:10%;
+	left:10%; */
 }
 
 /* SECCION DE TEXTOS DEL SLIDE  */
 
-
+/* 
 #slide .slideOpcion1 h1{
     
-    /* text-transform: uppercase; */
+   
     font-family: 'Ubuntu Condensed', sans-serif;
     font-size: 6rem;
 	opacity:1;
@@ -84,7 +84,7 @@ SLIDE
 
 
 }
-
+ */
 
 
 /* OPCION2 */
@@ -94,18 +94,18 @@ SLIDE
     text-align: right;
 
     position:absolute;
-	width:40%;
+/* 	width:40%;
 	top:20%;
-	right:10%;
+	right:10%; */
 }
 
 
 #slide .slideOpcion2 img{
 	position:absolute;
     opacity:1;
-    top: 5%;
+   /*  top: 5%;
     left: -0%;
-    width: 45%;
+    width: 45%; */
 
 
 
@@ -117,41 +117,30 @@ SLIDE
 /* SECCION DE TEXTOS DEL SLIDE  */
 
 
-#slide .slideOpcion2 h1{
-    
-    /* text-transform: uppercase; */
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 6rem;
-	opacity:1;
-    top:-10%;
-    color: black;
-
-
-}
-
-
-
-
-#slide .slideOpcion1 h2{
-    
-    /* text-transform: uppercase; */
-	font-family: 'Ubuntu Condensed', sans-serif;
-	opacity:1;
-    top:-10%;
-    color: #807F7E;
-
-}
-
-#slide .slideOpcion1 h3{
-    
-    text-transform: uppercase;
+#slide .slideOpciones h1{	
+	text-transform: uppercase;
 	font-family: 'Ubuntu Condensed', sans-serif;
 	opacity:1;
 	top:-10%;
-
+	/*color:#333;*/
 }
 
- 
+#slide .slideOpciones h2{
+	text-transform: uppercase;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity:1;
+	top:-10%;
+	/*color:#777;*/
+}
+
+#slide .slideOpciones h3{
+	text-transform: uppercase;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	opacity:1;
+	top:-10%;
+	/*color:#888;*/
+}
+
 
 
 /* SECCION DE TEXTOS DEL SLIDE  */
@@ -364,7 +353,11 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-	#slide #retroceder, #slide #avanzar{
+
+
+	
+
+/* 	#slide #retroceder, #slide #avanzar{
 		display:none;
 	}
 
@@ -387,9 +380,22 @@ MOVIL (XS revisamos en 320px)
 		padding:5px;
 		font-size:10px;
 	}	
+
+	#slide .slideOpcione button{
+		padding:5px;
+		font-size:10px;
+	}	
+
+	#slide .slideOpcion2 img{
+		position:absolute;
+		opacity:1;
+		top: 5%;
+		left: -0%;
+		width: 45%;
+
+	}  */
 	
 }
-
 
 
 

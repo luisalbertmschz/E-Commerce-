@@ -157,15 +157,18 @@ function movimientoSlide(item){
 
 
     /*=====ANIMACIÓN TEXTOS DE PRODUCTOS DEL SLIDE============= */
+
     /* h1 */
     $(titulo1[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
     $(titulo1[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
     /* h2 */
     $(titulo2[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
     $(titulo2[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+
     /* h3 */
     $(titulo3[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")
-    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack")
+    $(titulo3[item]).animate({"top": 30 + "px", "opacity": 1}, 600, "easeInOutBack") 
 
     /* ANIMACIÓN  DE LOS BOTONES "VER PRODUCTO" O "COMPRAR AHORA" DEL SLIDE */
     $(BotonProductoSlide[item]).animate({"top":-10 + "%", "opacity": 0}, 100, "easeInOutBack")

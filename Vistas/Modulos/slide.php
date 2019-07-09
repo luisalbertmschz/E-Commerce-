@@ -21,9 +21,9 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion1">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPJET8035PRO.png"style=" top:2px; width:800px;">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPJET8035PRO.png"style="top: 15%; right: 10%; width: 35%;">
 
-                        <div class="textosSlide">
+                        <div class="textosSlide"style="top:30% ;left:10%; ">
 
                             <h1 style="">HP OfficeJet Pro 8035</h1>
                             <h2 style="">Diseñada para ahorrarte tiempo</h2>
@@ -60,9 +60,9 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
                                                             
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide2/Glaptop.png"style=" top:17%; left:2%">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide2/Glaptop.png"style=" top:30%; left:2%; width: 45%;">
 
-                        <div class="textosSlide" style="top:30% ;">
+                        <div class="textosSlide" style="top:30% ;right:10%;">
  
                             <h1 style="">¡Mejora tu experiencia Gaming!</h1>
                             <h2 style="">Conoce ya nuesto catálogo de portátiles gaming</h2>
@@ -97,7 +97,7 @@ SLIDESHOW
                        <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png"style=" top:0px; width: 1100px; " >
                        <!--TODO:POSTCION  RIGHT  de imagenes -->
 
-                        <div class="textosSlide">
+                        <div class="textosSlide" style="top:30% ;right:10%;" >
 
                             <h1 style="right:50px;">Xiaomi Redmi Note 7 Pro</h1>
                             <h2 style="right:50px;">Cámara dual de 48 + 5 MP con IA</h2>
@@ -134,7 +134,7 @@ SLIDESHOW
 
                        <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png"style="width:1100px;">
 
-                        <div class="textosSlide">
+                        <div class="textosSlide" style="top:30% ;right:10%;">
 
                             <h1 style="">Conoce la Surface Book 2 Pro</h1>
                             <h2 style="">Liviana, versatil y potente</h2>
