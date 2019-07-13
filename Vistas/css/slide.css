@@ -193,7 +193,8 @@ SLIDE
 }
 
 #slide #retroceder:hover, #slide #avanzar:hover{
-	background:#777;
+/* 	background:#777; */
+	background:lightskyblue;
 }
 
 #slide #retroceder:active, #slide #avanzar:active{
@@ -235,15 +236,18 @@ PAGINACIÓN
 	border:0px;
 	font-size:25px;
 	padding:2px;
+	border-radius:20PX;
 }
 
 
-/* ESCRITORIO GRANDE (LG revisamos en 1366px en adelante) */
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
 
 @media (min-width:1200px){
-	#slide #retroceder
-	{
-        top:37%;
+
+	#slide #retroceder{
+		top:37%;
 		padding:40px 15px 40px 10px;
 		font-size:22px;
 	}
@@ -268,7 +272,7 @@ PAGINACIÓN
 	}
 
 	#slide .slideOpciones button{
-    padding:10px;
+		padding:10px;
 	}	
 
 }
@@ -353,11 +357,7 @@ MOVIL (XS revisamos en 320px)
 
 @media (max-width:767px){
 
-
-
-	
-
-/* 	#slide #retroceder, #slide #avanzar{
+	#slide #retroceder, #slide #avanzar{
 		display:none;
 	}
 
@@ -379,23 +379,24 @@ MOVIL (XS revisamos en 320px)
 	#slide .slideOpciones button{
 		padding:5px;
 		font-size:10px;
-	}	
+	}
 
-	#slide .slideOpcione button{
-		padding:5px;
-		font-size:10px;
-	}	
-
-	#slide .slideOpcion2 img{
+	#slide .slideOpcion1 img{
 		position:absolute;
 		opacity:1;
-		top: 5%;
+		width:150px;
+		height: 80px;
+	   /*  top: 5%;
 		left: -0%;
-		width: 45%;
+		width: 45%; */
+	
+	
+	
+		/*top:15%;
+		right:10%;
+		width:45%;*/
+	} 
 
-	}  */
 	
 }
-
-
 

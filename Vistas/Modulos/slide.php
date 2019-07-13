@@ -68,8 +68,6 @@ SLIDESHOW
                             <h2 style="">Conoce ya nuesto catálogo de portátiles gaming</h2>
 
                             <h3 style="right:50px; color:#BB002F; font-weight:bold;">Equipos desdes $589.65 Dólares en adelante</h3> 
-                            
-                            
 
                                 <a href="">
 
@@ -94,15 +92,14 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png"style=" top:0px; width: 1100px; " >
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png" style="top: 30px; left: 2%; width: 45%; opacity: 1;" >
                        <!--TODO:POSTCION  RIGHT  de imagenes -->
+                      
+                        <div class="textosSlide" style="top:15% ;right:10%;" >
 
-                        <div class="textosSlide" style="top:30% ;right:10%;" >
-
-                            <h1 style="right:50px;">Xiaomi Redmi Note 7 Pro</h1>
-                            <h2 style="right:50px;">Cámara dual de 48 + 5 MP con IA</h2>
+                            <h1 style="">Xiaomi Redmi Note 7 Pro</h1>
+                            <h2 style="">Cámara dual de 48 + 5 MP con IA</h2>
                             <h2 style="right:50px;">Una nueva experiencia a nivel de un flagship</h2>
-                            <br>
                             <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 201.74 Dólares</h3>
 
                                 <a href="">
@@ -132,20 +129,18 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png"style="width:1100px;">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png" style="top: 30px; left: 2%; width: 45%; opacity: 1;">
 
                         <div class="textosSlide" style="top:30% ;right:10%;">
 
                             <h1 style="">Conoce la Surface Book 2 Pro</h1>
                             <h2 style="">Liviana, versatil y potente</h2>
                             <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 2,479 Dólares</h3>
-                            <h3 style=""></h3> <br>
+                            <h3 style=""></h3> 
                                 <a href="">
-
                                 <button class="btn btn-default backColor text-uppercase">
                                 Comprar ahora <span class="fa fa-chevron-right"></span>
                                 </button>
-  
                                 
                                 </a>
  

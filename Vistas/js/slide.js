@@ -30,6 +30,8 @@ var BotonProductoSlide = $("#slide button");
 /* Variable que nos permitirá detener el intervalo de tiempo que tarda el slide en cambiar siempre y cuando el cursor del mouse se halle en el slide */
 var PausarTiempoCambioSlide = false;
 
+/* Variable utilizada para mostrar el slide u ocultarlo */
+var OcultarMostrarSlide = false ;
 
 
 /*============= ANIMACIÓN INICIAL DE LOS ELEMENTOS DEL SLIDE ========================*/
@@ -230,3 +232,32 @@ $("#slide").mouseout(function(){
 
     
 })
+
+/*=====OCULTAR EL SLIDE ================*/
+
+$("#btnSlide").click(function(){
+    if(!OcultarMostrarSlide){
+
+        OcultarMostrarSlide = true;
+        $("#slide").slideUp("fast");
+        $("#btnSlide").html('<i class="fa fa-angle-down"></i>');
+
+
+
+    }else{
+
+        OcultarMostrarSlide = false;
+        $("#slide").slideDown("fast");
+        $("#btnSlide").html('<i class="fa fa-angle-up"></i>');
+
+
+
+    }
+
+
+
+})
+
+/*=====MOSTRAR EL SLIDE LUEGO DE HABERLO OCULTADO ================*/
+
+ 
