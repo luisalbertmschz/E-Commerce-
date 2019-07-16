@@ -33,6 +33,8 @@ var PausarTiempoCambioSlide = false;
 /* Variable utilizada para mostrar el slide u ocultarlo */
 var OcultarMostrarSlide = false ;
 
+$("#slide ul li").css({ "width":100/$("#slide ul li").length + "%"})
+$("#slide ul").css({ "width":100/$("#slide ul li").length*100 + "%"})
 
 /*============= ANIMACIÓN INICIAL DE LOS ELEMENTOS DEL SLIDE ========================*/
 
@@ -101,7 +103,7 @@ $("#slide #avanzar").click(function(){
 
 function avanzar(){
 
-    if(item == 3){
+    if(item == $("#slide ul li").lenght -1){
 
         item = 0;
 
@@ -123,7 +125,7 @@ function avanzar(){
 $("#slide #retroceder").click(function(){
 
     if (item == 0){
-        item = 3;
+        item = $("#slide ul li").lenght -1;
 
     }else{
         item --
