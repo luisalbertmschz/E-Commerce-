@@ -184,17 +184,19 @@ SLIDE
 	background:#232176;
 	left:0;
 	opacity: 0;
+	border-radius:20px;
 }
 
 #slide #avanzar{
 	background:#232176;
 	right:0;
 	opacity: 0; /* LA OPACIDAD SE CAMBIO A 0 OARA QUE MEDIANTE JS APARECIERAN AL MOMENTO EN QUE EL USUARIO CON EL MOUSE SE POSISICIONARA SOBRE EL SLIDE  */
+	border-radius:20PX;
 }
 
 #slide #retroceder:hover, #slide #avanzar:hover{
 /* 	background:#777; */
-	background:lightskyblue;
+	background:#00B494;
 }
 
 #slide #retroceder:active, #slide #avanzar:active{

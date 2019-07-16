@@ -23,11 +23,11 @@ SLIDESHOW
 
                        <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPJET8035PRO.png"style="top: 15%; right: 10%; width: 35%;">
 
-                        <div class="textosSlide"style="top:30% ;left:10%; ">
+                        <div class="textosSlide"style="top:30% ;left:10%; width:40%;">
 
-                            <h1 style="">HP OfficeJet Pro 8035</h1>
+                            <h1 style="color:">HP OfficeJet Pro 8035</h1>
                             <h2 style="">Diseñada para ahorrarte tiempo</h2>
-                            <h2 style="right:50px; color:#BB002F; font-weight:bold;">Desde $149.99 Dólares</h2>
+                            <h2 style=" color:#BB002F; font-weight:bold;">Desde $149.99 Dólares</h2>
                             <img class=""src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide1/HPLOG.png"style="top:300px; width:130px; left:-19px;"> <br>
                             
 
@@ -72,7 +72,7 @@ SLIDESHOW
                                 <a href="">
 
                                 <button class="btn btn-default backColor text-uppercase">
-                                Conocer más   <span class="fa fa-chevron-right"></span>
+                                Conocer más<span class="fa fa-chevron-right"></span>
                                 </button>
                                 
                                 </a>
@@ -92,15 +92,15 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png" style="top: 30px; left: 2%; width: 45%; opacity: 1;" >
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide3/RN7PRO1.png" style="top: 30%; left: 2%; width: 45%; opacity: 1;" >
                        <!--TODO:POSTCION  RIGHT  de imagenes -->
                       
-                        <div class="textosSlide" style="top:15% ;right:10%;" >
+                        <div class="textosSlide" style="top:15% ;right:5%;" >
 
                             <h1 style="">Xiaomi Redmi Note 7 Pro</h1>
                             <h2 style="">Cámara dual de 48 + 5 MP con IA</h2>
-                            <h2 style="right:50px;">Una nueva experiencia a nivel de un flagship</h2>
-                            <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 201.74 Dólares</h3>
+                            <h2 style="">Una nueva experiencia a nivel de un flagship</h2>
+                            <h3 style=" color:#BB002F; font-weight:bold;">Desde $ 201.74 Dólares</h3>
 
                                 <a href="">
 
@@ -129,14 +129,14 @@ SLIDESHOW
 
                      <div class="slideOpciones slideOpcion2">
 
-                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png" style="top: 30px; left: 2%; width: 45%; opacity: 1;">
+                       <img class="imgProducto"src="http://localhost/E-commerce-Backend/Vistas/img/slide/slide4/SURFB4PRO.png" style="top: 30%; left: 2%; width: 45%; opacity: 1;">
 
                         <div class="textosSlide" style="top:30% ;right:10%;">
 
                             <h1 style="">Conoce la Surface Book 2 Pro</h1>
                             <h2 style="">Liviana, versatil y potente</h2>
-                            <h3 style="right:50px; color:#BB002F; font-weight:bold;">Desde $ 2,479 Dólares</h3>
-                            <h3 style=""></h3> 
+                            <h3 style=" color:#BB002F; font-weight:bold;">Desde $ 2,479 Dólares</h3>
+            
                                 <a href="">
                                 <button class="btn btn-default backColor text-uppercase">
                                 Comprar ahora <span class="fa fa-chevron-right"></span>

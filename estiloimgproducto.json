@@ -1,0 +1,60 @@
+
+
+SLIDE TIPO 1 > IMG DERECHA,  TEXTO IZQUIERDA 
+
+/* imgProducto */
+SLIDE 1
+
+[{"top": "15%" , "right": "10%" , "width": "35%" , "left":""},
+
+    SLIDE 3
+
+    {"top": "30%" , "right": "" , "width": "46%" , "left":"2%"}
+
+/* textoSlide */
+
+{"top": "30%" , "right": "" , "width": "40%" , "left":"10%"},
+
+    {"top": "15%" , "right": "5%" , "width": "30%" , "left":""}
+
+/* titulo1*/
+
+{"texto": "HP OfficeJet Pro 8035" , "color": "#333" , "width": "40%" , "left":"10%"}
+{"texto": "HP OfficeJet Pro 8035" , "color": "#333" }
+]
+
+/* top:30% ;left:10%; width": "40%; */
+
+
+Vistas/img/slide/default/back_default.jpg
+
+Vistas/img/slide/default/back_default.jpg
+
+
+
+
+SLIDE TIPO 2 > IMG IZQUIERDA,  TEXTO DERECHA 
+
+/* imgProducto */
+
+[{"top": "30%" , "right": "" , "width": "45%" , "left":"2%"},
+
+    {"top": "30%" , "right": "" , "width": "45%" , "left":"2%"}
+
+
+    /* textoSlide */
+    
+    {"top": "30%" , "right": "10%" , "width": "30%" , "left":""},
+
+    {"top": "30%" , "right": "10%" , "width": "30%" , "left":""}
+    
+    /* titulo1*/
+    
+    {"texto": "HP OfficeJet Pro 8035" , "color": "#333" , "width": "40%" , "left":"10%"}
+
+
+    {"texto": "¡Mejora tu experiencia Gaming!" , "color": "#333" }
+
+
+]
+    
