@@ -216,10 +216,33 @@ SLIDESHOW
             <!-- PEQUEÑOS CIRCULOS QUE CONSTITUYEN LA PAGINACIÓN DEL SLIDE -->
 		    <ol id="paginacion">
 
+            <?php
+
+            for($i = 1; $i <= count($slide); $i++){
+
+                echo'<li item="'.$i.'"><span class="fa fa-circle"></span></li>';
+
+
+
+
+
+            }
+
+
+
+               /* var_dump(count($slide)); */
+
+
+
+            ?>
+
+ 
+                <!--                 
                 <li item="1"><span class="fa fa-circle"></span></li>
                 <li item="2"><span class="fa fa-circle"></span></li>
                 <li item="3"><span class="fa fa-circle"></span></li>
                 <li item="4"><span class="fa fa-circle"></span></li>
+                 -->
 
 		    </ol>	
 
