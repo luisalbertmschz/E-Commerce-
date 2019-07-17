@@ -33,8 +33,10 @@ var PausarTiempoCambioSlide = false;
 /* Variable utilizada para mostrar el slide u ocultarlo */
 var OcultarMostrarSlide = false ;
 
-$("#slide ul li").css({ "width":100/$("#slide ul li").length + "%"})
-$("#slide ul").css({ "width":100/$("#slide ul li").length*100 + "%"})
+
+$("#slide ul li").css({"width":100/$("#slide ul li").length + "%"})
+$("#slide ul").css({"width":$("#slide ul li").length*100 + "%"})
+
 
 /*============= ANIMACIÓN INICIAL DE LOS ELEMENTOS DEL SLIDE ========================*/
 
