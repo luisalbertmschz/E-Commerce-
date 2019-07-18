@@ -6,7 +6,7 @@ class ControladorSlide{
 
 public function ctrMostrarSlide(){
 
-$tabla = "slide";
+ $tabla = "slide";
 
  $respuesta = ModeloSlide::mdlMostrarSlide($tabla);
 

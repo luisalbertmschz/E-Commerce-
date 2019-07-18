@@ -12,27 +12,14 @@ SLIDE
 
 
 #slide ul{
-
-    /* TODO:Aumentar o dismuniur el anco para la colocacion correcta de slides */
-
-/*     Para tener los slides uno detras de otro cambiaremos el ancho que ocupan, como teniamos 
-    uno, ese ocupaba 100, pero al ahora ser 2 tienen que ocupar 200% de ancho, que lindas son
-    las matemáticas :D */
-
-    position:relative;
-/*     Para que se llegue a ver el 2ndo slides movemos la izquierda  a un -50%
-       si pones 50% que es positivo se desplazará a la derecha 
-    left:0%; */
-  /*   TODO: Cambiar de slides */
-    left:0%;  /* cambiar a 0 para slide 1 m cambiar a -100 para slide 2.....0,-100,-200*/
+	position:relative;
+	left:0%;
 	margin:auto;
 	height:auto;
-    /* width:100%; */
-    width:400%;   /*Aumentar un 100 o 200 % en funcion de la cantidad de slides, valor oiriginal 100, cambio a 200%*/
+	width:400%;
 	clear:both;
 	display: table;
 }
-
 
 #slide ul li{
 	position: relative;
@@ -90,14 +77,6 @@ SLIDE
 /* OPCION2 */
 
 
-#slide .slideOpcion2 .textosSlide{
-    text-align: right;
-
-    position:absolute;
-/* 	width:40%;
-	top:20%;
-	right:10%; */
-}
 
 
 #slide .slideOpcion2 img{
@@ -113,6 +92,16 @@ SLIDE
 	right:10%;
 	width:45%;*/
 } 
+
+
+#slide .slideOpcion2 .textosSlide{
+    text-align: right;
+
+    position:absolute;
+/* 	width:40%;
+	top:20%;
+	right:10%; */
+}
 
 /* SECCION DE TEXTOS DEL SLIDE  */
 

@@ -16,6 +16,8 @@ SLIDESHOW
 
                <?php
 
+                $servidor = Ruta::ctrRutaServidor();
+
                 $slide = ControladorSlide::ctrMostrarSlide();
 
                 foreach($slide as $key => $value) {
@@ -36,11 +38,23 @@ SLIDESHOW
 
                         echo '<li>
 
-                        <img src="http://localhost/E-commerce-Backend/'.$value["imgFondo"].'">
+                        <img src="'.$servidor.$value["imgFondo"].'">
 
-                        <div class="slideOpciones '.$value["tipoSlide"].'">
+                        <div class="slideOpciones '.$value["tipoSlide"].'">';
+                         
 
-                            <img class="imgProducto"src="http://localhost/E-commerce-Backend/'.$value["imgProducto"].'"style="top:'.$estiloImgProducto["top"].'; right: '.$estiloImgProducto["right"].'; width: '.$estiloImgProducto["width"].'; left: '.$estiloImgProducto["left"].';">
+                        /* Evaluamos si algún slide viene con imagen de producto para evitar errores de visualizació en diferentes nevegadores*/
+
+                        if ($value["imgProducto"] !="" ){
+                           
+
+                            echo'
+                            <img class="imgProducto"src="'.$servidor .$value["imgProducto"].'"style="top:'.$estiloImgProducto["top"].'; right: '.$estiloImgProducto["right"].'; width: '.$estiloImgProducto["width"].'; left: '.$estiloImgProducto["left"].';">';
+
+                            
+                        }
+
+                            echo '
 
                             <div class="textosSlide"style="top:'.$estiloTextoSlide["top"].' ;left:'.$estiloTextoSlide["left"].'; width:'.$estiloTextoSlide["width"].'; right: '.$estiloTextoSlide["right"].';">
 
@@ -218,31 +232,15 @@ SLIDESHOW
 
             <?php
 
-            for($i = 1; $i <= count($slide); $i++){
+				for($i = 1; $i <= count($slide); $i++){
 
-                echo'<li item="'.$i.'"><span class="fa fa-circle"></span></li>';
+                    echo '<li item="'.$i.'"><span class="fa fa-circle"></span></li>';
+                    
+                      /* var_dump(count($slide)); */
 
+				}		
 
-
-
-
-            }
-
-
-
-               /* var_dump(count($slide)); */
-
-
-
-            ?>
-
- 
-                <!--                 
-                <li item="1"><span class="fa fa-circle"></span></li>
-                <li item="2"><span class="fa fa-circle"></span></li>
-                <li item="3"><span class="fa fa-circle"></span></li>
-                <li item="4"><span class="fa fa-circle"></span></li>
-                 -->
+			?>
 
 		    </ol>	
 

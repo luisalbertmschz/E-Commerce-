@@ -11,9 +11,9 @@
         <title>Techtoot :: Tienda de tecnología</title>
         <?php
 
-
+            $servidor = Ruta::ctrRutaServidor();
             $icono = ControladorPlantilla::ctrEstiloPlantilla();
-            echo'<link rel="icon" href="http://localhost/E-commerce-Backend/'.$icono["icono"].'">';
+            echo'<link rel="icon" href="'.$servidor.$icono["icono"].'">';
             
 
             /* Mantener ruta fija del proyecto ara evitar colapso de los estilos dado el trabajo de htaccess con las rutas amigables;

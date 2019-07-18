@@ -1,3 +1,12 @@
+<?php
+
+$servidor = Ruta::ctrRutaServidor();
+
+?>
+
+
+
+
 <!-- 
 //
 // ─── TOP  ───────────────────────────────────────────────────────────────────
@@ -123,7 +132,7 @@
 					<!-- <img src="http://localhost/E-commerce-Backend/Vistas/plantilla/large_techtoot_0.png" class="img-responsive"> -->
 
                    <!--  Trae el logo desde la base de datos -->
-                    <img src="http://localhost/E-commerce-Backend/<?php echo $social["logo"]; ?>" class="img-responsive">
+                    <img src="<?php echo $servidor.$social["logo"]; ?>" class="img-responsive">
 
 				</a>
                 
