@@ -1,11 +1,11 @@
-/*
- * ─── BANNER ─────────────────────────────────────────────────────────────────────
- */
+/*=============================================
+BANNER
+=============================================*/
 
-    
 .banner{
 	position: relative;
 	overflow:hidden;
+	height: 300px;
 }
 
 .banner .textoBanner{
@@ -13,14 +13,13 @@
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.banner .textoDer{
+.banner .textoDerecha{
 	top:50px; 
 	right:50px; 
 	text-align:right;
 }
 
-
-.banner .textoIzq{
+.banner .textoIzquierda{
 	top:50px; 
 	left:50px; 
 	text-align:left;
@@ -33,7 +32,6 @@
 	margin-left: -400px;
 	text-align:center;
 }
-
 
 .textoBanner h1{
 	font-size:35px;
@@ -50,15 +48,83 @@
 	line-height:25px;
 }
 
+                       /*
+_________________________________________________
+BARRA PRODUCTOS
+_________________________________________________
+                     */
 
-/*
- * ─── BARRA PRODUCTOS ────────────────────────────────────────────────────────────
- */
-
-
- .barraProductos .organizarProductos span{
+.barraProductos .organizarProductos span{
 	margin-left:5px;
 }
-    
+
+                       /*
+_________________________________________________
+VITRINA DE  PRODUCTOS NUEVOS O DESTACADOS
+_________________________________________________
+					 */
+					 
+.tituloDestacado h1{
+	margin-top:-5px;
+}
+
+.tituloDestacado button span{
+	margin-left:5px;
+}
+
+.productos ul li figure{
+	overflow:hidden;
+}
+
+.productos ul li a img:hover{
+	transition: .3s all ease;
+	opacity:.8;
+	transform: scale(1.1,1.1);
+}
+
+.productos ul li h4 small{
+	color:#777;
+	text-transform: uppercase;
+	font-size:12px;
+	font-weight: 700;
+}
+
+.productos ul li h4 small a{
+	color:#777;
+}
+
+.productos ul li div.precio{
+	padding:0;
+	margin-top:-30px;
+	padding-bottom:20px;
+}
+
+.productos ul li div.enlaces{
+	padding:0;
+	padding-bottom:20px;
+}
+
+.productos ul li div.enlaces button{
+	margin:2px;
+}
+
+.productos ul li div.enlaces button i{
+	color:#999;
+	font-size:12px;
+}
+
+
+
+
+.oferta{
+	text-decoration:line-through;
+	color:#ccc;
+	font-size:15px;
+}
+
+
+.fontSize{
+	font-size:11px;
+}
 
 

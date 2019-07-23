@@ -8,7 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         
 
-        <title>Techtoot :: Tienda de tecnología</title>
+        <title>Techtoot.com:Compra online de eléctrónica</title>
         <?php
 
             $servidor = Ruta::ctrRutaServidor();
@@ -37,13 +37,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
 
-          <!--     
+        <!-- 
          //
-        // ─── HOJA DE ESTILO E ICONOS DE FONTAWESOME ──────────────────────
-       //
-       -->
+        // ─── HOJAS DE ESTILO PERSONALIZADAS O PERSONALES ─────────────────
+        // 
+        -->
+
+            
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/cabezote.css">
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/plantilla.css">
+        <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/productos.css">
+
+
 
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/plugins/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo $url;?>Vistas/css/plugins/font-awesome.min.css">
@@ -181,6 +186,7 @@
 
         include "Modulos/slide.php";
         include "modulos/destacados.php";
+        include "modulos/footer.php";
 
     }
 

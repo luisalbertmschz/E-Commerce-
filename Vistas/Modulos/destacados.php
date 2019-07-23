@@ -1,29 +1,47 @@
-<!--=====================================
-BANNER
-======================================-->
+ 
+<!-- 
+// -----------------------------------------------------------------------------
+// BANNER
+// ----------------------------------------------------------------------------- -->
 
-<figure class="banner">
+<figure class = "banner">
 
-	<img src="http://localhost/E-commerce-Backend/Vistas/img/banner/AsusB.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;">	
-   <!-- TODO: TEXTO QUE SE PUEDE AÑADIR AL BANNER JUN282019426PM-->
-	
 
-<!--     <div class="textoBanner textoDer">
-		
-		<h1 style="color:#fff">OFERTAS ESPECIALES</h1>
+        <!-- BANNER-OPCION1 -->
+        
+        <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/LaptopsBFadeAzuloscuro2.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt="">
+        
+       
+          <!-- <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/AsusB.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt=""> -->
+          
 
-		<h2 style="color:#fff"><strong>50% off</strong></h2>
+        <!-- BANNER-OPCION2 -->
+       
+        
 
-		<h3 style="color:#fff">Termina el 31 de Octubre</h3>
+        <div class="textoBanner textoDerecha">
 
-	</div> -->
+
+            <h1 style="color:#fff"> OFERTAS ESPECIALES DE VERANO</h1>
+
+            <h2 style="color:#fff"><strong>Gran variedad de productos a precios bajos</strong></h2>
+
+            <h3 style="color:#fff">Terminan el 31 de Agosto</h3>
+
+        </div>
+
+        <div></div>
+
 
 </figure>
 
-<!--=====================================
-BARRA PRODUCTOS GRATIS
-======================================-->
 
+<img src="http://localhost/E-commerce-Backend/Vistas/img/banner/PCsB.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt="">
+
+<!-- 
+// -----------------------------------------------------------------------------
+// BARRA DE PRODUCTOS  NUEVOS O DESTACADOS
+// ----------------------------------------------------------------------------- -->
 <div class="container-fluid well well-sm barraProductos">
 
 	<div class="container">
@@ -34,13 +52,15 @@ BARRA PRODUCTOS GRATIS
 
 				<div class="btn-group pull-right">
 
+
 					 <button type="button" class="btn btn-default btnGrid" id="btnGrid0">
 					 	
 						<i class="fa fa-th" aria-hidden="true"></i>  
 
-						<span class="col-xs-0 pull-right"> GRID</span>
+                        <span class="col-xs-0 pull-right"> GRID</span>
 
-					 </button>
+                     </button>
+                     
 
 					 <button type="button" class="btn btn-default btnList" id="btnList0">
 					 	
@@ -48,7 +68,8 @@ BARRA PRODUCTOS GRATIS
 
 						<span class="col-xs-0 pull-right"> LIST</span>
 
-					 </button>
+                     </button>
+                     
 					
 				</div>		
 
@@ -60,623 +81,373 @@ BARRA PRODUCTOS GRATIS
 
 </div>
 
-<!--=====================================
-VITRINA DE PRODUCTOS GRATIS
-======================================-->
 
+<!-- 
+// --------------------------------------------------------------------------------
+// VITRINA  DE PRODUCTOS  NUEVOS O DESTACADOS
+// ----------------------------------------------------------------------------- -->
+ 
 <div class="container-fluid productos">
-	
-	<div class="container">
-		
-		<div class="row">
-			
-			<!--=====================================
-			BARRA TÍTULO
-			======================================-->
 
-			<div class="col-xs-12 tituloDestacado">
-				
-				<!--===============================================-->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<h1><small><!-- ARTÍCULOS GRATUITOS --> PRODUCTOS DESTACADOS </small></h1>
-                    <h3><small><!-- ARTÍCULOS GRATUITOS -->  Esto es una seleción de los productos destacados, cambian constantemente, así que no te pierdas las actualizaciones de ésta sección </small></h3>
+      <div class="containe">
 
-				</div>
+           <div class="row">
 
-				<!--===============================================-->
+                <!-- 
+                _________________________________________________
+                BARRA PRODUCTOS
+                _________________________________________________
+                -->
+                 
+                <div class="col-xs-12 tituloDestacado">
+                                        
+                
+                    <!--  _________________________________________________ -->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<a href="articulos-gratis">
-						
-						<button class="btn btn-default backColor pull-right">
+                    <div class=" col-sm-6 col-xs-12">
+
+                      <h1><small>PRODUCTOS DESTACADOS </small></h1>
+
+                    </div>
+
+                    <!--  _________________________________________________ -->
+
+                     <div class=" col-sm-6 col-xs-12">
+
+                      <a href="articulos-destacados">
+
+                       <button class="btn btn-default backColor pull-right">
 							
 							VER MÁS <span class="fa fa-chevron-right"></span>
 
-						</button>
+                        </button>
+                        
+                      </a>
 
-					</a>
+                    </div>
 
-				</div>
+                    <!--  _________________________________________________ -->
+                    
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr>
 
-				<!--===============================================-->
 
-			</div>
+           </div>
+             <!-- 
+             _________________________________________________
+                VITRINA DE PRODUCTOS EN CUADRICULA
+             _________________________________________________
+             -->
 
-			<div class="clearfix"></div>
 
-			<hr>
+             <ul class="grid0">
 
-		</div>
 
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN CUADRÍCULA
-		======================================-->
+                <!-- PRODUCTO #1 DE LA CUADRICULA -->
 
-		<ul class="grid0">
-			
-			<!-- Producto 1 -->
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" style="width:80%;" class="img-responsive">
+
+                        </a>
+
+                    </figure>
+
+                    <!--===============================================-->
+
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                                
+                                Xiaomi Mi Band 4, Pantalla AMOLED, Bluetooth 5.0, Monitor cardiaco, resistente al agua hasta 50 Metros<br><br>
+
+                            </a>	
+
+                        </small>			
+
+                    </h4>
+
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2><small>$41.99 USD</small></h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <!-- Producto 2 -->
+
+			    <li class="col-md-3 col-sm-6 col-xs-12">
 				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" class="img-responsive">
+                    <!--===============================================-->
+        
+                    <figure>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51QFvG40StL._SL1000_.jpg"style="width:80%;" class="img-responsive">
 
-					</a>
+                        </a>
 
-				</figure>
+                    </figure>
 
-				<!--===============================================-->
+                    <!--===============================================-->
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Xiaomi Mi Band 4, Pantalla AMOLED, Bluetooth 5.0, Monitor cardiaco, resistente al agua hasta 50 Metros<br><br>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                                
+                                Fenebort Q8 Smart Watch, resistente al agua,<br><br>
 
-						</a>	
+                            </a>	
 
-					</small>			
+                        </small>			
 
-				</h4>
+                    </h4>
 
-				<!--===============================================-->
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2><small>$35.50 USD</small></h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <!-- Producto 3 -->
+
+			    <li class="col-md-3 col-sm-6 col-xs-12">
 				
-				<div class="col-xs-6 precio">
-					
-					<h2><small>$41.99 USD</small></h2>
+                    <!--===============================================-->
+        
+                    <figure>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/61qHLtTDRXL._SL1000_.jpg"style="width:80%;" class="img-responsive">
 
-				</div>
+                        </a>
 
-				<!--===============================================-->
+                    </figure>
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    <!--===============================================-->
 
-						</button>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                                
+                                Smart Watch WillFul compatible con dispositivos Android e Iphone, modelo SW018, Monitor cardiaco, podómetro, monitor del sueño(IP68, Impermeable, buceo 3M)<br><br>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>	
 
-							</button>	
-						
-						</a>
+                        </small>			
 
-					</div>
+                    </h4>
 
-				</div>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2><small>$50.55 USD</small></h2>
 
-			</li>
+                    </div>
 
-			<!-- Producto 2 -->
+                    <!--===============================================-->
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+                
+                <!-- Producto 4 -->
+
+			    <li class="col-md-3 col-sm-6 col-xs-12">
 				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/51QFvG40StL._SL1000_.jpg" class="img-responsive">
+                        <!--===============================================-->
+            
+                        <figure>
+                            
+                            <a href="#" class="pixelProducto">
+                                
+                                <img src="http://localhost/E-commerce-Backend/Vistas/img/61fTH8Uil9L._SL1000_.jpg" style="width:80%;" class="img-responsive">
 
-					</a>
+                            </a>
 
-				</figure>
+                        </figure>
 
-				<!--===============================================-->
+                        <!--===============================================-->
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Fenebort Q8 Smart Watch, resistente al agua,<br><br>
+                        <h4>
+                            
+                            <small>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    Fire HD  10 Table compatible con Alexa, soporta Hands Free, 10.1" 1080P Full HD Display 32 GB Color negro<br>
 
-						</a>	
+                                    <span class="label label-warning fontSize">Nuevo</span> 
 
-					</small>			
+                                </a>	
 
-				</h4>
+                            </small>			
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2><small>$35.50 USD</small></h2>
+                        </h4>
 
-				</div>
+                        <!--===============================================-->
+                        
+                        <div class="col-xs-6 precio">
+                            
+                            <h2><small>$85.00 USD</small></h2>
 
-				<!--===============================================-->
+                        </div>
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                        <!--===============================================-->
 
-						</button>
+                        <div class="col-xs-6 enlaces">
+                            
+                            <div class="btn-group pull-right">
+                                
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>
 
-							</button>	
-						
-						</a>
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
 
-					</div>
+                                    </button>	
+                                
+                                </a>
 
-				</div>
+                            </div>
 
-			</li>
+                        </div>
 
-			<!-- Producto 3 -->
+                </li>
+                
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/61qHLtTDRXL._SL1000_.jpg" class="img-responsive">
+             </ul>
 
-					</a>
 
-				</figure>
-
-				<!--===============================================-->
-
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Smart Watch WillFul compatible con dispositivos Android e Iphone, modelo SW018, Monitor cardiaco, podómetro, monitor del sueño(IP68, Impermeable, buceo 3M)<br><br>
-
-						</a>	
-
-					</small>			
-
-				</h4>
-
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2><small>$50.55 USD</small></h2>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
-
-							</button>	
-						
-						</a>
-
-					</div>
-
-				</div>
-
-			</li>
-
-			<!-- Producto 4 -->
-
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/61fTH8Uil9L._SL1000_.jpg" class="img-responsive">
-
-					</a>
-
-				</figure>
-
-				<!--===============================================-->
-
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Fire HD  10 Table compatible con Alexa, soporta Hands Free, 10.1" 1080P Full HD Display 32 GB Color negro<br>
-
-							<span class="label label-warning fontSize">Nuevo</span> 
-
-						</a>	
-
-					</small>			
-
-				</h4>
-
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2><small>$85.00 USD</small></h2>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
-
-							</button>	
-						
-						</a>
-
-					</div>
-
-				</div>
-
-			</li>
-
-		</ul>
-
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN LISTA
-		======================================-->
-
-		<ul class="list0"  style="display:none">
-			
-			<!-- PRODUCTO 1 -->
-
-			<li class="col-xs-12">
-				
-				<!--===============================================-->
-				
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-					
-					<figure>
-					
-						<a href="#" class="pixelProducto"><img src="http://localhost/backend/vistas/img/productos/accesorios/accesorio04.jpg" class="img-responsive"></a>
-
-					</figure>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-					
-					<h1>
-						<small>
-						
-							<a href="#" class="pixelProducto">Collar de diamantes</a>
-
-						</small>
-
-					</h1>
-
-					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
-
-					<h2><small>GRATIS</small></h2>
-
-					<div class="btn-group pull-left enlaces">
-							  
-						<button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
-
-						  	</button>
-
-						</a>
-
-					</div>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-12">
-
-					<hr>
-
-				</div>
-
-				<!--===============================================-->
-
-			</li>
-
-			<!-- PRODUCTO 2 -->
-
-			<li class="col-xs-12">
-				
-				<!--===============================================-->
-				
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-					
-					<figure>
-					
-						<a href="#" class="pixelProducto"><img src="http://localhost/backend/vistas/img/productos/accesorios/accesorio03.jpg" class="img-responsive"></a>
-
-					</figure>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-					
-					<h1>
-						<small>
-						
-							<a href="#" class="pixelProducto">Bolso Deportivo Gris</a>
-
-						</small>
-
-					</h1>
-
-					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
-
-					<h2><small>GRATIS</small></h2>
-
-					<div class="btn-group pull-left enlaces">
-							  
-						<button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
-
-						  	</button>
-
-						</a>
-
-					</div>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-12">
-
-					<hr>
-
-				</div>
-
-				<!--===============================================-->
-
-			</li>
-
-			<!-- PRODUCTO 3 -->
-
-			<li class="col-xs-12">
-				
-				<!--===============================================-->
-				
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-					
-					<figure>
-					
-						<a href="#" class="pixelProducto"><img src="http://localhost/backend/vistas/img/productos/accesorios/accesorio02.jpg" class="img-responsive"></a>
-
-					</figure>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-					
-					<h1>
-						<small>
-						
-							<a href="#" class="pixelProducto">Bolso Militar</a>
-
-						</small>
-
-					</h1>
-
-					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
-
-					<h2><small>GRATIS</small></h2>
-
-					<div class="btn-group pull-left enlaces">
-							  
-						<button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
-
-						  	</button>
-
-						</a>
-
-					</div>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-12">
-
-					<hr>
-
-				</div>
-
-				<!--===============================================-->
-
-			</li>
-
-			<!-- PRODUCTO 4 -->
-
-			<li class="col-xs-12">
-				
-				<!--===============================================-->
-				
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-					
-					<figure>
-					
-						<a href="#" class="pixelProducto"><img src="http://localhost/backend/vistas/img/productos/accesorios/accesorio01.jpg" class="img-responsive"></a>
-
-					</figure>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-					
-					<h1>
-						<small>
-						
-							<a href="#" class="pixelProducto">Pulsera de Diamantes</a>
-
-						</small>
-
-					</h1>
-
-					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
-
-					<h2><small>GRATIS</small></h2>
-
-					<div class="btn-group pull-left enlaces">
-							  
-						<button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
-
-						  	</button>
-
-						</a>
-
-					</div>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-12">
-
-					<hr>
-
-				</div>
-
-				<!--===============================================-->
-
-			</li>
-
-		</ul>
-
-	</div>
+      </div>
 
 </div>
 
-<!--=====================================
-BARRA PRODUCTOS MÁS VENDIDOS
-======================================-->
 
+
+<!-- 2DA PARTE DE MODULO DE PRODUCTOS -->
+
+<!-- 
+// -----------------------------------------------------------------------------
+// 8888888888888888888888888888888888888888888888888888888888888888888888888888888888
+// 8      888888      888888      888888      888888     888888     88888      888888
+// 8888888888888888888888888888888888888888888888888888888888888888888888888888888888
+// 8888888888888888888888888888888888888888888888888888888888888888888888888888888888
+// ----------------------------------------------------------------------------- 
+-->
+
+
+
+<!-- 
+// -----------------------------------------------------------------------------
+// BARRA DE PRODUCTOS  MAS VENDIDOS
+// ----------------------------------------------------------------------------- -->
 <div class="container-fluid well well-sm barraProductos">
 
 	<div class="container">
@@ -687,13 +458,15 @@ BARRA PRODUCTOS MÁS VENDIDOS
 
 				<div class="btn-group pull-right">
 
+
 					 <button type="button" class="btn btn-default btnGrid" id="btnGrid1">
 					 	
 						<i class="fa fa-th" aria-hidden="true"></i>  
 
-						<span class="col-xs-0 pull-right"> GRID</span>
+                        <span class="col-xs-0 pull-right"> GRID</span>
 
-					 </button>
+                     </button>
+                     
 
 					 <button type="button" class="btn btn-default btnList" id="btnList1">
 					 	
@@ -701,7 +474,8 @@ BARRA PRODUCTOS MÁS VENDIDOS
 
 						<span class="col-xs-0 pull-right"> LIST</span>
 
-					 </button>
+                     </button>
+                     
 					
 				</div>		
 
@@ -713,477 +487,419 @@ BARRA PRODUCTOS MÁS VENDIDOS
 
 </div>
 
-<!--=====================================
-VITRINA DE PRODUCTOS MÁS VENDIDOS
-======================================-->
 
+<!-- 
+// --------------------------------------------------------------------------------
+// VITRINA  DE PRODUCTOS  NUEVOS O DESTACADOS
+// ----------------------------------------------------------------------------- -->
+ 
 <div class="container-fluid productos">
-	
-	<div class="container">
-		
-		<div class="row">
-			
-			<!--=====================================
-			BARRA TÍTULO
-			======================================-->
 
-			<div class="col-xs-12 tituloDestacado">
-				
-				<!--===============================================-->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<h1><small>LO MÁS VENDIDO </small></h1>
+      <div class="containe">
 
-				</div>
+           <div class="row">
 
-				<!--===============================================-->
+                <!-- 
+                _________________________________________________
+                BARRA PRODUCTOS
+                _________________________________________________
+                -->
+                 
+                <div class="col-xs-12 tituloDestacado">
+                                        
+                
+                    <!--  _________________________________________________ -->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<a href="lo-mas-vendido">
-						
-						<button class="btn btn-default backColor pull-right">
+                    <div class=" col-sm-6 col-xs-12">
+
+                      <h1><small>LO MÁS VENDIDO </small></h1>
+
+                    </div>
+
+                    <!--  _________________________________________________ -->
+
+                     <div class=" col-sm-6 col-xs-12">
+
+                      <a href="lo-mas-vendido">
+
+                       <button class="btn btn-default backColor pull-right">
 							
 							VER MÁS <span class="fa fa-chevron-right"></span>
 
-						</button>
+                        </button>
+                        
+                      </a>
 
-					</a>
+                    </div>
 
-				</div>
-
-				<!--===============================================-->
-
-			</div>
-
-			<div class="clearfix"></div>
-
-			<hr>
-
-		</div>
-
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN CUADRÍCULA
-		======================================-->
-
-		<ul class="grid1">
-			
-			<!-- Producto 1 -->
-
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/81oUcmzZwLL._SL1500_.jpg" class="img-responsive">
-
-					</a>
-
-				</figure>
-
-				<!--===============================================-->
-
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Lenovo Flex 14, 2 en 1 , Pantalla Touch Full HD de 14", AMD Ryzen 5 3500U, Gráficos Radeon Vega 8,  8GB  RAM DDR4, 256 GB NvMe SSD, Windows 10 Home<br>
-
-							<span class="label label-warning fontSize">Nuevo</span> 
-
-							<span class="label label-warning fontSize">40% off</span>
-
-						</a>	
-
-					</small>			
-
-				</h4>
-
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
-
-						<small>
-						
-							<strong class="oferta">USD $29</strong>
-
-						</small>
-
-						<small>$11</small>
-
-					</h2>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
-
-							</button>	
-						
-						</a>
-
-					</div>
-
-				</div>
-
-			</li>
-
-			<!-- Producto 2 -->
-
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/71sesDsw95L._SL1500_.jpg" class="img-responsive">
-
-					</a>
-
-				</figure>
-
-				<!--===============================================-->
-
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Acer Aspire 5, 15.6", Pantalla FHD IPS, Intel Core i5-8265U 8va Generación,  8GB RAM DRR4, 256 GB PCIe NvMe SSD, Teclado retroiluminado, Lector de Huellas dactilares, Windows 10 Home.<br>
-
-							<span class="label label-warning fontSize">40% off</span>
-
-						</a>	
-
-					</small>			
-
-				</h4>
-
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
-
-						<small>
-						
-							<strong class="oferta">USD $29</strong>
-
-						</small>
-
-						<small>$11</small>
-
-					</h2>
-
-				</div>
-
-				<!--===============================================-->
-
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
-
-						</button>
-
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
-
-							</button>	
-						
-						</a>
-
-					</div>
-
-				</div>
-
-			</li>
-
-			<!-- Producto 3 -->
-
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
+                    <!--  _________________________________________________ -->
                     
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/81Tz2hmwlYL._SL1500_.jpg" class="img-responsive">
+                    
+                </div>
+                <div class="clearfix"></div>
+                <hr>
+                
 
-					</a>
 
-				</figure>
+            </div>
+             <!-- 
+             _________________________________________________
+                VITRINA DE PRODUCTOS EN CUADRICULA
+             _________________________________________________
+             -->
 
-				<!--===============================================-->
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Mochila Marca MATEIN, Posee puerto de carga USB externos, Resistente al agua, Diseño Anti-Robo. <br>
+            <ul class="grid1">
 
-							<span class="label label-warning fontSize">40% off</span>
 
-						</a>	
+                <!-- PRODUCTO #1 DE LA CUADRICULA -->
 
-					</small>			
 
-				</h4>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/LenovoS145.jpg" style="width:80%;" class="img-responsive">
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                        </a>
 
-						<small>
-						
-							<strong class="oferta">USD $29</strong>
+                    </figure>
 
-						</small>
+                    <!--===============================================-->
 
-						<small>$33.00 USD</small>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            Lenovo S145-15IWL - Ordenador portátil 15.6" HD (Intel Core i3-8145U, 8GB de RAM, 256GB SSD, Windows 10) gris- Teclado QWERTY español<br>
+                            
+                            <span class="label label-warning fontSize" style="margin:2px;">Nuevo </span>
 
-					</h2>
+                            <span class="label label-warning fontSize">50% Off </span>
 
-				</div>
+                            </a>	
 
-				<!--===============================================-->
+                        </small>			
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    </h4>
 
-						</button>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                        
+                            <small>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                                <strong class="oferta">USD $561.70</strong>
 
-							</button>	
-						
-						</a>
+                            </small>
 
-					</div>
+                           
 
-				</div>
+                            <small>
 
-			</li>
+                                USD $283.875 
 
-			<!-- Producto 4 -->
+                            </small>
+                        
+                        </h2>
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/71xBbWYCjnL._SL1500_.jpg" class="img-responsive">
+                    </div>
 
-					</a>
+                    <!--===============================================-->
 
-				</figure>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-				<!--===============================================-->
+                            </button>
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Soporte ajustable para tablets LAMICALL, compatibles con tablets como iPad 2018 Pro 9.7",10.5", Air Minni 4,3,2 y tablets Kindle...
-							
-							<br>
-							<br>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-						</a>	
+                                </button>	
+                            
+                            </a>
 
-					</small>			
+                        </div>
 
-				</h4>
+                    </div>
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                </li>
 
-						<small>USD $29</small>
 
-					</h2>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/MSSFPRO6.jpg" style="width:56%;" class="img-responsive">
 
-				</div>
+                        </a>
+                        </center>
 
-				<!--===============================================-->
+                    </figure>
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    <!--===============================================-->
 
-						</button>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            Microsoft Surface Pro 6 - Ordenador portátil 2 en 1, 12.3'' (Intel Core i5-8250U, 8GB RAM, 128GB SSD, Intel Graphics, Windows 10 Home) Color Plata<br>
+                           
+                            <span class="label label-warning fontSize">10% Off </span>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>	
 
-							</button>	
-						
-						</a>
+                        </small>			
 
-					</div>
+                    </h4>
 
-				</div>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                        
+                            <small>
 
-			</li>	
+                                <strong class="oferta"> USD $1,119 </strong>
 
-		</ul>
+                            </small>
 
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN LISTA
-		======================================-->
 
-		<ul class="list1" style="display:none">
-			
-			<!-- PRODUCTO 1 -->
+                            <small>
 
-				<li class="col-xs-12">
+                                USD $1,007.1 
 
-					<!--===============================================-->
-				  
-			  		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-						   
-						<figure>
-					
-							<a href="#" class="pixelProducto">
+                            </small>
+                        
+                        </h2>
 
-								<img src="http://localhost/backend/vistas/img/productos/ropa/ropa03.jpg" class="img-responsive">
+                    </div>
 
-							</a>
+                    <!--===============================================-->
 
-						</figure>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-				  	</div>
+                            </button>
 
-				  	<!--===============================================-->
-						  
-					<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-						
-						<h1>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-							<small>
+                                </button>	
+                            
+                            </a>
 
-								<a href="#" class="pixelProducto">
+                        </div>
 
-									Falda de Flores 
+                    </div>
 
-									<span class="label label-warning">Nuevo</span> 
+                </li>
 
-									<span class="label label-warning">40% off</span>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/APPLIPADPRO.jpg" style="width:32%;" class="img-responsive">
 
-								</a>
+                        </a>
+                        </center>
 
-							</small>
+                    </figure>
 
-						</h1>
+                    <!--===============================================-->
 
-						<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            Apple iPad Pro (11 pulgadas y 256GB con Wi-Fi) - Gris espacial (Ultimo Modelo)<br>
+                           
+                            <span class="label label-warning fontSize">10% Off </span>
 
-						<h2>
+                            </a>	
 
-							<small>
+                        </small>			
 
-								<strong class="oferta">USD $29</strong>
+                    </h4>
 
-							</small>  
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                        
+                            <small>
 
-							<small>$11</small>
+                                <strong class="oferta"> USD $1,119 </strong>
 
-						</h2>
+                            </small>
 
-						<div class="btn-group pull-left enlaces">
-					  	
-					  		<button type="button" class="btn btn-default btn-xs deseos"  idProducto="1" data-toggle="tooltip" title="Agregar a mi lista de deseos">
 
-					  			<i class="fa fa-heart" aria-hidden="true"></i>
+                            <small>
 
-					  		</button>
+                                USD $1,007.1 
 
-					  		<a href="falda-de-flores-1" class="pixelProducto">
+                            </small>
+                        
+                        </h2>
 
-						  		<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                    </div>
 
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
+                    <!--===============================================-->
 
-						  		</button>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-					  		</a>
-						
-						</div>
+                            </button>
 
-					</div>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-				</li>
+                                </button>	
+                            
+                            </a>
 
-		</ul>
+                        </div>
 
-	</div>
+                    </div>
+
+                </li>
+
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/download.jpg" style="width:50%;" class="img-responsive">
+
+                        </a>
+                        </center>
+
+                    </figure>
+
+                    <!--===============================================-->
+
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            TECLAST T20 Tablet de 10.1 Pulgadas HD Tableta Android Desbloqueo de Huella Digital (WiFi+SIM 4G, 4 GB de RAM, 64GB de Memoria Interna, Diez núcleos, 2560X1600, 8100mAh, 13.0MP+13.0MP)
+                            <br>
+                            <br>
+                           
+                            
+
+                            </a>	
+
+                        </small>			
+
+                    </h4>
+
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                            <small>
+
+                                USD $268 
+
+                            </small>
+                        
+                        </h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+             
+            </ul>
+
+      </div>
 
 </div>
 
-<!--=====================================
-BARRA PRODUCTOS MÁS VISTOS
-======================================-->
+
+
+<!-- 
+// --------------------------------------------------------------------------------
+// BARRA DE PRODUCTOS  MAS VISTOS
+// ----------------------------------------------------------------------------- -->
+
 
 <div class="container-fluid well well-sm barraProductos">
 
@@ -1195,13 +911,15 @@ BARRA PRODUCTOS MÁS VISTOS
 
 				<div class="btn-group pull-right">
 
+
 					 <button type="button" class="btn btn-default btnGrid" id="btnGrid2">
 					 	
 						<i class="fa fa-th" aria-hidden="true"></i>  
 
-						<span class="col-xs-0 pull-right"> GRID</span>
+                        <span class="col-xs-0 pull-right"> GRID</span>
 
-					 </button>
+                     </button>
+                     
 
 					 <button type="button" class="btn btn-default btnList" id="btnList2">
 					 	
@@ -1209,7 +927,8 @@ BARRA PRODUCTOS MÁS VISTOS
 
 						<span class="col-xs-0 pull-right"> LIST</span>
 
-					 </button>
+                     </button>
+                     
 					
 				</div>		
 
@@ -1221,500 +940,629 @@ BARRA PRODUCTOS MÁS VISTOS
 
 </div>
 
-<!--=====================================
-VITRINA DE PRODUCTOS MÁS VISTOS
-======================================-->
 
+
+
+
+
+<!-- 
+// --------------------------------------------------------------------------------
+// VITRINA  DE PRODUCTOS  MAS VENDIDOS
+// ----------------------------------------------------------------------------- -->
+ 
 <div class="container-fluid productos">
-	
-	<div class="container">
-		
-		<div class="row">
-			
-			<!--=====================================
-			BARRA TÍTULO
-			======================================-->
 
-			<div class="col-xs-12 tituloDestacado">
-				
-				<!--===============================================-->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<h1><small>LO MÁS VISTO </small></h1>
+      <div class="containe">
 
-				</div>
+           <div class="row">
 
-				<!--===============================================-->
+                <!-- 
+                _________________________________________________
+                BARRA PRODUCTOS
+                _________________________________________________
+                -->
+                 
+                <div class="col-xs-12 tituloDestacado">
+                                        
+                
+                    <!--  _________________________________________________ -->
 
-				<div class="col-sm-6 col-xs-12">
-					
-					<a href="lo-mas-visto">
-						
-						<button class="btn btn-default backColor pull-right">
+                    <div class=" col-sm-6 col-xs-12">
+
+                      <h1><small>LO MÁS VISTO  </small></h1>
+
+                    </div>
+
+                    <!--  _________________________________________________ -->
+
+                     <div class=" col-sm-6 col-xs-12">
+
+                      <a href="lo-mas-visto">
+
+                       <button class="btn btn-default backColor pull-right">
 							
 							VER MÁS <span class="fa fa-chevron-right"></span>
 
-						</button>
+                        </button>
+                        
+                      </a>
 
-					</a>
+                    </div>
 
-				</div>
+                    <!--  _________________________________________________ -->
+                    
+                    
+                </div>
 
-				<!--===============================================-->
+                <div class="clearfix"></div>
 
-			</div>
+                <hr>
+                
 
-			<div class="clearfix"></div>
 
-			<hr>
+            </div>
+             <!-- 
+             _________________________________________________
+                VITRINA DE PRODUCTOS EN CUADRICULA
+             _________________________________________________
+             -->
 
-		</div>
 
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN CUADRÍCULA
-		======================================-->
+            <ul class="grid2">
 
-		<ul class="grid2">
-			
-			<!-- Producto 1 -->
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/71TO66dcV9L._SL1001_.jpg" class="img-responsive">
+                <!-- PRODUCTO #1 DE LA CUADRICULA -->
 
-					</a>
 
-				</figure>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/redes/51AqCMibRML._SL1000_.jpg" style="width:60%;" class="img-responsive">
 
-				<!--===============================================-->
+                        </a>
+                        </center>
+                    </figure>
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							AKASO EK7000 4K WiFi Cámara de acción Ultra HD, resistente al agua DV CamCorder, 12Mp 170 grados de angulo ampliado<br>
+                    <!--===============================================-->
 
-							<span class="label label-warning fontSize">90% off</span>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
 
-						</a>	
+                             Linksys WHW0303-EU Sistema Velop WiFi mesh tribanda para todo el hogar (Router WiFi/Extensor WiFi para una red mesh para todo el hogar, AC6600, paquete de 3 nodos, hasta 525 m2 de cobertura, Blanco)<br>
+                            
+                             <span class="label label-warning fontSize" style="margin:2px;">Nuevo </span>
 
-					</small>			
+                            </a>	
 
-				</h4>
+                        </small>			
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                    </h4>
 
-						<small>
-						
-							<strong class="oferta">USD $100</strong>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                        
+                            <small>
 
-						</small>
+                                <!-- <strong class="oferta">USD $561.70</strong> -->
 
-						<small>USD $60</small>
+                            </small>
 
-					</h2>
+                            
 
-				</div>
+                            <small>
 
-				<!--===============================================-->
+                                USD $362.88 
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                            </small>
+                        
+                        </h2>
 
-						</button>
+                    </div>
 
-						<button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="404" imagen="http://localhost/backend/vistas/img/productos/cursos/curso05.jpg" titulo="Curso de Bootstrap" precio="10" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
-							
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <!--===============================================-->
 
-						</button>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
 
-							</button>	
-						
-						</a>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-					</div>
+                                </button>	
+                            
+                            </a>
 
-				</div>
+                        </div>
 
-			</li>
+                    </div>
 
-			<!-- Producto 2 -->
+                </li>
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/415wZZGWgqL._SL1000_.jpg" class="img-responsive">
 
-					</a>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/51W-O4Jn9EL._SL1000_.jpg" style="width:60%;" class="img-responsive">
 
-				</figure>
+                        </a>
+                        </center>
 
-				<!--===============================================-->
+                    </figure>
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Microsoft Surface Pro 6 12.3"(2736x1824) Pantalla Touch - intel Core i5 ( 3.40 GHz) de 8va generación, 8GB RAM - 256 GB SSD - Con teclado, Surface Pen y Mouse Arc  <br>
+                    <!--===============================================-->
 
-							<span class="label label-warning fontSize">90% off</span>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            AMD YD2600BBAFBOX, Procesador RYZEN5 2600 Socket AM4 3.9Ghz Max Boost, 3,4Ghz Base+19MB<br>
+                           
+                            <span class="label label-warning fontSize">10% Off </span>
 
-						</a>	
+                            </a>	
 
-					</small>			
+                        </small>			
 
-				</h4>
+                    </h4>
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                    <br>
 
-						<small>
-						
-							<strong class="oferta">USD $100</strong>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
 
-						</small>
+                             
+                            <small>
 
-						<small> USD $1,200 </small>
+                               USD $156.25
 
-					</h2>
+                            </small>
+                        
+                        </h2>
 
-				</div>
+                    </div>
 
-				<!--===============================================-->
+                    <!--===============================================-->
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-						</button>
+                            </button>
 
-						<button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="404" imagen="http://localhost/backend/vistas/img/productos/cursos/curso04.jpg" titulo="Curso de Canvas y Javascript" precio="10" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
-							
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-						</button>
+                                </button>	
+                            
+                            </a>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
 
-							</button>	
-						
-						</a>
+                    </div>
 
-					</div>
+                </li>
 
-				</div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+        
+                    <figure>
+                        <center>
+                        
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61Rgsw4SZFL._SL1200_.jpg" style="width:59%;" class="img-responsive">
 
-			</li>
+                        </a>
+                        </center>
 
-			<!-- Producto 3 -->
+                    </figure>
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/8154mTqd+AL._SL1500_.jpg" class="img-responsive">
+                    <br>
+                    
 
-					</a>
+                    <!--===============================================-->
 
-				</figure>
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            Primux Iox All-in-One 2301F, Ordenador con Pantalla de 23,8" Full HD (Intel Celeron N3350 2,41 GHz, 4 GB DDR3L SDRAM, 32 GB Almacenamiento Ampliable, HDMI, USB 3.0 Y 2.0), Color Negro<br>
+                           
+                            <!-- <span class="label label-warning fontSize">10% Off </span> -->
 
-				<!--===============================================-->
+                            </a>	
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							 HAVIT HV-F2056 15.6"-17" Laptop Cooling pad - Delgado y portable, Alimentación por USB(3 Ventiladores) Iluminación Azul Oscura, Color Negro<br>
+                        </small>			
 
-							<span class="label label-warning fontSize">90% off</span>
+                    </h4>
 
-						</a>	
+                    <br>
 
-					</small>			
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                        
+<!--                             <small>
 
-				</h4>
+                                <strong class="oferta"> USD $1,119 </strong>
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                            </small> -->
 
-						<small>
-						
-							<strong class="oferta">USD $25</strong>
 
-						</small>
+                            <small>
 
-						<small>$10</small>
+                                USD $333.43
 
-					</h2>
+                            </small>
+                        
+                        </h2>
 
-				</div>
+                    </div>
 
-				<!--===============================================-->
+                    <!--===============================================-->
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-						</button>
+                            </button>
 
-						<button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="404" imagen="http://localhost/backend/vistas/img/productos/cursos/curso02.jpg" titulo="Aprende Javascript desde cero" precio="10" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
-							
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-						</button>
+                                </button>	
+                            
+                            </a>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
 
-							</button>	
-						
-						</a>
+                    </div>
 
-					</div>
+                </li>
+               <br>
 
-				</div>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+                    
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71KOIOw4KQL._SL1500_.jpg" style="width:73%;" class="img-responsive">
 
-			</li>
+                        </a>
+                        </center>
 
-			<!-- Producto 4 -->
+                    </figure>
 
-			<li class="col-md-3 col-sm-6 col-xs-12">
-				
-				<!--===============================================-->
-	
-				<figure>
-					
-					<a href="#" class="pixelProducto">
-						
-						<img src="http://localhost/E-commerce-Backend/Vistas/img/71HaIH7W5gL._SL1322_.jpg" class="img-responsive">
+                    <!--===============================================-->
+                    <br>
+            
+                
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+                            ASUS VivoBook S14 S430FA-EB061 - Portátil de 14" FullHD (Intel Core i5-8265U, 8 GB RAM, 256GB SSD, Intel UHD Graphics 620, sin sistema operativo) Gris - Teclado QWERTY Español
+                            <br>
+                            <span class="label label-warning fontSize">-21% Off </span>
+                        
+                        
 
-					</a>
+                            </a>	
 
-				</figure>
+                        </small>			
 
-				<!--===============================================-->
+                    </h4>
 
-				<h4>
-					
-					<small>
-						
-						<a href="#" class="pixelProducto">
-							
-							Laptop Acer Aspire E 15, 15.6" Full HD, intel core i5 8250U- 8va Generación, GeForce MX150, 8GB RAM, 256 GB SSD, E5-576G-5762   <br>
+                    <br>
 
-							<span class="label label-warning fontSize">90% off</span>
 
-						</a>	
 
-					</small>			
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        
+                        <h2>
+                            <small>
 
-				</h4>
+                                <strong class="oferta"> USD $779.49 </strong>
 
-				<!--===============================================-->
-				
-				<div class="col-xs-6 precio">
-					
-					<h2>
+                            </small>
 
-						<small>
-						
-							<strong class="oferta">USD $650</strong>
 
-						</small>
+                            <small>
 
-						<small> USD $780</small>
+                                USD $613.32
 
-					</h2>
+                            </small>
+                        
 
-				</div>
+                        </h2>
 
-				<!--===============================================-->
+                    </div>
 
-				<div class="col-xs-6 enlaces">
-					
-					<div class="btn-group pull-right">
-						
-						<button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
-							
-							<i class="fa fa-heart" aria-hidden="true"></i>
+                    <!--===============================================-->
 
-						</button>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-						<button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="404" imagen="http://localhost/backend/vistas/img/productos/cursos/curso03.jpg" titulo="Curso de jQuery" precio="10" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
-							
-							<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
 
-						</button>
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-						<a href="#" class="pixelProducto">
-						
-							<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-								
-								<i class="fa fa-eye" aria-hidden="true"></i>
+                                </button>	
+                            
+                            </a>
 
-							</button>	
-						
-						</a>
+                        </div>
 
-					</div>
+                    </div>
 
-				</div>
+                </li>
 
-			</li>
 
-		</ul>
 
-		<!--=====================================
-		VITRINA DE PRODUCTOS EN LISTA
-		======================================-->
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+                    
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/Office-Professional-plus-2016.jpg" style="width:59%;" class="img-responsive">
 
-		<ul class="list2" style="display:none">
-			
-			<!-- PRODUCTO 1 -->
+                        </a>
+                        </center>
 
-				<li class="col-xs-12">
+                    </figure>
 
-					<!--===============================================-->
-				  
-			  		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
-						   
-						<figure>
-					
-							<a href="#" class="pixelProducto">
+                    <!--===============================================-->
+                    <br>
+            
+                
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
 
-								<img src="http://localhost/backend/vistas/img/productos/cursos/curso05.jpg" class="img-responsive">
+                                Microsoft Office Professional PLUS 2019 - Licensia Digital
 
-							</a>
+                                <br>
 
-						</figure>
+                                <span class="label label-warning fontSize" style="margin:2px;">-84% Off </span>
+                                
+                                <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
 
-				  	</div>
+                                <br>
 
-				  	<!--===============================================-->
-						  
-					<div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
-						
-						<h1>
+                            </a>	
 
-							<small>
+                        </small>			
 
-								<a href="#" class="pixelProducto">
+                    </h4>
 
-									Curso de Bootstrap
+                    <br>
 
-									<span class="label label-warning">90% off</span>
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                            <small>
 
-								</a>
+                                <strong class="oferta"> USD $230.20 </strong>
 
-							</small>
+                            </small>
 
-						</h1>
 
-						<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate minus, consectetur beatae fugit odio iure repudiandae quia distinctio, id ducimus molestiae. Obcaecati, unde. Illo molestiae dolorum, saepe nisi enim iusto.</p>
+                            <small>
 
-						<h2>
+                                USD $37.42
 
-							<small>
+                            </small>
+                        
+                        </h2>
 
-								<strong class="oferta">USD $100</strong>
+                    </div>
 
-							</small>  
+                    <!--===============================================-->
 
-							<small>$10</small>
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
 
-						</h2>
+                            </button>
 
-						<div class="btn-group pull-left enlaces">
-					  	
-					  		<button type="button" class="btn btn-default btn-xs deseos"  idProducto="1" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
 
-					  			<i class="fa fa-heart" aria-hidden="true"></i>
+                                </button>	
+                            
+                            </a>
 
-					  		</button>
+                        </div>
 
-					  		<button type="button" class="btn btn-default btn-xs agregarCarrito"  idProducto="404" imagen="http://localhost/backend/vistas/img/productos/cursos/curso05.jpg" titulo="Curso de Bootstrap" precio="10" tipo="virtual" peso="0" data-toggle="tooltip" title="Agregar al carrito de compras">
+                    </div>
 
-								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </li>
 
-							</button>
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+                    
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190301092153_scdk.png" style="width:41%;" class="img-responsive">
 
-					  		<a href="#" class="pixelProducto">
+                        </a>
+                        </center>
 
-						  		<button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                    </figure>
 
-						  		<i class="fa fa-eye" aria-hidden="true"></i>
+                    <!--===============================================-->
+                    <br>
+            
+                
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
 
-						  		</button>
+                                Windows 10 Pro OEM - Licensia Digital
 
-					  		</a>
-						
-						</div>
+                                <br>
 
-					</div>
+                                <span class="label label-warning fontSize" style="margin:2px;">-85% Off </span>
+                                
+                                <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
 
-				</li>
+                                <br>
 
-		</ul>
+                            </a>	
 
-	</div>
+                        </small>			
+
+                    </h4>
+
+                    <br>
+
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                            <small>
+
+                                <strong class="oferta"> USD $230.20 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $37.42
+
+                            </small>
+                        
+                        </h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                
+
+               
+
+                
+             
+            </ul>
+
+      </div>
 
 </div>
+
+
+
+
+
+
