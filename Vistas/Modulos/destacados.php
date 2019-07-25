@@ -1012,7 +1012,7 @@
             <ul class="grid2">
 
 
-                <!-- PRODUCTO #1 DE LA CUADRICULA -->
+                 <!-- PRODUCTO NÚMERO 4 DE LOS MAS VISTOS -->
 
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
@@ -1100,6 +1100,9 @@
                 </li>
 
 
+                 <!-- PRODUCTO NÚMERO 2 DE LOS MAS VISTOS -->
+
+
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
                     <!--===============================================-->
@@ -1178,6 +1181,9 @@
                     </div>
 
                 </li>
+
+
+                 <!-- PRODUCTO NÚMERO 3 DE LOS MAS VISTOS -->
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1268,6 +1274,10 @@
 
                 </li>
                <br>
+                
+
+                 <!-- PRODUCTO NÚMERO 4 DE LOS MAS VISTOS -->
+
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1361,7 +1371,10 @@
 
                 </li>
 
-
+                  
+                
+                 <!-- PRODUCTO NÚMERO 5 DE LOS MAS VISTOS -->
+                 
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1434,27 +1447,37 @@
                         
                         <div class="btn-group pull-right">
                             
-                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="001" data-toggle="tooltip" title="Agregar a mi lista de deseos">
                                 
                                 <i class="fa fa-heart" aria-hidden="true"></i>
 
                             </button>
 
+                            <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="001" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/Office-Professional-plus-2016.jpg" titulo=" Microsoft Office Professional PLUS 2019 - Licensia Digital" precio="37.42" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                            </button>
+
                             <a href="#" class="pixelProducto">
                             
-                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
-                                    
-                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                            <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                
+                                <i class="fa fa-eye" aria-hidden="true"></i>
 
-                                </button>	
-                            
+                            </button>	
+                        
                             </a>
+
+
 
                         </div>
 
                     </div>
 
                 </li>
+
+                 <!-- PRODUCTO NÚMERO 6 DE LOS MAS VISTOS -->
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1506,14 +1529,14 @@
                         <h2>
                             <small>
 
-                                <strong class="oferta"> USD $230.20 </strong>
+                                <strong class="oferta"> USD $53.78 </strong>
 
                             </small>
 
 
                             <small>
 
-                                USD $37.42
+                                USD $15.32
 
                             </small>
                         
@@ -1527,9 +1550,120 @@
                         
                         <div class="btn-group pull-right">
                             
-                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="002" data-toggle="tooltip" title="Agregar a mi lista de deseos">
                                 
                                 <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="002" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190301092153_scdk.png" titulo="Windows 10 Pro OEM - Licensia Digital" precio="15.32" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                            </button>
+
+                            
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+
+                 <!-- PRODUCTO NÚMERO 7 DE LOS MAS VISTOS -->
+                
+
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+                    
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" style="width:41%;" class="img-responsive">
+
+                        </a>
+                        </center>
+
+                    </figure>
+
+                    <!--===============================================-->
+                    <br>
+            
+                
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+
+                                 Microsoft Office Home And Student 2019 - Licensia Digital
+
+                                <br>
+
+                                <span class="label label-warning fontSize" style="margin:2px;">-88% Off </span>
+                                
+                                <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                <br>
+
+                            </a>	
+
+                        </small>			
+
+                    </h4>
+
+                    <br>
+
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                            <small>
+
+                                <strong class="oferta"> USD $289.82 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $34.44
+
+                            </small>
+                        
+                        </h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="003" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="003" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" titulo="Microsoft Office Home And Student 2019 - Licensia Digital" precio="34.44" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
 
                             </button>
 
@@ -1549,12 +1683,108 @@
 
                 </li>
 
+                <!-- PRODUCTO NÚMERO 8 DE LOS MAS VISTOS -->
+
+                <li class="col-md-3 col-sm-6 col-xs-12">
+                    
+                    <!--===============================================-->
+                    
+                    <figure>
+                        <center>
+                        <a href="#" class="pixelProducto">
+                            
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg" style="width:41%;" class="img-responsive">
+
+                        </a>
+                        </center>
+
+                    </figure>
+
+                    <!--===============================================-->
+                    <br>
+            
+                
+                    <h4>
+                        
+                        <small>
+                            
+                            <a href="#" class="pixelProducto">
+
+                                 Windows10 PRO OEM + Office2019 Professional Plus - Keys Pack - Licensias Digitales
+
+                                <br>
+
+                                <span class="label label-warning fontSize" style="margin:2px;">-70% Off </span>
+                                
+                                <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                <br>
+
+                            </a>	
+
+                        </small>			
+
+                    </h4>
+
+                    <br>
+
+                    <!--===============================================-->
+                    
+                    <div class="col-xs-6 precio">
+                        
+                        <h2>
+                            <small>
+
+                                <strong class="oferta"> USD $245.49 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $69.00
+
+                            </small>
+                        
+                        </h2>
+
+                    </div>
+
+                    <!--===============================================-->
+
+                    <div class="col-xs-6 enlaces">
+                        
+                        <div class="btn-group pull-right">
+                            
+                            <button type="button" class="btn btn-default btn-xs deseos" idProducto="004" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="004" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg" titulo="Windows10 PRO OEM + Office2019 Professional Plus - Keys Pack - Licensias Digitales" precio="69.00" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                            </button>
+
+                            <a href="#" class="pixelProducto">
+                            
+                                <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                    
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                </button>	
+                            
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
                 
 
-               
-
-                
-             
             </ul>
 
       </div>

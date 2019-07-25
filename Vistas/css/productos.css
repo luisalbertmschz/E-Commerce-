@@ -128,3 +128,25 @@ _________________________________________________
 }
 
 
+                       /*
+_________________________________________________
+REGLAS QUE AFECTA A LOS BOTONES QUE ACOMPAÑAN AL PRECIO DE PRODUCTO Y COLOR ON HOVER
+_________________________________________________
+					 */
+					 
+.btn-group-xs>.btn, .btn-xs{
+	line-height:2.5!important;
+}
+
+.fa-heart:hover{
+	color:red !important;
+ }
+
+
+ .fa-eye:hover{
+	color:blue !important;
+ }
+
+ .fa-shopping-cart:hover{
+	color:green !important;
+ }
