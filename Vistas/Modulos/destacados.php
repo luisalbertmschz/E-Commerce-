@@ -90,7 +90,7 @@
 <div class="container-fluid productos">
 
 
-      <div class="containe">
+    <div class="containe">
 
            <div class="row">
 
@@ -142,8 +142,8 @@
              _________________________________________________
              -->
 
-
-             <ul class="grid0">
+            
+             <ul class="grid0"style="display:none;">
 
 
                 <!-- PRODUCTO #1 DE LA CUADRICULA -->
@@ -154,12 +154,13 @@
                     <!--===============================================-->
         
                     <figure>
-                        
+                        <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" style="width:80%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" style="width:60%;" class="img-responsive">
 
                         </a>
+                        </center>
 
                     </figure>
 
@@ -178,12 +179,13 @@
                         </small>			
 
                     </h4>
+                    
 
                     <!--===============================================-->
                     
                     <div class="col-xs-6 precio">
                         
-                        <h2><small>$41.99 USD</small></h2>
+                        <h2><small>USD$41.99</small></h2>
 
                     </div>
 
@@ -225,11 +227,12 @@
                         
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51QFvG40StL._SL1000_.jpg"style="width:80%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71sr2EHOlpL._SL1500_.jpg"style="width:95%;" class="img-responsive">
 
                         </a>
 
                     </figure>
+                    <br>
 
                     <!--===============================================-->
 
@@ -239,7 +242,7 @@
                             
                             <a href="#" class="pixelProducto">
                                 
-                                Fenebort Q8 Smart Watch, resistente al agua,<br><br>
+                             Lenovo Legion Y530-Ordenador portátil Gaming 15.6" FullHD (Intel Core i7-8750H, 8GB RAM, 1TB HDD, Nvidia GTX1050ti, 4GB GDDR5, Windows 10 Home) Negro Teclado QWERTY español<br><br>
 
                             </a>	
 
@@ -251,7 +254,7 @@
                     
                     <div class="col-xs-6 precio">
                         
-                        <h2><small>$35.50 USD</small></h2>
+                        <h2><small>USD$850.00 </small></h2>
 
                     </div>
 
@@ -290,24 +293,26 @@
                     <!--===============================================-->
         
                     <figure>
+                        <center>
                         
-                        <a href="#" class="pixelProducto">
+                            <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/61qHLtTDRXL._SL1000_.jpg"style="width:80%;" class="img-responsive">
+                              <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61ferMLd5TL._SL1000_.jpg"style="width:60%;" class="img-responsive">
 
-                        </a>
-
+                            </a>
+                        </center>
                     </figure>
-
                     <!--===============================================-->
-
+                    
                     <h4>
                         
                         <small>
                             
                             <a href="#" class="pixelProducto">
                                 
-                                Smart Watch WillFul compatible con dispositivos Android e Iphone, modelo SW018, Monitor cardiaco, podómetro, monitor del sueño(IP68, Impermeable, buceo 3M)<br><br>
+                            Ordenador de sobremesa Gaming Intel i5 7400 3.5 gHz quadcore,Asus Gtx 1050ti 4 gb Ddr5 ,Ram Ddr4 8 gb ,SSD 120 gb + HDD 1 TB ,Wifi ,Windows 10 Professional,Pc de sobremesa gaming
+                            <br>
+                            <br>
 
                             </a>	
 
@@ -319,7 +324,7 @@
                     
                     <div class="col-xs-6 precio">
                         
-                        <h2><small>$50.55 USD</small></h2>
+                        <h2><small> USD$833.94</small></h2>
 
                     </div>
 
@@ -355,15 +360,18 @@
 
 			    <li class="col-md-3 col-sm-6 col-xs-12">
 				
-                        <!--===============================================-->
+                   <!--===============================================-->
             
                         <figure>
-                            
-                            <a href="#" class="pixelProducto">
-                                
-                                <img src="http://localhost/E-commerce-Backend/Vistas/img/61fTH8Uil9L._SL1000_.jpg" style="width:80%;" class="img-responsive">
+                            <center>
 
-                            </a>
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61fTH8Uil9L._SL1000_.jpg" style="width:59%;" class="img-responsive">
+
+                                </a>
+
+                            </center>
 
                         </figure>
 
@@ -384,12 +392,12 @@
                             </small>			
 
                         </h4>
-
+                         <br>
                         <!--===============================================-->
                         
                         <div class="col-xs-6 precio">
                             
-                            <h2><small>$85.00 USD</small></h2>
+                            <h2><small>USD$85.00</small></h2>
 
                         </div>
 
@@ -422,7 +430,320 @@
                 </li>
                 
 
-             </ul>
+
+            </ul>
+             <!-- 
+             //
+             // ──────────────────────────────────────────────────
+             //   VITRINAA DE PRODUCTOS DESTACADOS O NUEVOS EN LISTA
+             // ──────────────────────────────────────────────────
+             // -->
+
+                <ul class="list0" style="display:;">
+                    <!-- PRODUCTO #1 -->
+                    <li class="col-xs-12">
+                        <!--===============================================-->
+                          
+
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					
+					        <figure>
+					
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" class="img-responsive"></a>
+
+					        </figure>
+
+				        </div>
+
+                        <!--===============================================-->
+
+
+                        <div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
+					
+                            <h1>
+                                <small>
+                                
+                                    <a href="#" class="pixelProducto">Xiaomi Mi Smart Band 4 - Tracker de actividad física con medidor de frecuencia cardíaca - Negro - Unisex</a>
+
+                                </small>
+
+                            </h1>
+
+                            <p class="text-muted">
+                            Da el paso, acepta el reto. Con Xiaomi Mi Smart Band 4 supera tus propios límites con mejores funcionalidades respecto a modelos anteriores. Cuenta con entrenador personal incorporado en tu muñeca que te guía a cada paso y alertas de inactividad con recordatorios para ponerte en movimiento. Visualiza al instante llamadas, mensajes, notificaciones y la música que escuchas. Goza de una pantalla resistente a arañazos, con más brillo y 39.9% más grade. Cuenta, además, con monitorización precisa del sueño ligero y profundo que permite identificar tus patrones de descanso.
+                            </p>
+
+                            <h2><small>USD $41.99</small></h2>
+
+                            <div class="btn-group pull-left enlaces">
+                                    
+                                <button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <a href="#" class="pixelProducto">
+
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>
+
+                                </a>
+
+					        </div>
+
+				        </div>
+
+				        <!--===============================================-->
+
+                            <div class="col-xs-12">
+
+                                <hr>
+
+                            </div>
+
+				        <!--===============================================-->
+
+                    </li>
+
+
+                    <!-- PRODUCTO #2 EN VISTA LISTA -->
+
+                    <li class="col-xs-12">
+                        <!--===============================================-->
+                          
+
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					
+					        <figure>
+					
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71sr2EHOlpL._SL1500_.jpg" class="img-responsive"></a>
+
+					        </figure>
+
+				        </div>
+
+                        
+
+                        <!--===============================================-->
+
+
+                        <div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
+					
+                            <h1>
+                                <small>
+                                
+                                    <a href="#" class="pixelProducto">Lenovo Legion Y530-Ordenador portátil Gaming 15.6" FullHD (Intel Core i7-8750H, 8GB RAM, 1TB HDD, Nvidia GTX1050ti, 4GB GDDR5, Windows 10 Home) Negro Teclado QWERTY español</a>
+
+                                </small>
+
+                            </h1>
+
+                            <p class="text-muted">
+                            Este portátil de 39,62 cm (15,6") te ofrece exactamente lo que necesitas para que disfrutes de una experiencia de juego que te ofrece rendimiento y portabilidad. Su diseño increíblemente elegante y las especificaciones de última generación te garantizan una gran potencia. Térmicamente optimizado para mantenerse más frío y silencioso con un teclado con retroiluminación blanca de tamaño completo, el portátil Legion Y530 se ha diseñado pensando en todos aquellos que desean jugar allí donde les lleve la vida.
+
+                            </p>
+
+                            <h2><small>USD $1000.99</small></h2>
+
+                            <div class="btn-group pull-left enlaces">
+                                    
+                                <button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <a href="#" class="pixelProducto">
+
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>
+
+                                </a>
+
+					        </div>
+
+				        </div>
+
+				        <!--===============================================-->
+
+                            <div class="col-xs-12">
+
+                                <hr>
+
+                            </div>
+
+				        <!--===============================================-->
+
+
+                    </li>
+                     
+
+                    <!-- PRODUCTO #3 DE LA VISTA EN LISTA -->
+
+                    <li class="col-xs-12">
+                        <!--===============================================-->
+                          
+
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					
+					        <figure>
+					
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61ferMLd5TL._SL1000_.jpg" class="img-responsive"></a>
+
+					        </figure>
+
+				        </div>
+
+                        <!--===============================================-->
+
+
+                        <div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
+					
+                            <h1>
+                                <small>
+                                
+                                    <a href="#" class="pixelProducto">
+                                     Ordenador de sobremesa Gaming Intel i5 7400 3.5 gHz quadcore,Asus Gtx 1050ti 4 gb Ddr5 ,Ram Ddr4 8 gb ,SSD 120 gb + HDD 1 TB ,Wifi ,Windows 10 Professional,Pc de sobremesa gaming.
+                                    
+                                    </a>
+
+                                </small>
+
+                            </h1>
+
+                            <p class="text-muted">
+                            Alto rendimiento, gracias a la unidad de disco duro Western DIGITAL de 1000 GB, la unidad de estado sólido de 120 GB y la memoria RAM DDR4 de 8 GB a una velocidad de 2400 mhz. Gracias a la tarjeta de video GTX 1050Ti de 4GB, el case del equipo cuenta con  iluminación RGB Fan. El panel frontal tiene USB 3.0 / USB 2.0. Viene integrada con ASUS Audio Boost lo que ofrece la mejor calidad de sonido mediante el uso de componentes de audio de alta calidad. Esto le permite disfrutar de un sonido impresionante y cambiar el juego para crear los paisajes sonoros más dinámicos. Basándose en la experiencia y con una larga experiencia en la creación de placas base con mejor rendimiento y características inteligentes, puede contar con esta placa base para Ofrecer el mejor rendimiento en las condiciones más extremas.  La fuente de alimentación de 400w 80 + Plus cuenta con componentes de alta calidad que le permiten obtener la certificación 80 Plus. 
+                            </p>
+
+                            <h2><small>USD $980.45</small></h2>
+
+                            <div class="btn-group pull-left enlaces">
+                                    
+                                <button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <a href="#" class="pixelProducto">
+
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>
+
+                                </a>
+
+					        </div>
+
+				        </div>
+
+				        <!--===============================================-->
+
+                            <div class="col-xs-12">
+
+                                <hr>
+
+                            </div>
+
+				        <!--===============================================-->
+
+
+                    </li>
+
+                     <!-- PRODUCTO #4 DE LA VISTA EN LISTA  -->
+
+                    <li class="col-xs-12">
+                        <!--===============================================-->
+                          
+
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+					
+					        <figure>
+					
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61CQB87YlWL._SL1500_.jpg" class="img-responsive"></a>
+
+					        </figure>
+
+				        </div>
+
+                        <!--===============================================-->
+
+
+                        <div class="col-lg-10 col-md-7 col-sm-8 col-xs-12">
+					
+                            <h1>
+                                <small>
+                                
+                                    <a href="#" class="pixelProducto">
+                                    Huawei Matebook X - Ordenador portátil ultrafino 13.3" 2K IPS (Procesador Intel Core i5-7200U, 8GB RAM, 256GB SSD, Windows 10 Pro) Gris - Teclado QWERTY español
+                                    
+                                    </a>
+
+                                </small>
+
+                            </h1>
+
+                            <p class="text-muted">
+                            Explora nuevos horizontes. El primer notebook de HUAWEI con diseño FullView. El ratio pantalla / volumen del 91% crea una pantalla con apenas bordes ofreciendo una vista impresionante en un cuerpo pequeño. Una experiencia revolucionaria. Una pantalla que captura el mundo.
+
+                            -Pantalla de 13.3 pulgadas con tecnología IPS y resolución 2K (2160x1440 píxeles)
+                            -Procesador Intel Core i5-7200U (2.5GHz con 3.1 GHz turbo speed y 1GHz GPU boost speed)
+                            -Memoria RAM de 8GB DDR3L
+                            -Disco duro SSD de 256GB
+                            -Sistema de sonido DOLBY ATMOS y sensor de huella dactilar
+                            -Sistema Operativo Windows 10 Pro
+                            -Peso: 1.05Kg
+                            
+                            </p>
+
+                            <h2><small>USD $1,057.73</small></h2>
+
+                            <div class="btn-group pull-left enlaces">
+                                    
+                                <button type="button" class="btn btn-default btn-xs deseos"  idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <a href="#" class="pixelProducto">
+
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>
+
+                                </a>
+
+					        </div>
+
+				        </div>
+
+				        <!--===============================================-->
+
+                            <div class="col-xs-12">
+
+                                <hr>
+
+                            </div>
+
+				        <!--===============================================-->
+
+
+                    </li>
+
+
+                </ul>
 
 
       </div>

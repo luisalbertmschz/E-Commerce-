@@ -114,6 +114,31 @@ _________________________________________________
 }
 
 
+                       /*
+_________________________________________________
+VITRINA DE  PRODUCTOS  DESTACADOS/NUEVOS EN LISTA
+_________________________________________________
+					 */
+
+
+.productos ul li h1{
+	margin-top:-10px;
+}
+
+.productos ul li h1 small{
+	text-transform: uppercase;
+	font-size:20px;
+	font-weight: 700;
+}
+
+.productos ul li h1 small a{
+	color:#777;
+}
+
+					                        /*
+_________________________________________________
+_________________________________________________
+					 */
 
 
 .oferta{
