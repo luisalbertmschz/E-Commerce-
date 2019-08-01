@@ -90,7 +90,7 @@
 <div class="container-fluid productos">
 
 
-    <div class="containe">
+    <div class="container">
 
            <div class="row">
 
@@ -470,7 +470,7 @@
                             </h1>
 
                             <p class="text-muted">
-                            Da el paso, acepta el reto. Con Xiaomi Mi Smart Band 4 supera tus propios límites con mejores funcionalidades respecto a modelos anteriores. Cuenta con entrenador personal incorporado en tu muñeca que te guía a cada paso y alertas de inactividad con recordatorios para ponerte en movimiento. Visualiza al instante llamadas, mensajes, notificaciones y la música que escuchas. Goza de una pantalla resistente a arañazos, con más brillo y 39.9% más grade. Cuenta, además, con monitorización precisa del sueño ligero y profundo que permite identificar tus patrones de descanso.
+                            Da el paso, acepta el reto. Con Xiaomi Mi Smart Band 4 supera tus propios límites con mejores funcionalidades respecto a modelos anteriores. Cuenta con entrenador personal incorporado en tu muñeca que te guía a cada paso y alertas de inactividad con recordatorios para ponerte en movimiento. Visualiza al instante llamadas, mensajes, notificaciones y la música que escuchas. Goza de una pantalla resistente a arañazos, con más brillo y 39.9% más grade.
                             </p>
 
                             <h2><small>USD $41.99</small></h2>
@@ -619,7 +619,7 @@
                             </h1>
 
                             <p class="text-muted">
-                            Alto rendimiento, gracias a la unidad de disco duro Western DIGITAL de 1000 GB, la unidad de estado sólido de 120 GB y la memoria RAM DDR4 de 8 GB a una velocidad de 2400 mhz. Gracias a la tarjeta de video GTX 1050Ti de 4GB, el case del equipo cuenta con  iluminación RGB Fan. El panel frontal tiene USB 3.0 / USB 2.0. Viene integrada con ASUS Audio Boost lo que ofrece la mejor calidad de sonido mediante el uso de componentes de audio de alta calidad. Esto le permite disfrutar de un sonido impresionante y cambiar el juego para crear los paisajes sonoros más dinámicos. Basándose en la experiencia y con una larga experiencia en la creación de placas base con mejor rendimiento y características inteligentes, puede contar con esta placa base para Ofrecer el mejor rendimiento en las condiciones más extremas.  La fuente de alimentación de 400w 80 + Plus cuenta con componentes de alta calidad que le permiten obtener la certificación 80 Plus. 
+                            Alto rendimiento, gracias a la unidad de disco duro Western DIGITAL de 1000 GB, la unidad de estado sólido de 120 GB y la memoria RAM DDR4 de 8 GB a una velocidad de 2400 mhz. Gracias a la tarjeta de video GTX 1050Ti de 4GB, el case del equipo cuenta con  iluminación RGB Fan....
                             </p>
 
                             <h2><small>USD $980.45</small></h2>
@@ -694,14 +694,6 @@
 
                             <p class="text-muted">
                             Explora nuevos horizontes. El primer notebook de HUAWEI con diseño FullView. El ratio pantalla / volumen del 91% crea una pantalla con apenas bordes ofreciendo una vista impresionante en un cuerpo pequeño. Una experiencia revolucionaria. Una pantalla que captura el mundo.
-
-                            -Pantalla de 13.3 pulgadas con tecnología IPS y resolución 2K (2160x1440 píxeles)
-                            -Procesador Intel Core i5-7200U (2.5GHz con 3.1 GHz turbo speed y 1GHz GPU boost speed)
-                            -Memoria RAM de 8GB DDR3L
-                            -Disco duro SSD de 256GB
-                            -Sistema de sonido DOLBY ATMOS y sensor de huella dactilar
-                            -Sistema Operativo Windows 10 Pro
-                            -Peso: 1.05Kg
                             
                             </p>
 
@@ -811,13 +803,13 @@
 
 <!-- 
 // --------------------------------------------------------------------------------
-// VITRINA  DE PRODUCTOS  NUEVOS O DESTACADOS
+// VITRINA  DE PRODUCTOS  MAS VENDIDOS
 // ----------------------------------------------------------------------------- -->
  
 <div class="container-fluid productos">
 
 
-      <div class="containe">
+      <div class="container">
 
            <div class="row">
 
@@ -866,12 +858,12 @@
             </div>
              <!-- 
              _________________________________________________
-                VITRINA DE PRODUCTOS EN CUADRICULA
+                VITRINA DE PRODUCTOS EN CUADRICULA DE LO MAS VENDIDO
              _________________________________________________
              -->
 
 
-            <ul class="grid1">
+            <ul class="grid1"style="display:none;">
 
 
                 <!-- PRODUCTO #1 DE LA CUADRICULA -->
@@ -1119,6 +1111,7 @@
                                 <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
                                     
                                     <i class="fa fa-eye" aria-hidden="true"></i>
+                                    
 
                                 </button>	
                             
@@ -1210,6 +1203,116 @@
              
             </ul>
 
+
+            <!-- 
+            // --------------------------------------------------------------------------------
+            // VITRINA DE PRODUCTOS  MAS VISTOS  EN LISTA
+            // ----------------------------------------------------------------------------- -->
+
+            <ul class="list1">
+
+                 <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/LenovoS145.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Lenovo S145-15IWL - Ordenador portátil 15.6" HD (Intel Core i3-8145U, 8GB de RAM, 256GB SSD, Windows 10) gris- Teclado QWERTY español<br>
+                                    
+                                    <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning ">50% Off </span>
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            El Lenovo Ideapad S145 es un dispositivo de gama básica, de rendimiento potente y duradero, perfecto para llevar a cabo las tareas diarias. Cuenta con un diseño fino y ligero, sonido Dolby Audio, un marco estrecho y almacenamiento híbrido.Con un peso inicial de 1.85 kg, el Ideapad S145 es una opción fantástica para que lo lleves allá donde vayas.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <strong class="oferta">USD $561.70</strong>
+
+                                </small>
+
+                                <small>
+
+                                    USD $283.875 
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+        
+                <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
+
+
+
+
+
+
+
+            </ul>
+
       </div>
 
 </div>
@@ -1273,8 +1376,8 @@
  
 <div class="container-fluid productos">
 
-
-      <div class="containe">
+     <!-- CAMBIAR PARA AJUSTAR APARIENCIA -->
+      <div class="container">
 
            <div class="row">
 
@@ -1329,11 +1432,11 @@
              _________________________________________________
              -->
 
+             <!-- OCULTAR LOS PRODUCTOS MAS VISTOS -->
+            <ul class="grid2" style="display:none;">
 
-            <ul class="grid2">
 
-
-                 <!-- PRODUCTO NÚMERO 4 DE LOS MAS VISTOS -->
+                 <!-- PRODUCTO NÚMERO 1 DE LOS MAS VISTOS -->
 
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
@@ -1448,7 +1551,7 @@
                             <a href="#" class="pixelProducto">
                             AMD YD2600BBAFBOX, Procesador RYZEN5 2600 Socket AM4 3.9Ghz Max Boost, 3,4Ghz Base+19MB<br>
                            
-                            <span class="label label-warning fontSize">10% Off </span>
+                            
 
                             </a>	
 
@@ -1550,11 +1653,11 @@
                         
                         <h2>
                         
-<!--                             <small>
+                               <!--<small>
 
-                                <strong class="oferta"> USD $1,119 </strong>
+                                 <strong class="oferta"> USD $1,119 </strong>
 
-                            </small> -->
+                              </small> -->
 
 
                             <small>
@@ -1694,7 +1797,7 @@
 
                   
                 
-                 <!-- PRODUCTO NÚMERO 5 DE LOS MAS VISTOS -->
+                <!-- PRODUCTO NÚMERO 5 DE LOS MAS VISTOS -->
                  
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
@@ -1798,7 +1901,7 @@
 
                 </li>
 
-                 <!-- PRODUCTO NÚMERO 6 DE LOS MAS VISTOS -->
+                <!-- PRODUCTO NÚMERO 6 DE LOS MAS VISTOS -->
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1902,7 +2005,7 @@
                 </li>
 
 
-                 <!-- PRODUCTO NÚMERO 7 DE LOS MAS VISTOS -->
+                <!-- PRODUCTO NÚMERO 7 DE LOS MAS VISTOS -->
                 
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
@@ -1921,6 +2024,7 @@
                     </figure>
 
                     <!--===============================================-->
+
                     <br>
             
                 
@@ -2031,7 +2135,7 @@
                             
                             <a href="#" class="pixelProducto">
 
-                                 Windows10 PRO OEM + Office2019 Professional Plus - Keys Pack - Licensias Digitales
+                                 Windows10 PRO OEM + Office 2019 Professional Plus - Keys Pack - Licensias Digitales
 
                                 <br>
 
@@ -2107,6 +2211,834 @@
                 
 
             </ul>
+
+
+
+
+            <!-- 
+            // --------------------------------------------------------------------------------
+            // VITRINA DE PRODUCTOS  MAS VISTOS  EN LISTA
+            // ----------------------------------------------------------------------------- -->
+
+            <ul class="list1">
+
+                 <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/redes/51AqCMibRML._SL1000_.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Linksys WHW0303-EU Sistema Velop WiFi mesh tribanda para todo el hogar (Router WiFi/Extensor WiFi para una red mesh para todo el hogar, AC6600, paquete de 3 nodos, hasta 525 m2 de cobertura, Blanco)<br>
+                                    
+                                    <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Linksys Velop es el sistema WiFi tribanda que funciona en armonía para crear una red mesh de gran alcance. A diferencia de cómo funcionan los routers ordinarios con los extensores de alcance el sistema Velop WiFi mesh tribanda se compone de puntos distintos de conexión que ofrecen el 100 % de velocidad de la conexión a internet en todos los rincones de tu casa.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <!-- <strong class="oferta">USD $561.70</strong> -->
+
+                                </small>
+
+                                <small>
+
+                                    USD $362.88
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                
+           
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/51W-O4Jn9EL._SL1000_.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    AMD YD2600BBAFBOX, Procesador RYZEN5 2600 Socket AM4 3.9Ghz Max Boost, 3,4Ghz Base+19MB<br>
+                                    
+<!--                                     <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning ">50% Off </span> -->
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Rendimiento superior. Tecnología increíble. Los procesadores inteligentes Ryzen ahora lo son aún más.los procesadores Ryzen utilizan inteligencia artificial verdadera para acelerar el rendimiento.AMD combina el sistema de refrigeración Wraith Stealth con la 2.ª generación del procesador Ryzen 5 2600 para brindar un perfil bajo y un rendimiento térmico excelente.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <!-- <strong class="oferta">USD $561.70</strong> -->
+
+                                </small>
+
+                                <small>
+
+                                  USD $156.25 
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+
+
+               <!--  PRODUCTO #3 DE LOS MAS VISTO EN LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61Rgsw4SZFL._SL1200_.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Primux Iox All-in-One 2301F, Ordenador con Pantalla de 23,8" Full HD (Intel Celeron N3350 2,41 GHz, 4 GB DDR3L SDRAM, 32 GB Almacenamiento Ampliable, HDMI, USB 3.0 Y 2.0), Color Negro<br>
+                                    
+
+                                     <!--     <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning ">50% Off </span> -->
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Elegancia sin precedentes en un dispositivo todo en uno Sistema Operativo: Windows 10 Intel Celeron N3350 Dual core hasta 2.4Ghz GPU Intel integrada HD Graphics 500 Memoria ram 4GB DDR3L Almacenamiento: Nand 32GB, Almacenamiento externo Hasta 1TB por SSD o disco mecánico de 2,5" Pantalla 23,8" Frameless, IPS, Full HD, grado A+...
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <!-- <strong class="oferta">USD $561.70</strong> -->
+
+                                </small>
+
+                                <small>
+
+                                 USD $333.43
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71KOIOw4KQL._SL1500_.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    ASUS VivoBook S14 S430FA-EB061 - Portátil de 14" FullHD (Intel Core i5-8265U, 8 GB RAM, 256GB SSD, Intel UHD Graphics 620, sin sistema operativo) Gris - Teclado QWERTY Español<br>
+                                    
+                                      <!--  <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning ">50% Off </span> -->
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            El VivoBook S14 es un ultraportátil que puedes llevar a cualquier lugar. Ultrafino y ligero, su diseño te permite deslizarlo en tu bandolera o mochila sin representar una carga.La pantalla NanoEdge del VivoBook S14 continúa explorando los límites de lo que es físicamente posible. Los marcos laterales y superior permiten aprovechar el 84 % de la superficie frontal...
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <!-- <strong class="oferta">USD $561.70</strong> -->
+
+                                </small>
+
+                                <small>
+
+                                 USD $613.32 
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/Office-Professional-plus-2016.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Microsoft Office Professional PLUS 2019 - Licensia Digital<br>
+                                    <span class="label label-warning fontSize" style="margin:2px;">-84% Off </span>
+                                
+                                    <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                    
+                                      <!--  <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning ">50% Off </span> -->
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+
+                            Office 2019 le lleva al siguiente nivel de productividad. Cree presentaciones, modelos de datos e informes con herramientas y capacidades como PowerPoint Morph, nuevos tipos de gráficos en Excel y entintado mejorado en todas las aplicaciones. Administre su tiempo, correo electrónico y contactos más fácilmente con funciones como Bandeja de entrada enfocada, tarjetas de resumen de viajes y entregas en Outlook y Modo de enfoque en Word.
+                            </p>
+
+
+
+                            <h2>
+                        
+                            <small>
+
+                                <strong class="oferta"> USD $230.20 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $37.42
+
+                            </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="001" imagen="http://localhost/   E-commerce-Backend/Vistas/img/productos/software/Office-Professional-plus-2016.jpg" titulo=" Microsoft Office Professional PLUS 2019 - Licensia Digital" precio="37.42" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <!--  PRODUCTO #6 DE LOS MAS VISTOS EN FORMATO DE LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190301092153_scdk.png" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Windows 10 Pro OEM - Licensia Digital<br>
+                                    
+                                    <span class="label label-warning fontSize" style="margin:2px;">-85% Off </span>
+                                
+                                    <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Windows 10 Pro proporciona todas las características de Windows 10 Home, además de potentes herramientas de administración y seguridad de nivel empresarial. La mejor experiencia para comenzar rápido y hacer las cosas.
+
+                            Windows 10 Pro es familiar, fácil de usar y está repleto de excelentes características nuevas para mantenerse organizado, ser productivo y administrar su negocio. Tiene todo lo que tiene Windows 10 Home, además de capacidades adicionales para cifrado, inicio de sesión remoto, creación de máquinas virtuales y más.
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                            <small>
+
+                                <strong class="oferta"> USD $53.78 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $15.32
+
+                            </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="002" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190301092153_scdk.png" titulo="Windows 10 Pro OEM - Licensia Digital" precio="15.32" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+                                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+               <!--  PRODUCTO #7 DE LOS MAS VISTO EN LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Microsoft Office Home And Student 2019 - Licensia Digital<br>
+                                    
+                                    <span class="label label-warning fontSize" style="margin:2px;">-88% Off </span>
+                                
+                                    <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+
+                            Para estudiantes y familias que desean instalar aplicaciones clásicas de Office en una PC o Mac con Windows 10 para usar en el hogar o la escuela. Versiones clásicas de 2019 de las aplicaciones de Office, incluidas Word, Excel y PowerPoint. Además, OneNote para Windows 10.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <strong class="oferta"> USD $289.82 </strong>
+
+                                </small>
+
+
+                                <small>
+
+                                    USD $34.44
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="003" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" titulo="Microsoft Office Home And Student 2019 - Licensia Digital" precio="34.44" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+							     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+               <!--  PRODUCTO #8 DE LOS MAS VISTOS EN FORMATO LISTA -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg"class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Windows10 PRO OEM + Office 2019 Professional Plus - Keys Pack - Licensias Digitales
+                                    <span class="label label-warning fontSize" style="margin:2px;">-70% Off </span>
+                                
+                                     <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+
+                                       
+                                    
+                                      <!--  <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                     <span class="label label-warning ">50% Off </span> -->
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                               ¡Equipe su sistema y su oficina al mismo tiempo con menos dinero! ¡Haz tu vida y tu trabajo más fáciles! Obtenga licencias para Microsoft Windows 10 Professional OEM y Office 2019 Professional Plus con este paquete de claves de CD. Windows 10 Professional es la última versión del sistema operativo omnipresente de Microsoft, que ofrece una mejor seguridad, un rendimiento mejorado y nuevas características como un menú de inicio mejorado, Asistente de voz de Cortana, aplicaciones de la Plataforma universal de Windows y más. 
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                            <small>
+
+                                <strong class="oferta"> USD $245.49 </strong>
+
+                            </small>
+
+
+                            <small>
+
+                                USD $69.00
+
+                            </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+                                <button type="button" class="btn btn-default btn-xs agregarCarrito" idProducto="004" imagen="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg" titulo="Windows10 PRO OEM + Office2019 Professional Plus - Keys Pack - Licensias Digitales" precio="69.00" tipo="virtual" peso="0"  data-toggle="tooltip" title="Agregar al carrito de compras">
+							
+                                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+                <div class="clearfix"></div>
+
+                <hr>
+
+
+
+
+
+
+
+
+
+            </ul>
+
+
+
+
 
       </div>
 

@@ -1,5 +1,6 @@
 .footer-distributed{
-	background-color: #232176;
+	
+	background-image: linear-gradient(to right, #ffffff, #d6d3e5, #aea9cc, #8681b3, #5e5b9a, #4b4b8f, #383b84, #202c79, #202c79, #202c79, #202c79, #202c79);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
