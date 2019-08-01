@@ -96,7 +96,7 @@
 
                 <!-- 
                 _________________________________________________
-                BARRA PRODUCTOS
+                BARRA PRODUCTOS NUEVOS O DESTACADOS
                 _________________________________________________
                 -->
                  
@@ -138,7 +138,7 @@
            </div>
              <!-- 
              _________________________________________________
-                VITRINA DE PRODUCTOS EN CUADRICULA
+             VITRINA DE PRODUCTOS NUEVOS O DESTACADOS  EN  VISTA CUADRICULA
              _________________________________________________
              -->
 
@@ -435,12 +435,12 @@
              <!-- 
              //
              // ──────────────────────────────────────────────────
-             //   VITRINAA DE PRODUCTOS DESTACADOS O NUEVOS EN LISTA
+             //   VITRINAA DE PRODUCTOS DESTACADOS O NUEVOS EN VISTA LISTA
              // ──────────────────────────────────────────────────
              // -->
 
                 <ul class="list0" style="display:;">
-                    <!-- PRODUCTO #1 -->
+                    <!-- PRODUCTO #1 DESTACADOS O NUEVOS EN VISTA LISTA-->
                     <li class="col-xs-12">
                         <!--===============================================-->
                           
@@ -510,7 +510,7 @@
                     </li>
 
 
-                    <!-- PRODUCTO #2 EN VISTA LISTA -->
+                    <!-- PRODUCTO #2 DESTACADOS O NUEVOS EN VISTA LISTA -->
 
                     <li class="col-xs-12">
                         <!--===============================================-->
@@ -585,7 +585,7 @@
                     </li>
                      
 
-                    <!-- PRODUCTO #3 DE LA VISTA EN LISTA -->
+                    <!-- PRODUCTO #3 DESTACADOS O NUEVOS EN VISTA LISTA LISTA -->
 
                     <li class="col-xs-12">
                         <!--===============================================-->
@@ -659,7 +659,7 @@
 
                     </li>
 
-                     <!-- PRODUCTO #4 DE LA VISTA EN LISTA  -->
+                     <!-- PRODUCTO #4 DESTACADOS O NUEVOS EN VISTA LISTA  -->
 
                     <li class="col-xs-12">
                         <!--===============================================-->
@@ -815,7 +815,7 @@
 
                 <!-- 
                 _________________________________________________
-                BARRA PRODUCTOS
+                BARRA PRODUCTOS MAS VENDIDOS
                 _________________________________________________
                 -->
                  
@@ -850,7 +850,9 @@
                     
                     
                 </div>
+
                 <div class="clearfix"></div>
+
                 <hr>
                 
 
@@ -866,7 +868,7 @@
             <ul class="grid1"style="display:none;">
 
 
-                <!-- PRODUCTO #1 DE LA CUADRICULA -->
+                <!-- PRODUCTO #1 DE LA CUADRICULA  DE PRODUCTOS MAS VENDIDOS-->
 
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
@@ -954,6 +956,7 @@
 
                 </li>
 
+                 <!-- PRODUCTO #2 DE LA VISTA EN CUADRICULA DE LOS MAS VENDIDOS -->
 
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
@@ -1038,6 +1041,8 @@
 
                 </li>
 
+                <!-- PRODUCTO #3 DE LA VISTA EN CUADRICULA DE LOS MAS VENDIDOS -->
+
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
                     <!--===============================================-->
@@ -1063,7 +1068,7 @@
                             <a href="#" class="pixelProducto">
                             Apple iPad Pro (11 pulgadas y 256GB con Wi-Fi) - Gris espacial (Ultimo Modelo)<br>
                            
-                            <span class="label label-warning fontSize">10% Off </span>
+                            <span class="label label-warning fontSize">-6% Off </span>
 
                             </a>	
 
@@ -1079,14 +1084,14 @@
                         
                             <small>
 
-                                <strong class="oferta"> USD $1,119 </strong>
+                                <strong class="oferta"> USD $1159.41 </strong>
 
                             </small>
 
 
                             <small>
 
-                                USD $1,007.1 
+                                USD $1,091.99 
 
                             </small>
                         
@@ -1123,6 +1128,8 @@
 
                 </li>
 
+                <!-- PRODUCTO #4 DE LA VISTA EN CUADRICULA DE LOS MAS VENDIDOS -->
+
                 <li class="col-md-3 col-sm-6 col-xs-12">
                     
                     <!--===============================================-->
@@ -1131,7 +1138,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/download.jpg" style="width:50%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71ze4NLHM-L._SL1000_.jpg" style="width:50%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -1145,7 +1152,7 @@
                         <small>
                             
                             <a href="#" class="pixelProducto">
-                            TECLAST T20 Tablet de 10.1 Pulgadas HD Tableta Android Desbloqueo de Huella Digital (WiFi+SIM 4G, 4 GB de RAM, 64GB de Memoria Interna, Diez núcleos, 2560X1600, 8100mAh, 13.0MP+13.0MP)
+                            Gigabyte Z390 Aorus Pro - Placa de Base, Color Negro
                             <br>
                             <br>
                            
@@ -1164,7 +1171,7 @@
                         <h2>
                             <small>
 
-                                USD $268 
+                                USD $210
 
                             </small>
                         
@@ -1206,12 +1213,12 @@
 
             <!-- 
             // --------------------------------------------------------------------------------
-            // VITRINA DE PRODUCTOS  MAS VISTOS  EN LISTA
+            // VITRINA DE PRODUCTOS  MAS VISTOS  VISTA EN LISTA
             // ----------------------------------------------------------------------------- -->
 
             <ul class="list1">
 
-                 <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
+                 <!-- PRODUCTO #1 DE LA VISTA EN LISTA  DE LOS MAS VENDIDOS-->
 
                 <li class="col-xs-12">
 
@@ -1302,10 +1309,290 @@
                         </div>
 
                 </li>
-        
-                <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <!-- PRODUCTO #2 DE LA VISTA EN LISTA  DE LOS MAS VENDIDOS-->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/MSSFPRO6.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
 
 
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Microsoft Surface Pro 6 - Ordenador portátil 2 en 1, 12.3'' (Intel Core i5-8250U, 8GB RAM, 128GB SSD, Intel Graphics, Windows 10 Home) Color Plata<br>
+                                    
+                                    <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning fontSize">10% Off </span>
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Deja que la nueva generación de Surface Pro te ayude a llevar todas tus ideas a cabo gracias al último procesador Intel Core, a la pantalla táctil de alta resolución y a la duración de batería durante todo el día. Su potencia y rendimiento son excepcionales. La Surface Pro 6 te ofrece aún más velocidad gracias a su potente procesador Intel Core de 8 generación, que ejecuta aplicaciones completas de escritorio, y al sistema de almacenamiento SSD, que consigue que haya mayor velocidad en la transferencia de datos y al encender tu PC.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <strong class="oferta"> USD $1,119 </strong>
+
+                                </small>
+
+
+                                <small>
+
+                                    USD $1,007.1 
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <!-- PRODUCTO #3 DE LA VISTA EN CUADRICULA DE LOS MAS VENDIDOS -->
+
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/APPLIPADPRO.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Apple iPad Pro (11 pulgadas y 256GB con Wi-Fi) - Gris espacial (Ultimo Modelo)<br>
+                                    
+                                    <span class="label label-warning " style="margin:2px;">Nuevo </span>
+
+                                    <span class="label label-warning fontSize">-6% Off </span>
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            Con su nuevo diseño todo pantalla, el iPad Pro se convierte en una superficie de vidrio mágica que tiene el poder de hacer todo lo que necesites, sin importar cómo lo sostengas.La nueva pantalla Liquid Retina se extiende hasta los bordes. Sus colores vibrantes y la tecnología ProMotion hacen que todo se vea espectacular y responda al instante.
+
+                            </p>
+
+
+
+                            <h2>
+                        
+                                <small>
+
+                                    <strong class="oferta"> USD $1159.41 </strong>
+
+                                </small>
+
+
+                                <small>
+
+                                    USD $1,091.99 
+
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+                <!-- PRODUCTO #4 DE LA VISTA EN lISTA DE LOS MAS VENDIDOS -->
+
+                <li class="col-xs-12">
+
+                    <!--===============================================-->
+            
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+
+                            <figure>
+                                
+                                <a href="#" class="pixelProducto">
+                                    
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71ze4NLHM-L._SL1000_.jpg" class="img-responsive">
+
+                                </a>
+
+                            </figure>
+
+                        </div>
+
+                    <!--===============================================-->
+                        <div class="col-lg-10 com-md-7 col-sm-8 col-xs-12">
+
+
+                            <h1>
+                            
+                                <small>
+                                        
+                                    <a href="#" class="pixelProducto">
+                                    Gigabyte Z390 Aorus Pro - Placa de Base, Color Negro<br>
+
+
+                                    </a>	
+
+                                </small>			
+
+                            </h1>
+
+
+                            <p class="text-muted">
+
+                            La Z390 AORUS PRO es una placa en formato ATX que maneja unas dimensiones de 305 x 244 mm para un peso que roza el Kg,Corre bajo socket LGA 1151 y por ende con soporte para CPU Intel de 8º y 9ª generación. En el apartado de memoria es compatible con DDR4 hasta 128Gb en 4 módulos dual channely a una velocidad en OC de hasta los 4133Mhz
+
+                            </p>
+
+
+
+                            <h2>
+                        
+
+                                <small>
+
+                                    USD $210.00
+                                </small>
+                        
+                            </h2>
+
+                            <div class="btn-group pull-left">
+                            
+                                <button type="button" class="btn btn-default btn-xs deseos" idProducto="470" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                    
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                </button>
+
+
+                                <a href="#" class="pixelProducto">
+                                
+                                    <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                        
+                                        <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                    </button>	
+
+                                
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                </li>
+
+
+                
 
 
 
