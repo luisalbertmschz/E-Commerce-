@@ -64,3 +64,32 @@ for(var i = 0; i < btnList.length; i++){
 	})
 
 }
+
+
+$(window).scroll(function(){
+
+	var scrollY = window.pageYOffset;
+
+	if(window.matchMedia("(min-width:768px)").matches){
+
+		if(scrollY < ($(".banner").offset().top)-280){
+
+			$(".banner img").css({"margin-top":-scrollY/3.5+"px"})
+
+		}else{
+
+			scrollY = 0;
+		}
+
+	}	
+	
+})
+
+
+$.scrollUp({
+
+	scrollText:"",
+	scrollSpeed: 2000,
+	easingType: "easeOutQuint"
+
+});
