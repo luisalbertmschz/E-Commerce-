@@ -175,3 +175,124 @@ _________________________________________________
  .fa-shopping-cart:hover{
 	color:green !important;
  }
+.checked{
+	color: orange;
+}
+                        /*
+_________________________________________________
+MEDIA QUERYS Y SUS PUNTOS DE QUIEBRE
+_________________________________________________
+					 */
+
+/*=============================================
+ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.banner{
+		height:260px;
+	}
+
+
+}
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+	.banner{
+		height:260px;
+	}
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px){
+
+	.banner{
+		height:180px;
+	}
+
+	.textoBanner h1{
+		font-size:30px;
+		line-height:15px;
+	}
+
+	.textoBanner h2{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.textoBanner h3{
+		font-size:25px;
+		line-height:15px;
+	}
+
+	.banner .textoDer, .banner .textoIzq, .banner .textoCentro{
+		top:35px; 
+	}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	.banner{
+		height:100px;
+	}
+
+	.banner .textoDerecha, .banner .textoCentro, .banner .textoIzquierda{
+		top:2px; 
+		left:50%;
+		width:800px; 
+		margin-left: -400px;
+		text-align:center;
+		text-shadow:2px 2px 20px black;
+	}
+
+	.textoBanner h1{
+		font-size:20px;
+		line-height:3px;
+	}
+
+	.textoBanner h2{
+		font-size:20px;
+		line-height:3px;
+	}
+
+	.textoBanner h3{
+		font-size:15px;
+		line-height:5px;
+	}
+
+	.tituloDestacado h1{
+		text-align:center;
+	}
+
+	.tituloDestacado button{
+		position: absolute;
+		left:50%;
+		width:40%;
+		margin-left:-20%;
+
+	}
+
+	.productos ul li h1 small{
+		font-size:15px;
+	}
+
+
+
+	
+}
+

@@ -5,38 +5,26 @@
 // ----------------------------------------------------------------------------- -->
 
 <figure class = "banner">
-
-
-        <!-- BANNER-OPCION1 -->
-        
-        <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/LaptopsBFadeAzuloscuro2.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt="">
-        
-       
-          <!-- <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/AsusB.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt=""> -->
-          
-
-        <!-- BANNER-OPCION2 -->
-       
+    
+        <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/LaptopsBFadeAzuloscuro2.jpg" class="img-responsive" width="200%" style="margin:0 auto; margin-top:2px; cursor:pointer;" alt="">
         
 
         <div class="textoBanner textoDerecha">
 
-
             <h1 style="color:#fff"> OFERTAS ESPECIALES DE VERANO</h1>
 
-            <h2 style="color:#fff"><strong>Gran variedad de productos a precios bajos</strong></h2>
+            <h2 style="color:#fff"><strong>-20% OFF</strong></h2>
 
             <h3 style="color:#fff">Terminan el 31 de Agosto</h3>
 
         </div>
 
-        <div></div>
-
+        
 
 </figure>
 
 
-<img src="http://localhost/E-commerce-Backend/Vistas/img/banner/PCsB.jpg" class="img-responsive" width="100%" style="margin:0; margin-top:10px; cursor:pointer;" alt="">
+<img src="http://localhost/E-commerce-Backend/Vistas/img/banner/BlaptopAsus.jpg" class="img-responsive" width="100%" height="2px;" style="margin:0; margin-top:1px; cursor:pointer;" alt="">
 
 <!-- 
 // -----------------------------------------------------------------------------
@@ -143,7 +131,7 @@
              -->
 
             
-             <ul class="grid0"style="display:none;">
+             <ul class="grid0"style="display:;">
 
 
                 <!-- PRODUCTO #1 DE LA CUADRICULA -->
@@ -157,7 +145,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" style="width:60%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicosparaoficina/XMB4.jpg" style="width:60%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -214,8 +202,13 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                     <hr>
 
                 </li>
+
+              
 
                 <!-- Producto 2 -->
 
@@ -227,7 +220,7 @@
                         
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71sr2EHOlpL._SL1500_.jpg"style="width:95%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/lenovo-legion-y540-15-3.webp"style="width:95%;" class="img-responsive">
 
                         </a>
 
@@ -283,6 +276,9 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                     <hr>
 
                 </li>
 
@@ -353,6 +349,9 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                    <hr>
 
                 </li>
                 
@@ -367,7 +366,7 @@
 
                                 <a href="#" class="pixelProducto">
                                     
-                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61fTH8Uil9L._SL1000_.jpg" style="width:59%;" class="img-responsive">
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/364-3643425_huawei-matebook-x.png" style="width:59%;" class="img-responsive">
 
                                 </a>
 
@@ -383,7 +382,7 @@
                                 
                                 <a href="#" class="pixelProducto">
                                     
-                                    Fire HD  10 Table compatible con Alexa, soporta Hands Free, 10.1" 1080P Full HD Display 32 GB Color negro<br>
+                                    Huawei Matebook X - Ordenador portátil ultrafino 13.3" 2K IPS (Procesador Intel Core i5-7200U, 8GB RAM, 256GB SSD, Windows 10 Pro) Gris - Teclado QWERTY español<br>
 
                                     <span class="label label-warning fontSize">Nuevo</span> 
 
@@ -426,6 +425,9 @@
                             </div>
 
                         </div>
+                        <div class="clearfix"></div>
+
+                        <hr>
 
                 </li>
                 
@@ -439,7 +441,7 @@
              // ──────────────────────────────────────────────────
              // -->
 
-                <ul class="list0" style="display:;">
+                <ul class="list0" style="display:none;">
                     <!-- PRODUCTO #1 DESTACADOS O NUEVOS EN VISTA LISTA-->
                     <li class="col-xs-12">
                         <!--===============================================-->
@@ -449,7 +451,7 @@
 					
 					        <figure>
 					
-						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/51ADqWUs7mL._SL1000_.jpg" class="img-responsive"></a>
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicosparaoficina/XMB4.jpg" class="img-responsive"></a>
 
 					        </figure>
 
@@ -469,9 +471,18 @@
 
                             </h1>
 
+
                             <p class="text-muted">
-                            Da el paso, acepta el reto. Con Xiaomi Mi Smart Band 4 supera tus propios límites con mejores funcionalidades respecto a modelos anteriores. Cuenta con entrenador personal incorporado en tu muñeca que te guía a cada paso y alertas de inactividad con recordatorios para ponerte en movimiento. Visualiza al instante llamadas, mensajes, notificaciones y la música que escuchas. Goza de una pantalla resistente a arañazos, con más brillo y 39.9% más grade.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span><br>
+                            Envio gratis por Techtoot <br>
+                            Recíbelo el Jueves 8 de agosto ordenandolo hoy <br>
+
                             </p>
+
 
                             <h2><small>USD $41.99</small></h2>
 
@@ -499,15 +510,10 @@
 
 				        <!--===============================================-->
 
-                            <div class="col-xs-12">
-
-                                <hr>
-
-                            </div>
-
 				        <!--===============================================-->
 
                     </li>
+                    
 
 
                     <!-- PRODUCTO #2 DESTACADOS O NUEVOS EN VISTA LISTA -->
@@ -543,8 +549,13 @@
                             </h1>
 
                             <p class="text-muted">
-                            Este portátil de 39,62 cm (15,6") te ofrece exactamente lo que necesitas para que disfrutes de una experiencia de juego que te ofrece rendimiento y portabilidad. Su diseño increíblemente elegante y las especificaciones de última generación te garantizan una gran potencia. Térmicamente optimizado para mantenerse más frío y silencioso con un teclado con retroiluminación blanca de tamaño completo, el portátil Legion Y530 se ha diseñado pensando en todos aquellos que desean jugar allí donde les lleve la vida.
-
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                            Envio gratis por Techtoot <br>
+                            
                             </p>
 
                             <h2><small>USD $1000.99</small></h2>
@@ -619,7 +630,12 @@
                             </h1>
 
                             <p class="text-muted">
-                            Alto rendimiento, gracias a la unidad de disco duro Western DIGITAL de 1000 GB, la unidad de estado sólido de 120 GB y la memoria RAM DDR4 de 8 GB a una velocidad de 2400 mhz. Gracias a la tarjeta de video GTX 1050Ti de 4GB, el case del equipo cuenta con  iluminación RGB Fan....
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                            Envio gratis por Techtoot <br>
                             </p>
 
                             <h2><small>USD $980.45</small></h2>
@@ -693,7 +709,12 @@
                             </h1>
 
                             <p class="text-muted">
-                            Explora nuevos horizontes. El primer notebook de HUAWEI con diseño FullView. El ratio pantalla / volumen del 91% crea una pantalla con apenas bordes ofreciendo una vista impresionante en un cuerpo pequeño. Una experiencia revolucionaria. Una pantalla que captura el mundo.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
                             
                             </p>
 
@@ -865,7 +886,7 @@
              -->
 
 
-            <ul class="grid1"style="display:none;">
+            <ul class="grid1"style="display:;">
 
 
                 <!-- PRODUCTO #1 DE LA CUADRICULA  DE PRODUCTOS MAS VENDIDOS-->
@@ -953,8 +974,12 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                    <hr>
 
                 </li>
+
 
                  <!-- PRODUCTO #2 DE LA VISTA EN CUADRICULA DE LOS MAS VENDIDOS -->
 
@@ -1038,6 +1063,9 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                     <hr>
 
                 </li>
 
@@ -1052,7 +1080,7 @@
                         
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/APPLIPADPRO.jpg" style="width:32%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/APPLIPADPRO.jpg" style="width:30%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -1125,6 +1153,9 @@
                         </div>
 
                     </div>
+                    <div class="clearfix"></div>
+
+                    <hr>
 
                 </li>
 
@@ -1138,7 +1169,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/z390.jpg" style="width:50%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/z390.jpg" style="width:55%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -1206,6 +1237,9 @@
                     </div>
 
                 </li>
+                <div class="clearfix"></div>
+
+                 <hr>
 
              
             </ul>
@@ -1216,7 +1250,7 @@
             // VITRINA DE PRODUCTOS  MAS VISTOS  VISTA EN LISTA
             // ----------------------------------------------------------------------------- -->
 
-            <ul class="list1">
+            <ul class="list1"style="display:none;">
 
                  <!-- PRODUCTO #1 DE LA VISTA EN LISTA  DE LOS MAS VENDIDOS-->
 
@@ -1261,12 +1295,13 @@
 
 
                             <p class="text-muted">
-
-                            El Lenovo Ideapad S145 es un dispositivo de gama básica, de rendimiento potente y duradero, perfecto para llevar a cabo las tareas diarias. Cuenta con un diseño fino y ligero, sonido Dolby Audio, un marco estrecho y almacenamiento híbrido.Con un peso inicial de 1.85 kg, el Ideapad S145 es una opción fantástica para que lo lleves allá donde vayas.
-
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
                             </p>
-
-
 
                             <h2>
                         
@@ -1356,8 +1391,12 @@
 
 
                             <p class="text-muted">
-
-                            Deja que la nueva generación de Surface Pro te ayude a llevar todas tus ideas a cabo gracias al último procesador Intel Core, a la pantalla táctil de alta resolución y a la duración de batería durante todo el día. Su potencia y rendimiento son excepcionales. La Surface Pro 6 te ofrece aún más velocidad gracias a su potente procesador Intel Core de 8 generación, que ejecuta aplicaciones completas de escritorio, y al sistema de almacenamiento SSD, que consigue que haya mayor velocidad en la transferencia de datos y al encender tu PC.
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
 
                             </p>
 
@@ -1455,7 +1494,13 @@
 
                             <p class="text-muted">
 
-                            Con su nuevo diseño todo pantalla, el iPad Pro se convierte en una superficie de vidrio mágica que tiene el poder de hacer todo lo que necesites, sin importar cómo lo sostengas.La nueva pantalla Liquid Retina se extiende hasta los bordes. Sus colores vibrantes y la tecnología ProMotion hacen que todo se vea espectacular y responda al instante.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
+                                Queda(n) 10 en stock (Hay mas en camino)
 
                             </p>
 
@@ -1549,7 +1594,13 @@
 
                             <p class="text-muted">
 
-                            La Z390 AORUS PRO es una placa en formato ATX que maneja unas dimensiones de 305 x 244 mm para un peso que roza el Kg,Corre bajo socket LGA 1151 y por ende con soporte para CPU Intel de 8º y 9ª generación. En el apartado de memoria es compatible con DDR4 hasta 128Gb en 4 módulos dual channely a una velocidad en OC de hasta los 4133Mhz
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Recibelo este próximo miercoles al ordenarlo hoy <br>
+                                Envio GRATIS disponible <br>
 
                             </p>
 
@@ -1590,6 +1641,12 @@
                         </div>
 
                 </li>
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+
 
 
                 
@@ -1720,7 +1777,7 @@
              -->
 
              <!-- OCULTAR LOS PRODUCTOS MAS VISTOS -->
-            <ul class="grid2" style="display:none;">
+            <ul class="grid2" style="display:;">
 
 
                  <!-- PRODUCTO NÚMERO 1 DE LOS MAS VISTOS -->
@@ -2219,9 +2276,11 @@
 
                                 <br>
 
+
                                 <span class="label label-warning fontSize" style="margin:2px;">-85% Off </span>
                                 
                                 <span class="label label-primary fontSize" style="margin:2px;">Producto Digital</span>
+                                
 
                                 <br>
 
@@ -2405,7 +2464,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg" style="width:41%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/windows-10-pro-office-2016-professional.png" style="width:41%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -2507,7 +2566,7 @@
             // VITRINA DE PRODUCTOS  MAS VISTOS  EN LISTA
             // ----------------------------------------------------------------------------- -->
 
-            <ul class="list1">
+            <ul class="list2" style="display:none;" >
 
                  <!-- PRODUCTO #1 DE LA VISTA EN LISTA -->
 
@@ -2538,7 +2597,7 @@
                                 <small>
                                         
                                     <a href="#" class="pixelProducto">
-                                    Linksys WHW0303-EU Sistema Velop WiFi mesh tribanda para todo el hogar (Router WiFi/Extensor WiFi para una red mesh para todo el hogar, AC6600, paquete de 3 nodos, hasta 525 m2 de cobertura, Blanco)<br>
+                                    Linksys WHW0303-EU Sistema Velop WiFi mesh tribanda para todo el hogar (Router WiFi/Extensor WiFi para una red mesh para todo el hogar)<br>
                                     
                                     <span class="label label-warning " style="margin:2px;">Nuevo </span>
 
@@ -2553,8 +2612,12 @@
 
                             <p class="text-muted">
 
-                            Linksys Velop es el sistema WiFi tribanda que funciona en armonía para crear una red mesh de gran alcance. A diferencia de cómo funcionan los routers ordinarios con los extensores de alcance el sistema Velop WiFi mesh tribanda se compone de puntos distintos de conexión que ofrecen el 100 % de velocidad de la conexión a internet en todos los rincones de tu casa.
-
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
                             </p>
 
 
@@ -2650,7 +2713,12 @@
 
                             <p class="text-muted">
 
-                            Rendimiento superior. Tecnología increíble. Los procesadores inteligentes Ryzen ahora lo son aún más.los procesadores Ryzen utilizan inteligencia artificial verdadera para acelerar el rendimiento.AMD combina el sistema de refrigeración Wraith Stealth con la 2.ª generación del procesador Ryzen 5 2600 para brindar un perfil bajo y un rendimiento térmico excelente.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
 
                             </p>
 
@@ -2748,7 +2816,12 @@
 
                             <p class="text-muted">
 
-                            Elegancia sin precedentes en un dispositivo todo en uno Sistema Operativo: Windows 10 Intel Celeron N3350 Dual core hasta 2.4Ghz GPU Intel integrada HD Graphics 500 Memoria ram 4GB DDR3L Almacenamiento: Nand 32GB, Almacenamiento externo Hasta 1TB por SSD o disco mecánico de 2,5" Pantalla 23,8" Frameless, IPS, Full HD, grado A+...
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
                             </p>
 
 
@@ -2840,7 +2913,12 @@
 
                             <p class="text-muted">
 
-                            El VivoBook S14 es un ultraportátil que puedes llevar a cualquier lugar. Ultrafino y ligero, su diseño te permite deslizarlo en tu bandolera o mochila sin representar una carga.La pantalla NanoEdge del VivoBook S14 continúa explorando los límites de lo que es físicamente posible. Los marcos laterales y superior permiten aprovechar el 84 % de la superficie frontal...
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Envio GRATIS disponible <br>
 
                             </p>
 
@@ -2937,8 +3015,12 @@
 
                             <p class="text-muted">
 
-
-                            Office 2019 le lleva al siguiente nivel de productividad. Cree presentaciones, modelos de datos e informes con herramientas y capacidades como PowerPoint Morph, nuevos tipos de gráficos en Excel y entintado mejorado en todas las aplicaciones. Administre su tiempo, correo electrónico y contactos más fácilmente con funciones como Bandeja de entrada enfocada, tarjetas de resumen de viajes y entregas en Outlook y Modo de enfoque en Word.
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Entrega digital inmediata vía email<br>
                             </p>
 
 
@@ -3039,9 +3121,12 @@
 
                             <p class="text-muted">
 
-                            Windows 10 Pro proporciona todas las características de Windows 10 Home, además de potentes herramientas de administración y seguridad de nivel empresarial. La mejor experiencia para comenzar rápido y hacer las cosas.
-
-                            Windows 10 Pro es familiar, fácil de usar y está repleto de excelentes características nuevas para mantenerse organizado, ser productivo y administrar su negocio. Tiene todo lo que tiene Windows 10 Home, además de capacidades adicionales para cifrado, inicio de sesión remoto, creación de máquinas virtuales y más.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Entrega digital inmediata vía email<br>
                             </p>
 
 
@@ -3146,7 +3231,12 @@
                             <p class="text-muted">
 
 
-                            Para estudiantes y familias que desean instalar aplicaciones clásicas de Office en una PC o Mac con Windows 10 para usar en el hogar o la escuela. Versiones clásicas de 2019 de las aplicaciones de Office, incluidas Word, Excel y PowerPoint. Además, OneNote para Windows 10.
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Entrega digital inmediata vía email<br>
 
                             </p>
 
@@ -3255,8 +3345,12 @@
 
                             <p class="text-muted">
 
-                               ¡Equipe su sistema y su oficina al mismo tiempo con menos dinero! ¡Haz tu vida y tu trabajo más fáciles! Obtenga licencias para Microsoft Windows 10 Professional OEM y Office 2019 Professional Plus con este paquete de claves de CD. Windows 10 Professional es la última versión del sistema operativo omnipresente de Microsoft, que ofrece una mejor seguridad, un rendimiento mejorado y nuevas características como un menú de inicio mejorado, Asistente de voz de Cortana, aplicaciones de la Plataforma universal de Windows y más. 
-
+                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span><br>
+                                Entrega digital inmediata vía email<br>
                             </p>
 
 
