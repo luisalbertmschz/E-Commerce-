@@ -87,6 +87,7 @@ header #carrito p{
 	border:1px solid #232176;
 	font-size:12px;
 	border-radius:20PX; /* TODO ESTO AFECTA EL BORDER RADIUS DEL CONTENEDOR DE LOGO E INFO CARRITO*/
+	line-height: 1.49;
 } 
 
 header #categorias{

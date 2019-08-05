@@ -145,7 +145,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicosparaoficina/XMB4.jpg" style="width:60%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicaparaoficina/XMB4.png" style="width:60%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -220,7 +220,7 @@
                         
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/lenovo-legion-y540-15-3.webp"style="width:95%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71sr2EHOlpL._SL1500_.jpg"style="width:95%;" class="img-responsive">
 
                         </a>
 
@@ -366,7 +366,7 @@
 
                                 <a href="#" class="pixelProducto">
                                     
-                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/364-3643425_huawei-matebook-x.png" style="width:59%;" class="img-responsive">
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61CQB87YlWL._SL1500_.jpg" style="width:59%;" class="img-responsive">
 
                                 </a>
 
@@ -451,7 +451,7 @@
 					
 					        <figure>
 					
-						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicosparaoficina/XMB4.jpg" class="img-responsive"></a>
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/electronicaparaoficina/XMB4.png" class="img-responsive"></a>
 
 					        </figure>
 
@@ -526,7 +526,7 @@
 					
 					        <figure>
 					
-						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/lenovo-legion-y540-15-3.webp" class="img-responsive"></a>
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71sr2EHOlpL._SL1500_.jpg" class="img-responsive"></a>
 
 					        </figure>
 
@@ -685,7 +685,7 @@
 					
 					        <figure>
 					
-						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/364-3643425_huawei-matebook-x.png" class="img-responsive"></a>
+						       <a href="#" class="pixelProducto"><img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/61CQB87YlWL._SL1500_.jpg" class="img-responsive"></a>
 
 					        </figure>
 
@@ -1169,7 +1169,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/z390.jpg" style="width:55%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71ze4NLHM-L._SL1000_.jpg" style="width:55%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -1565,7 +1565,7 @@
                                 
                                 <a href="#" class="pixelProducto">
                                     
-                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/z390.jpg" class="img-responsive">
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/portatilesytablets/71ze4NLHM-L._SL1000_.jpg" class="img-responsive">
 
                                 </a>
 
@@ -2362,7 +2362,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/79G-05062.png" style="width:41%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" style="width:41%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -2464,7 +2464,7 @@
                         <center>
                         <a href="#" class="pixelProducto">
                             
-                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/windows-10-pro-office-2016-professional.png" style="width:41%;" class="img-responsive">
+                            <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg" style="width:41%;" class="img-responsive">
 
                         </a>
                         </center>
@@ -2481,7 +2481,7 @@
                             
                             <a href="#" class="pixelProducto">
 
-                                 Windows10 PRO OEM + Office 2019 Professional Plus - Keys Pack - Licensias Digitales
+                                 Windows10 PRO OEM + Office 2019 Professional Plus  - Keys Pack - Licensias Digitales
 
                                 <br>
 
@@ -3198,7 +3198,7 @@
                                 
                                 <a href="#" class="pixelProducto">
                                     
-                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/of2019.png" class="img-responsive">
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190517105055_scdk.png" class="img-responsive">
 
                                 </a>
 
@@ -3308,7 +3308,7 @@
                                 
                                 <a href="#" class="pixelProducto">
                                     
-                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/windows-10-pro-office-2016-professional.png"class="img-responsive">
+                                    <img src="http://localhost/E-commerce-Backend/Vistas/img/productos/software/20190516100435_scdk.jpg"class="img-responsive">
 
                                 </a>
 
