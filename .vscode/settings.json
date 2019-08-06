@@ -1,18 +1,4 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#3671c8",
-        "activityBar.foreground": "#e7e7e7",
-        "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#e49bb8",
-        "activityBarBadge.foreground": "#15202b",
-        "titleBar.activeBackground": "#2b5aa0",
-        "titleBar.inactiveBackground": "#2b5aa099",
-        "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveForeground": "#e7e7e799",
-        "statusBar.background": "#2b5aa0",
-        "statusBarItem.hoverBackground": "#3671c8",
-        "statusBar.foreground": "#e7e7e7"
-    },
     "sqltools.connections": [
         {
             "askForPassword": true,
@@ -24,5 +10,20 @@
             "server": "127.0.0.1",
             "username": "root"
         }
-    ]
+    ],
+    "peacock.color": "#1057be",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#166deb",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#f58ab5",
+        "activityBarBadge.foreground": "#15202b",
+        "titleBar.activeBackground": "#1057be",
+        "titleBar.inactiveBackground": "#1057be99",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "statusBar.background": "#1057be",
+        "statusBarItem.hoverBackground": "#166deb",
+        "statusBar.foreground": "#e7e7e7"
+    }
 }
