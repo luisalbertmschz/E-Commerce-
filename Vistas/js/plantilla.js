@@ -1,5 +1,13 @@
 /* PLANTILLA */
 
+                        /*
+_________________________________________________
+HERRAMIENTA TOOLTIP
+_________________________________________________
+					 */
+
+$('[data-toggle="tooltip"]').tooltip();				 
+
 $.ajax({
 
 	url:"Ajax/plantilla.ajax.php",
