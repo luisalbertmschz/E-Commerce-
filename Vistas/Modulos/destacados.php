@@ -26,6 +26,262 @@
 
 <img src="http://localhost/E-commerce-Backend/Vistas/img/banner/BlaptopAsus.jpg" class="img-responsive" width="100%" height="2px;" style="margin:0; margin-top:1px; cursor:pointer;" alt="">
 
+
+
+
+<?php
+  $titulosModulos = array("ARTÍCULOS DESTACADOS","LO MÁS VENDIDO", "LO MÁS VISTO");
+  $rutasModulos = array("articulos-destacados","lo-mas-vendido", "lo-mas-visto");
+
+
+  if ($titulosModulos[0] == "ARTÍCULOS DESTACADOS" ){
+      
+  $item = "vistas";
+  $valor = 5;
+
+  $ordernar = "id"; 
+
+  $destacados = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+
+  
+
+  }
+
+  if ($titulosModulos[1] == "LO MÁS VENDIDO" ){
+
+    $item =  null;
+    $valor = null;
+
+    $ordernar = "ventas"; 
+    $ventas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+
+
+  }
+
+  if ($titulosModulos[2] == "LO MÁS VISTO"){
+
+    $item =  null;
+    $valor = null;
+
+    $ordernar = "vistas"; 
+    $vistas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+
+        
+  }
+
+    $modulos = array($destacados, $ventas, $vistas);
+
+    for ($i = 0; $i < count($titulosModulos); $i ++){
+
+        echo '<div class="container-fluid well well-sm barraProductos">
+
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-xs-12 organizarProductos">
+    
+                    <div class="btn-group pull-right">
+    
+    
+                         <button type="button" class="btn btn-default btnGrid" id="btnGrid'.$i.'">
+                             
+                            <i class="fa fa-th" aria-hidden="true"></i>  
+    
+                            <span class="col-xs-0 pull-right"> GRID</span>
+    
+                         </button>
+                         
+    
+                         <button type="button" class="btn btn-default btnList" id="btnList'.$i.'">
+                             
+                            <i class="fa fa-list" aria-hidden="true"></i> 
+    
+                            <span class="col-xs-0 pull-right"> LIST</span>
+    
+                         </button>
+                         
+                        
+                    </div>		
+    
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
+
+    <div class="container-fluid productos">
+
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- 
+                _________________________________________________
+                BARRA PRODUCTOS NUEVOS O DESTACADOS
+                _________________________________________________
+                -->
+                
+                <div class="col-xs-12 tituloDestacado">
+                                        
+                
+                    <!--  _________________________________________________ -->
+
+                    <div class=" col-sm-6 col-xs-12">
+
+                    <h1><small>'.$titulosModulos[$i].'</small></h1>
+
+                    </div>
+
+                    <!--  _________________________________________________ -->
+
+                    <div class=" col-sm-6 col-xs-12">
+
+                        <a href="'.$rutasModulos[$i].' ">
+
+                            <button class="btn btn-default backColor pull-right">
+                                
+                            VER MÁS <span class="fa fa-chevron-right"></span>
+
+                            </button>
+                        
+                        </a>
+
+                    </div>
+
+                    <!--  _________________________________________________ -->
+                    
+                    
+                </div>
+
+                <div class="clearfix"></div>
+
+                <hr>
+
+
+            </div>
+
+
+            <ul class="grid'.$i.'"style="display:;">';
+
+            foreach($modulos[$i] as $key => $value) {
+
+                echo '  <li class="col-md-3 col-sm-6 col-xs-12">
+                            <!--===============================================-->
+                
+                            <figure>
+                                <center>
+                                    <a href="#" class="pixelProducto">
+                                        
+                                        <img src="http://localhost/E-commerce-Backend/'.$value["portada"].'" style="width:65%;" class="img-responsive">
+
+                                    </a>
+                                </center>
+
+                            </figure>
+
+                            <!--===============================================-->
+                            
+                            <h4>
+                        
+                                <small>
+                                    
+                                    <a href="#" class="pixelProducto">
+                                        
+                                    '.$value["titulo"].'<br><br>
+
+                                    </a>	
+
+                                </small>			
+
+                             </h4>
+
+                             <!--===============================================-->
+                    
+                            <div class="col-xs-6 precio">
+                        
+                               <h2><small>'.$value["precio"].'</small></h2>
+
+                            </div>
+
+                             <!--===============================================-->
+
+                             <div class="col-xs-6 enlaces">
+                        
+                                 <div class="btn-group pull-right">
+                            
+                                    <button type="button" class="btn btn-default btn-xs deseos" idProducto="'.$value["id"].'" data-toggle="tooltip" title="Agregar a mi lista de deseos">
+                                        
+                                        <i class="fa fa-heart" aria-hidden="true"></i>
+
+                                    </button>
+
+                                    <a href="#" class="pixelProducto">
+                                    
+                                        <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip" title="Ver producto">
+                                            
+                                            <i class="fa fa-eye" aria-hidden="true"></i>
+
+                                        </button>	
+                                    
+                                    </a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <hr>
+
+                        </li>
+
+                
+                
+                
+                
+                ';
+
+
+
+
+
+            }
+
+
+            echo'
+
+            </ul>
+
+
+            
+
+        </div>
+
+    </div>
+
+           
+            
+            
+            
+            
+               ';
+
+
+    }
+
+
+    
+  
+
+
+
+?>
+
 <!-- 
 // -----------------------------------------------------------------------------
 // BARRA DE PRODUCTOS  NUEVOS O DESTACADOS
@@ -473,13 +729,12 @@
 
 
                             <p class="text-muted">
-                            <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span><br>
-                            Envio gratis por Techtoot <br>
-                            Recíbelo el Jueves 8 de agosto ordenandolo hoy <br>
+                                Envio gratis por Techtoot <br>
 
                             </p>
 
