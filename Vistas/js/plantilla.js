@@ -42,7 +42,7 @@ CAMBIAR ENTRE VISTA LISTA O CUADRICULA
 _________________________________________________
 					 */
 var btnList = $(".btnList");
-console.log("btnList", btnList.length);
+
 var btnList = $(".btnList");
 
 for(var i = 0; i < btnList.length; i++){
@@ -80,9 +80,9 @@ $(window).scroll(function(){
 
 	if(window.matchMedia("(min-width:768px)").matches){
 
-		if(scrollY < ($(".banner").offset().top)-280){
+		if(scrollY < ($(".banner").offset().top)-150){
 
-			$(".banner img").css({"margin-top":-scrollY/3.5+"px"})
+			$(".banner img").css({"margin-top":-scrollY/3+"px"})
 
 		}else{
 

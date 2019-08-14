@@ -109,6 +109,7 @@
         en ese sentido si la ruta o las rutas */
           $rutas = array();
           $ruta = null;
+          $infoProducto = null;
           
 
 
@@ -146,53 +147,65 @@
 
 
 
-        /* LISTA BLANCA DE URLS PARA SUBCATEGORIAS AMIGABLES */
+                /* LISTA BLANCA DE URLS PARA SUBCATEGORIAS AMIGABLES */
 
-        $rutasubCategorias = ControladorProductos::ctrMostrarSubCategorias($item,$valor);
-
-
-        foreach ($rutasubCategorias  as $key  => $value){
-
-            if($rutas[0] == $value["ruta"])
-            {
-
-            $ruta = $rutas[0]; 
-
-            }  
+                $rutaSubCategorias = ControladorProductos::ctrMostrarSubCategorias($item,$valor);
 
 
-        }
+                foreach ($rutaSubCategorias  as $key  => $value){
 
+                    if($rutas[0] == $value["ruta"])
+                    {
 
+                    $ruta = $rutas[0]; 
 
+                    }  
 
-           
-           /* LISTA BLANCA DE URL´S AMIGABLES  DE CATEGORIAS*/
-
-             if($ruta  != null || $rutas[0] == "articulos-destacados"  || $rutas[0] == "lo-mas-vendido" || $rutas[0] == "lo-mas-visto"  )
-                {
-
-
-                    include "Modulos/productos.php";
-
-
-
-                }else
-                {
-
-                    include "Modulos/error404.php";
 
                 }
 
-    }else{
+               /* LISTA BLANCA DE URL´S AMIGABLES  DE PRODUCTOS*/
+               
 
-        include "Modulos/slide.php";
-        include "modulos/destacados.php";
-        include "modulos/footer.php";
+               $rutaProductos = ControladorProductos::ctrMostrarInfoProducto($item, $valor);
 
-    }
+               var_dump($rutaProductos["ruta"]);
+	
+               if($rutas[0] == $rutaProductos["ruta"])
+               
+               {
+           
+                   $infoProducto = $rutas[0];
+           
+               }
 
-            
+
+           
+                /* LISTA BLANCA DE URL´S AMIGABLES  DE CATEGORIAS*/
+
+                if($ruta  != null || $rutas[0] == "articulos-destacados"  || $rutas[0] == "lo-mas-vendido" || $rutas[0] == "lo-mas-visto"  )
+                    {
+                        include "modulos/productos.php";
+
+                    }else if($infoProducto != null){
+                
+                        include "modulos/infoproducto.php";
+                
+                    }else{
+                
+                        include "modulos/error404.php";
+                
+                    }
+
+            }else{
+
+                include "Modulos/slide.php";
+                include "modulos/destacados.php";
+                include "modulos/footer.php";
+
+            }
+
+                    
 
 
         ?>
