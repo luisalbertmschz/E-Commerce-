@@ -39,38 +39,44 @@ $servidor = Ruta::ctrRutaServidor();
   $titulosModulos = array("ARTÍCULOS DESTACADOS","LO MÁS VENDIDO", "LO MÁS VISTO");
   $rutasModulos = array("articulos-destacados","lo-mas-vendido", "lo-mas-visto");
 
+  $base = 0;
+  $tope = 4;
+
+
 
   if ($titulosModulos[0] == "ARTÍCULOS DESTACADOS" ){
+
+  $ordernar = "id"; 
       
   $item = "vistas";
   $valor = 5;
 
-  $ordernar = "id"; 
-
-  $destacados = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+  $destacados = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor, $base, $tope);
 
   
-
   }
 
   if ($titulosModulos[1] == "LO MÁS VENDIDO" ){
 
+    $ordernar = "ventas"; 
+
     $item =  null;
     $valor = null;
 
-    $ordernar = "ventas"; 
-    $ventas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+    
+    $ventas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor, $base, $tope);
 
 
   }
 
   if ($titulosModulos[2] == "LO MÁS VISTO"){
 
+    $ordernar = "vistas"; 
+
     $item =  null;
     $valor = null;
 
-    $ordernar = "vistas"; 
-    $vistas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor);
+    $vistas = ControladorProductos::ctrMostrarProductos($ordernar, $item, $valor, $base, $tope);
 
         
   }
@@ -157,6 +163,7 @@ $servidor = Ruta::ctrRutaServidor();
             foreach ($modulos[$i] as $key => $value) {
                 
                 echo '<li class="col-md-3 col-sm-6 col-xs-12">
+                
 
                         <figure>
                             

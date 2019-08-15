@@ -2,6 +2,9 @@
 
 $servidor = Ruta::ctrRutaServidor();
 
+$url = Ruta::ctrRuta();
+
+
 ?>
 
 
@@ -126,7 +129,7 @@ $servidor = Ruta::ctrRutaServidor();
         	
 			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
 				
-				<a href="http://localhost/E-commerce-/">
+				<a href="<?php echo $url;  ?>">
                     <!-- Traer el logo sin usar la base de datos  -->
 						
 					<!-- <img src="http://localhost/E-commerce-Backend/Vistas/plantilla/large_techtoot_0.png" class="img-responsive"> -->
@@ -240,7 +243,7 @@ $servidor = Ruta::ctrRutaServidor();
                     
                      <!-- ELIMINE CLASE btn-default -->
 
-					<button class="btn  pull-left backColor"> 
+					<button class="btn btn-default pull-left backColor"> 
 						
 						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 					
@@ -277,7 +280,7 @@ $servidor = Ruta::ctrRutaServidor();
                 echo '<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
 				
 				       <h4>
-					   <a href="'.$value["ruta"].'" class="pixelCategorias">'.$value["categoria"].'</a>
+					   <a href="'.$url.$value["ruta"].'" class="pixelCategorias">'.$value["categoria"].'</a>
 				       </h4>
 				
 				       <hr>
@@ -294,7 +297,7 @@ $servidor = Ruta::ctrRutaServidor();
                        /* var_dump($subcategorias); */
 
                        foreach($subcategorias as $key => $value){
-                           echo'<li><a href="'.$value["ruta"].'" class="pixelSubCategorias">'.$value["subcategoria"].'</a></li>';
+                           echo'<li><a href="'.$url.$value["ruta"].'" class="pixelSubCategorias">'.$value["subcategoria"].'</a></li>';
 
                        }
                        

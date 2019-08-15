@@ -48,6 +48,13 @@ COLORES PREDOMINANTES DE BOTONES SUPERIORS Y CATEGORIAS */
  
 }
 
+
+.fondoBreadcrumb{
+	margin-bottom:0px;
+	background: rgba(0,0,0,0);
+}
+
+
 /* REDES SOCIALES */
 
 

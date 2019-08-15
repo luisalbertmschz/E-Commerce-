@@ -169,7 +169,9 @@
 
                $rutaProductos = ControladorProductos::ctrMostrarInfoProducto($item, $valor);
 
-               var_dump($rutaProductos["ruta"]);
+               /*TODO:REVISAR VARDUMP DE rutaProductos*/
+
+               /* var_dump($rutaProductos["ruta"]); */
 	
                if($rutas[0] == $rutaProductos["ruta"])
                
@@ -215,6 +217,7 @@
         <script src="<?php echo $url;?>Vistas/js/slide.js"></script>   
         <script src="<?php echo $url;?>Vistas/js/cabezote.js"></script>
         <script src="<?php echo $url;?>Vistas/js/plantilla.js"></script>
+        <script src="<?php echo $url;?>Vistas/js/buscador.js"></script>
 
     </body>
 </html>
