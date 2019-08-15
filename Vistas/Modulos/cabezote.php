@@ -212,7 +212,7 @@ $url = Ruta::ctrRuta();
 
                         <span class="input-group-btn">
                             
-                            <a href="#">
+                            <a href="<?php echo $url; ?>buscador">
 
                             <!-- ELIMINE CLASE btn-default -->
 
